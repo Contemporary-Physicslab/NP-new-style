@@ -1,9 +1,10 @@
 format: jb-book
 root: intro.md
+options:
+  numbered: true
 
 parts:
   - caption: Algemeen
-    numbered: True
     chapters:
     - file: Deel1/Introductie
     - file: Deel1/Onderwijsfilosofie
@@ -11,6 +12,7 @@ parts:
     - file: Deel1/Regels
     
   - caption: Essentiele basiskennis
+  
     chapters:
     - file: Deel2/Veiligheid/Veiligheidalgemeen
       sections:

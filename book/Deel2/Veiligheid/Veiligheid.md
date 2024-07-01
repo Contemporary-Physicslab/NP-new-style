@@ -96,7 +96,7 @@ In een (technisch) natuurwetenschappelijk laboratorium wordt nogal eens gewerkt 
 -   speciale koude-isolerende handschoenen die voldoende ruim zitten om ze onmiddellijk te kunnen uittrekken als er per ongeluk spatten vloeibaar stikstof inkomen
 -   loszittende werkjassen die onmiddellijk kunnen worden uitgetrokken
 
-Practicum met cryogene stoffen met een korte broek, open schoenen of los zittende laarzen is niet toegestaan. Daarvoor zijn de risico's te hoog. Bekijk ook de uitgebreide beschrijving rond het thema {doc}`cryogene stoffen <Cryogens.md>`.
+Practicum met cryogene stoffen met een korte broek, open schoenen of los zittende laarzen is niet toegestaan. Daarvoor zijn de risico's te hoog. Bekijk ook de uitgebreide beschrijving rond het thema [cryogene stoffen](Cryogenes.md).
 
 ### Lasers
 
@@ -104,7 +104,7 @@ In sommige experimenten werk je met lasers. Lasers kunnen een grote hoeveelheid 
 
 De (negatieve) gevolgen zijn afhankelijk van de golflengte en intensiteit van de straling, de tijdsduur van de blootstelling en het lichaamsdeel dat wordt blootgesteld. De bekendste schadelijke effecten van blootstelling aan elektromagnetische straling hangen samen met de ontwikkeling van warmte in weefsel (thermisch effect). De huid en (vooral) de ogen zijn de organen die het meest kwetsbaar zijn.
 
-Degene die een opstelling bouwt met een laser dient reflecties van het laserlicht te voorkomen. Er zijn ook lasers die een onzichtbare straal hebben (ultraviolet, infra-rood) maar waarbij toch schade aan de ogen kan worden aangericht. Juist door de onzichtbare straal zijn deze lasers extra gevaarlijk. Zorg voor voldoende afscherming. Naast afscherming van de laser moet je ook laser veligheidsbrillen gebruiken. Bekijk ook de uitgebreide beschrijving rond het thema {doc}`laserveiligeid <Lasersafety.md>`.
+Degene die een opstelling bouwt met een laser dient reflecties van het laserlicht te voorkomen. Er zijn ook lasers die een onzichtbare straal hebben (ultraviolet, infra-rood) maar waarbij toch schade aan de ogen kan worden aangericht. Juist door de onzichtbare straal zijn deze lasers extra gevaarlijk. Zorg voor voldoende afscherming. Naast afscherming van de laser moet je ook laser veligheidsbrillen gebruiken. Bekijk ook de uitgebreide beschrijving rond het thema [laserveiligeid](Lasersafety.md).
 
 ## Safety check
 
