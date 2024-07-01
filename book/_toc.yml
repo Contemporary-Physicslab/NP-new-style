@@ -4,6 +4,17 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
+    - file: Python/Python intro
+      sections:
+      - file: Python/Notebook 1/Notebook 1 Python Basics
+      - file: Python/Notebook 2/Notebook 2 Functions
+      - file: Python/Notebook 3/Notebook 3 Programming Flow Control
+      - file: Python/Notebook 4/Notebook 4 Scientific Computing
+      - file: Python/Notebook 5/Notebook 5 Data in Python
+      - file: Python/Notebook 6/Notebook 6 Measurement uncertainty
+
+
+
     - file: some_content/overview.md
 # START REMOVE-FROM-PUBLISH
       sections:
