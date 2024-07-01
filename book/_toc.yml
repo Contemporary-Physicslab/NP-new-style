@@ -1,10 +1,9 @@
 format: jb-book
 root: intro.md
-options:
-  numbered: true
 
 parts:
   - caption: Algemeen
+    numbered: true
     chapters:
     - file: Deel1/Introductie
     - file: Deel1/Onderwijsfilosofie
@@ -12,7 +11,7 @@ parts:
     - file: Deel1/Regels
     
   - caption: Essentiele basiskennis
-  
+    numbered: true
     chapters:
     - file: Deel2/Veiligheid/Veiligheidalgemeen
       sections:
@@ -21,7 +20,10 @@ parts:
       - file: Deel2/Veiligheid/Lasersafety
       - file: Deel2/Veiligheid/Biohazards
       - file: Deel2/Veiligheid/Cryogenes
-      
+
+    - file: Deel2/Labjournaal
+    - file: Deel2/MO2
+
     - file: Deel2/Python/Python intro
       sections:
       - file: Deel2/Python/Python summary
@@ -31,3 +33,6 @@ parts:
       - file: Deel2/Python/Notebook 4/Notebook 4 Scientific Computing
       - file: Deel2/Python/Notebook 5/Notebook 5 Data in Python
       - file: Deel2/Python/Notebook 6/Notebook 6 Measurement uncertainty
+
+    - file: Deel2/LaTeX
+    - file: Deel2/Schrijven

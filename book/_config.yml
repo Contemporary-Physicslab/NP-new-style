@@ -28,6 +28,7 @@ sphinx:
     html_show_copyright: false
   extra_extensions:
     - sphinx.ext.imgconverter
+    - sphinx_exercise
     #- jupyterbook_patches
 
 bibtex_bibfiles: 

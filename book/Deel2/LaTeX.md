@@ -1,49 +1,15 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 # LaTeX
 
-```{code-cell} python
-:tags: [remove-input]
-import numpy as np 
-import matplotlib.pyplot as plt
-from IPython.display import YouTubeVideo
-```
-
-<!-- ```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("viLuhT2wNKk", width=VideoWidth, align='center')
-``` 
--->
-
-```{code-cell} ipython3
-:tags: [remove-input]
- 
-from myst_nb import glue
-from IPython.lib.display import YouTubeVideo
-video = YouTubeVideo('viLuhT2wNKk', width =600)
- 
-glue("vid1", video, display = False)
- 
-```
- 
-<div style='text-align: center;'>
- 
-```{glue:} vid1
-```
-
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/viLuhT2wNKk"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
 
 
@@ -58,7 +24,7 @@ Net als met Python geldt dat je het internet kunt raadplegen als je iets niet we
 
 ```{admonition} Opdracht: Overleaf account
 :class: dropdown
-Maak een account aan bij [https://overleaf.com/](Overleaf) . Dit kan met je NetID. Klik hiervoor op "Log in through your institution". Hiermee krijg je ook een gratis premium account.
+Maak een account aan bij [Overleaf](https://overleaf.com/) . Dit kan met je NetID. Klik hiervoor op "Log in through your institution". Hiermee krijg je ook een gratis premium account.
 ```
 
 ## Opstarten van LaTeX
@@ -73,16 +39,19 @@ Een document schrijven in LaTeX is eigenlijk een beetje als programmeren. Je ver
 
 ## De preamble
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("WhKWGs7vQDw", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/WhKWGs7vQDw"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
+
+
 
 Een LaTeX document begint altijd met een preamble. In de preamble laad je packages in (net als Python), maak je de opmaak en begin je het document. In de preamble mag dus nog geen inhoudelijke tekst van je document. In het template verslag is er al een opmaak gemaakt en zijn er alvast een aantal packages ingeladen. Wil je later toch een andere opmaak? Om hiermee te beginnen zijn er online (bijvoorbeeld op Overleaf zelf) een hele hoop templates te vinden die je net als dit template kunt inladen in Overleaf.
 
@@ -102,15 +71,18 @@ Voer de volgende Opdracht:en uit zodat je begrijpt wat de preamble precies doet:
 
 ## Inhoud
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("ObuHb-SLB-8", width=VideoWidth, align='center')
-```
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/ObuHb-SLB-8"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
+
 
 Nu de layout is gemaakt, kun je aan de slag met de inhoud. Het is belangrijk om een goede structuur in je document te hebben. Hiermee blijft je verslag overzichtelijk. In het template verslag is deze structuur gemaakt door middel van `\chapter` en `\section`. Hiermee creëer je hoofdstukken en secties.
 
@@ -138,15 +110,17 @@ Als je een nieuw .tex bestand maakt voor een nieuw hoofdstuk, zorg dan dat de na
 ```
 
 ## Formules
-<div style='text-align: center;'>
 
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("-XP2c4imluA", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/-XP2c4imluA"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
 
 Een van de grote voordelen van het gebruiken van LaTeX zijn formules. Formules komen in twee vormen: (1) Inline, door gebruik te maken van de enkele dollar tekens: `$y=4x$` of met `\(y=4x\)`. (2) Op een nieuwe regel door gebruik te maken van de environment equation: `\begin{equation}` & `\end{equation}`.
@@ -201,16 +175,18 @@ Hieronder is de code weergeven die gebruikt is om het bovenstaande stuk tekst te
 
 ## Tabellen
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("4Pcpdc1qwCI", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/4Pcpdc1qwCI"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
+
 
 Tabellen zijn een van de dingen die wat lastiger zijn in LaTeX dan in bijvoorbeeld Word. De makkelijkste manier om een tabel te maken is de tabel te maken in Excel en deze te importeren met een online tool. Een voorbeeld van zo'n tool is: [table generator](http://www.tablesgenerator.com/latex_tables).
 
@@ -251,16 +227,19 @@ Hier is gebruik gemaakt van `|l||c r|` om de bepalen of een kolom, links, midden
 
 ## Afbeeldingen
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("rP8g3DIjVx8", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/rP8g3DIjVx8"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
+
+
 
 In LaTeX kun je afbeeldingen toevoegen door gebruik te maken van het `figure` environment. Wanneer je dit environment gebruikt, voegt Overleaf automatisch de commando's toe waarmee je de afbeelding kunt inladen. De afbeelding zelf laad je in met het commando `\includegraphics`.
 
@@ -374,7 +353,7 @@ Voeg voor je verslag een referentie toe naar een site die je hebt gebruikt als b
 Maak de rest van je verslag af in LaTeX.
 ```
 
-## Extra: Tips {#extra-tips .unnumbered}
+## Extra: Tips
 
 * Nieuwe pagina: `\newpage` or `\clearpage`
 * Forceer een enter: `\\`
