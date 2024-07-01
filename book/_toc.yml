@@ -1,11 +1,11 @@
 format: jb-book
-root: toc
+root: intro.md
 
 parts:
   - caption: Algemeen
     numbered: True
     chapters:
-    - file: Deel1/introductie
+    - file: Deel1/Introductie
     - file: Deel1/Onderwijsfilosofie
     - file: Deel1/Wieiswie
     - file: Deel1/Regels
@@ -29,13 +29,3 @@ parts:
       - file: Deel2/Python/Notebook 4/Notebook 4 Scientific Computing
       - file: Deel2/Python/Notebook 5/Notebook 5 Data in Python
       - file: Deel2/Python/Notebook 6/Notebook 6 Measurement uncertainty
-
-
-
-    - file: some_content/overview.md
-# START REMOVE-FROM-PUBLISH
-      sections:
-      - file: some_content/text_and_code.ipynb
-# END REMOVE-FROM-PUBLISH
-    - file: references.md
-    - file: credits.md

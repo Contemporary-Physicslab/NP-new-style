@@ -47,23 +47,12 @@ The cloudy vapor that appears when liquid N2 is exposed to the air is condensed 
 | Oxygen has a higher boiling point than nitrogen (O2 = -183 °C; N2 = -196 °C). This means that atmospheric oxygen can condense if it comes into contact with liquid nitrogen, resulting in local increases in oxygen concentrations. When cooling flammable substances or organic materials, this can create an explosion risk. | Increased oxygen concentration (above 22%) will give an increased ignition risk and faster combustion. | Write the precautions in your safety report, because this can be different per set-up. |
 
 
-
-
-```{list-table}
-% Oxygen Safe or not
-< 18
-Alarm detector -->
-immediatley leave the room. Prohibited to enter
-< 19
-Calmly leave the room and do not enter the room
-19-21
-Normal ratio, safe to stay in the room
-> 22
-Immediately leave the room. Prohibited to enter
-```
-
-
-
+|\% Oxygen Safe or not| |
+|---|---|
+|< 18 | Alarm detector --> immediatley leave the room. Prohibited to enter |
+|< 19 | Calmly leave the room and do not enter the room |
+|19-21|Normal ratio, safe to stay in the room |
+|> 22 |Immediately leave the room. Prohibited to enter|
 
 
 ## Risk of condensing oxygen
