@@ -1,32 +1,18 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 # General Safety
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("_Vp2LcBe_jU", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/_Vp2LcBe_jU"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
 
-
 ## General Safety & Security at Applied Physics (AP)
-
 
 ### Responsibilities
 
@@ -43,7 +29,6 @@ YouTubeVideo("_Vp2LcBe_jU", width=VideoWidth, align='center')
   -  
 ```
 
-
 ### Emergencies and minor accidents
 
 1. Call the internal alarm number.
@@ -58,15 +43,11 @@ Internal Alarm Number
 Be prepared for emergencies.
 
 
-Know where to find the emergency
-facilities (e.g. emergency exits,
-assembly point).
+Know where to find the emergency facilities (e.g. emergency exits, assembly point).
 
 ```{warning} Internal alarm number
 +31(0)15 27 88888
 ```
-
-
 
 
 ### In case of…
@@ -88,7 +69,7 @@ Site alarm/slow whoop (press to hear the slow whoop alarm):
 
 ### In case of…
 
-```{warning}Gas, smoke or fire:
+```{warning} Gas, smoke or fire:
 ```
 
 

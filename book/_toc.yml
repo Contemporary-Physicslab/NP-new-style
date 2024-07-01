@@ -3,6 +3,7 @@ root: toc
 
 parts:
   - caption: Algemeen
+    numbered: True
     chapters:
     - file: Deel1/introductie
     - file: Deel1/Onderwijsfilosofie
