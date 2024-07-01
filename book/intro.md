@@ -1,5 +1,5 @@
 (intro)=
-# Welcome to the Template Book
+# TN1405 - Inleidend practicum
 
 _Write book intro here. This is the first page the student will see when opening the url._
 
