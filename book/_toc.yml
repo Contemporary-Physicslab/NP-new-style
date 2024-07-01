@@ -2,16 +2,31 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Algemeen
     chapters:
-    - file: Python/Python intro
+    - file: Deel1/introductie
+    - file: Deel1/Onderwijsfilosofie
+    - file: Deel1/Wieiswie
+    - file: Deel1/Regels
+    
+  - caption: Essentiele basiskennis
+    chapters:
+    - file: Deel2/Veiligheid/Veiligheidalgemeen
       sections:
-      - file: Python/Notebook 1/Notebook 1 Python Basics
-      - file: Python/Notebook 2/Notebook 2 Functions
-      - file: Python/Notebook 3/Notebook 3 Programming Flow Control
-      - file: Python/Notebook 4/Notebook 4 Scientific Computing
-      - file: Python/Notebook 5/Notebook 5 Data in Python
-      - file: Python/Notebook 6/Notebook 6 Measurement uncertainty
+      - file: Deel2/Veiligheid/Veiligheid
+      - file: Deel2/Veiligheid/Generalsafety
+      - file: Deel2/Veiligheid/Lasersafety
+      - file: Deel2/Veiligheid/Biohazards
+      - file: Deel2/Veiligheid/Cryogenes
+      
+    - file: Deel2/Python/Python intro
+      sections:
+      - file: Deel2/Python/Notebook 1/Notebook 1 Python Basics
+      - file: Deel2/Python/Notebook 2/Notebook 2 Functions
+      - file: Deel2/Python/Notebook 3/Notebook 3 Program Flow Control
+      - file: Deel2/Python/Notebook 4/Notebook 4 Scientific Computing
+      - file: Deel2/Python/Notebook 5/Notebook 5 Data in Python
+      - file: Deel2/Python/Notebook 6/Notebook 6 Measurement uncertainty
 
 
 
