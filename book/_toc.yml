@@ -6,9 +6,13 @@ parts:
     numbered: true
     chapters:
     - file: Deel1/Introductie
-    - file: Deel1/Onderwijsfilosofie
-    - file: Deel1/Wieiswie
-    - file: Deel1/Regels
+    - file: Deel1/Onderwijsfilosofie    
+    - file: Deel1/Algemeen
+      sections:
+      - file: Deel1/Structuur
+      - file: Deel1/Wieiswie
+      - file: Deel1/Regels
+      - file: Deel1/Rooster
     
   - caption: Essentiele basiskennis
     numbered: true
