@@ -39,5 +39,6 @@ parts:
   
   - caption: Introductie experiment
     numbered: true
+    chapters:
     - file: Deel3/IE1
     - file: Deel3/IE1verslag
