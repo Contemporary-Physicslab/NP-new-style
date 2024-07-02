@@ -36,3 +36,8 @@ parts:
 
     - file: Deel2/LaTeX
     - file: Deel2/Schrijven
+  
+  - caption: Introductie experiment
+    numbered: true
+    - file: Deel3/IE1
+    - file: Deel3/IE1verslag

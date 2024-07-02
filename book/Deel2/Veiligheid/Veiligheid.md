@@ -1,8 +1,8 @@
 # Veiligheid
 
-In het natuurkundig practicum werk je vaak met voor jou nog onbekende apparaten en procedures. Daarbij kunnen er  consequenties zijn voor jou en voor de apparaten waarmee je werkt. Om de risico's van eventuele ongevallen te voorkomen, zijn er een aantal regels en richtlijnen opgesteld waaraan je je dient te houden. Alle risico's wegnemen kan niet, daarom hanteren we de definitie: *veiligheid is het bewust nemen van aanvaardbare risico's*.
+In het natuurkundig practicum werk je vaak met voor jou nog onbekende apparaten en procedures. Daarbij kunnen er  consequenties zijn voor jou en voor de apparaten waarmee je werkt. Ook is het goed om op de hoogte te zijn van veiligheid en risico's omdat het in je [werkzame leeftijd](https://nos.nl/artikel/2497358-openbaar-ministerie-eist-weer-miljoenenboete-van-limburgs-chemiebedrijf) zeker een rol kan spelen.
 
-
+Om de risico's van eventuele ongevallen te voorkomen, zijn er een aantal regels en richtlijnen opgesteld waaraan je je dient te houden. Alle risico's wegnemen kan niet, daarom hanteren we de definitie: *veiligheid is het bewust nemen van aanvaardbare risico's*.
 
 ```{figure} Figures/safety/safety.jpg
 ---

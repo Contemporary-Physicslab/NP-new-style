@@ -2,15 +2,10 @@
 
 <div style="display: flex; justify-content: center;">
   <div style="width:75%; margin:0 auto;">
-    <iframe
-      src="https://www.youtube.com/embed/viLuhT2wNKk"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <iframe width="1903" height="899" src="https://www.youtube.com/embed/viLuhT2wNKk" title="Introductie tot LaTeX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
+
 
 ## Over LaTeX
 LaTeX is een tekstverwerker, net als Microsoft Word. LaTeX brengt echter een aantal voordelen met zich mee die het ontzettend geschikt maakt om te gebruiken voor artikelen en verslagen.
