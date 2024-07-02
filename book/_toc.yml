@@ -27,12 +27,12 @@ parts:
     - file: Deel2/Python/Python intro
       sections:
       - file: Deel2/Python/Python summary
-      - file: Deel2/Python/Notebook 1/Notebook 1 Python Basics
-      - file: Deel2/Python/Notebook 2/Notebook 2 Functions
-      - file: Deel2/Python/Notebook 3/Notebook 3 Program Flow Control
-      - file: Deel2/Python/Notebook 4/Notebook 4 Scientific Computing
-      - file: Deel2/Python/Notebook 5/Notebook 5 Data in Python
-      - file: Deel2/Python/Notebook 6/Notebook 6 Measurement uncertainty
+      - file: External/fyplc-python/Course files/Notebook 1/Notebook 1 Python Basics
+      - file: External/fyplc-python/Course files/Notebook 2/Notebook 2 Functions
+      - file: External/fyplc-python/Course files/Notebook 3/Notebook 3 Program Flow Control
+      - file: External/fyplc-python/Course files/Notebook 4/Notebook 4 Scientific Computing
+      - file: External/fyplc-python/Course files/Notebook 5/Notebook 5 Data in Python
+      - file: External/fyplc-python/Course files/Notebook 6/Notebook 6 Measurement uncertainty
 
     - file: Deel2/LaTeX
     - file: Deel2/Schrijven
