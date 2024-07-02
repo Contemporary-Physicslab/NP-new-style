@@ -38,7 +38,17 @@ Een van de factoren die van invloed is op het gedrag van de trein is de afstand 
 De hoofdonderzoeker die het onderzoek zou uitvoeren is in het buitenland en kan onmogelijk het onderzoek afronden. Jij en je partner zijn aangesteld als de vervanger van de hoofdonderzoeker en moeten een overtuigend antwoord op deze onderzoeksvraag geven. Gelukkig ligt er een theoretische afleiding voor een natuurkundig model en zijn er door de hoofdonderzoeker een introductie en methode geschreven. Deze staan hieronder uitgewerkt. De methode is goed genoeg beschreven om de daadwerkelijke metingen uit te voeren. Helaas zijn wel alle meetonzekerheden en de daarbij behorende berekeningen niet uitgevoerd. Ook die berekeningen en afleidingen moeten door jullie gemaakt worden.
 ```
 
-<iframe width="600" height="300" src="https://www.youtube.com/embed/ug9CEvIFo0Q" title="Magneettrein IE1 intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+    <iframe
+      src="https://www.youtube.com/embed/ug9CEvIFo0Q"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
 
 
 <h2><p style="text-align: center;">Uit het rapport van de onderzoeker</h2></p>
