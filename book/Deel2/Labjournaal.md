@@ -1,16 +1,3 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 # Labjournaal
 
 <div style="text-align: right; width: 70%; margin-left: 30%;">
@@ -20,7 +7,6 @@ kernelspec:
 Robert Pirsig - On Scientific Method in Zen & the art of motorcycle maintenance
 
 </div>
-
 
 Bij elk practicum moet je voorbereidingsopdrachten maken die je helpen bij het begrijpen van het experiment en het verwerken van de data. Daarnaast moet je tijdens het practicum data verzamelen en noteren, instellingen van meetinstrumenten opschrijven, waarnemingen beschrijven, ideeën opsommen etc. Dit alles moet uiteindelijk overzichtelijk in een document staan. Dat document is je labjournaal. Met het labjournaal in de hand moet iemand anders de proef die jij uitvoert af kunnen maken of bijvoorbeeld kunnen toetsen dat je alles op de juiste wijze hebt uitgevoerd. Het labjournaal is dan ook een belangrijk onderdeel in het practicum en binnen (natuurwetenschappelijk)onderzoek.
 
@@ -35,21 +21,8 @@ Een scan van een labjournaal van een student uit
 
 ## Functie
 
-```{code-cell} ipython3
-:tags: [remove-input]
- 
-from myst_nb import glue
-from IPython.lib.display import YouTubeVideo
-video = YouTubeVideo('vZPQA6G8uoM', width =600)
- 
-glue("vid", video, display = False)
- 
-```
- 
-<div style='text-align: center;'>
- 
-```{glue:} vid
-```
+<div style="width:75%; margin:0 auto;">
+  <iframe width="600" height="300" src="https://www.youtube.com/embed/vZPQA6G8uoM" title="Het labjournaal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Het labjournaal is een vergaarbak van ideeën, metingen, methodes, experiment etc. Alles wat belangrijk is voor het onderzoek, noteer je in het labjournaal. Een ander zou op basis van jouw labjournaal verder moeten kunnen gaan waar jij bent gebleven. Niet gepubliceerd materiaal kan na twee jaar nog gebruikt worden omdat je overzichtelijk hebt genoteerd wat je hebt gedaan, wat je hebt gevonden, wat mogelijke verklaringen zijn voor wat je hebt gevonden en wat dat betekent geplaatst in een breder perspectief.

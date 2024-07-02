@@ -1,5 +1,5 @@
 format: jb-book
-root: toc
+root: intro.md
 
 parts:
   - caption: Algemeen
