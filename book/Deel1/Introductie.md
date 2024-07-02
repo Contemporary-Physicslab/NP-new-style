@@ -1,16 +1,3 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 # Introductie
 
 <div style='text-align: right;'>
@@ -22,16 +9,18 @@ kernelspec:
 
 </div>
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("7ODISZK6fMA", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+        <iframe
+            src="https://www.youtube.com/embed/7ODISZK6fMA"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </div>
 </div>
+
 
 Er zijn diverse redenen waarom we natuurkundige experimenten uitvoeren. Door het uitvoeren van experimenten kan nieuwe natuurkundige kennis ontwikkeld worden; denk bijvoorbeeld aan de ontdekking van radioactiviteit. Ook kunnen ontwikkelde hypothesen en theorieën getoetst worden, denk bijvoorbeeld aan het aantonen van het bestaan van higgsbosonen zo'n 50 jaar na de voorspelling van het bestaan van deze deeltjes. Ook kunnen we de eigenschappen van diverse systemen nagaan en deze beter begrijpen door experimenten uit te voeren.
 

@@ -1,7 +1,7 @@
 # LaTeX
 
 <div style="display: flex; justify-content: center;">
-  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+  <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe
       src="https://www.youtube.com/embed/viLuhT2wNKk"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
@@ -11,6 +11,9 @@
     ></iframe>
   </div>
 </div>
+
+
+<iframe width="1128" height="635" src="https://www.youtube.com/embed/7ODISZK6fMA" title="intro tot tn1405" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Over LaTeX
