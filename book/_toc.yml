@@ -47,3 +47,8 @@ parts:
     chapters:
     - file: Deel3/IE1
     - file: Deel3/IE1verslag
+  
+  - caption: Ontwikkelings experimenten
+    numbered: true
+    chapters:
+    - file: Deel4/RC
