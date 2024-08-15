@@ -25,19 +25,22 @@ Since you installed the minimal installation, we need to install the IDE's we wa
 
 To install the IDE Jupyter and [Jupyter lab](https://anaconda.org/conda-forge/jupyterlab), run the commands:
 
-> conda install anaconda::jupyter
+```{code}
+conda install anaconda::jupyter
 
-> conda install -c conda-forge jupyterlab 
-
+conda install -c conda-forge jupyterlab 
+```
 For the packages, run the commands:
 
-> conda install conda-forge::matplotlib
+```{code}
+conda install conda-forge::matplotlib
 
-> conda install conda-forge::numpy
+conda install conda-forge::numpy
 
-> conda install scipy
+conda install scipy
 
-> conda install conda-forge::pandas
+conda install conda-forge::pandas
+```
 
 ```{admonition} conda-forge
 conda-forge:: specifies the source from which the packages are installed. It specifies that the packages should be installed from the conda-forge channel, which is a community-driven channel that provides a large collection of packages for conda. 
@@ -69,16 +72,13 @@ To start Jupyter lab, open the Anaconda terminal (Anaconda Prompt), move to the 
 ```{figure} jupyterlab.PNG
 ---
 name: fig_jl
-width: 70%
+width: 90%
 ---
 The Jupyter lab IDE
 ```
 
-
-
-
 ## VSC
-
+A popular code editor is [Visual Studio Code](https://code.visualstudio.com/). It allows you to program in different languages, where it recognizes the commands in that language and adjusts the FONT so that it becomes better readable. Moreover, it allows you to install various packages (such as Jupyter Notebook). It also integrates GIT and allows to code using Co-Pilot, an AI pair programmer. It is not mandatory to install VSC for the course, but you might want to explore it!
 
 ## Git
 
