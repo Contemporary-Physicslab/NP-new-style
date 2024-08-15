@@ -8,14 +8,16 @@ Python is an interpreter programming language and thus needs an interpreter (som
 The main difference is the amount of disk space required (~4GB for Anaconda, 50 MB for Miniconda). Where Anaconda has already installed all main packages (and libraries) for you, you control with Miniconda what you want to install. Hence, Miniconda is a minimal installer for the Anaconda distribution. It only includes the `conda` package manager and Python, along with their dependencies. It does not come with any pre-installed packages except for these essentials. That also means that it lacks a graphical user interface which is available with Anaconda.
 
 ### Install Anaconda
-If you want to install Anaconda, see their [website](https://docs.anaconda.com/anaconda/install/). Once installed, you can open Anaconda and choose your *interactive development environments* (IDE), the interface in which you will write your code. We most often use Jupyter Notebook.
+If you want to install Anaconda, see their [website](https://docs.anaconda.com/anaconda/install/). Once installed, you can open Anaconda and choose your *interactive development environments* (IDE), the interface in which you will write your code. We most often use Jupyter Notebook or Jupyter Lab.
 
 ### Install Miniconda
 We recommend, however, to install Miniconda since it gives you a better idea how your computer works, have more control of what is being installed and takes far less disk space. To install Miniconda, download and run the .exe file as described on their [website](https://docs.anaconda.com/miniconda/miniconda-install/)
 
 Once installed, open the anaconda prompt. This opens a terminal (a text-based interface used to interact with the operating system by executing commands, scripts, or programs). To check whether the installation is correct and which version is installed, type: 
 
-> conda --version
+```{code}
+conda --version
+```
 
 and press enter, the terminal will return the conda version.
 
@@ -41,13 +43,15 @@ For the packages, run the commands:
 conda-forge:: specifies the source from which the packages are installed. It specifies that the packages should be installed from the conda-forge channel, which is a community-driven channel that provides a large collection of packages for conda. 
 ```
 
+Note that we did not install all packages. You will regularly come across packages that needs to be installed, with the information above and the information provided by the Python community, you will manage to install these interdependencies. 
+
 ````{admonition} Using the command line
 :class: dropdown
 Normally we navigate through our folders by using a graphic interface and clicking through the folders. However, there is another way to navigate through your folders, namely using the command line as we are doing with Anaconda prompt.
 
 When you run the command `dir` it returns the folders and files in the folder you are currently in. You can go to another folder by running the command `cd NAMEFOLDER`. If you want to move to a higher folder, run the command `cd ..`
 
-```{figure} terminaldir.png
+```{figure} terminaldir.PNG
 ---
 name:
 width: 70%
@@ -56,6 +60,20 @@ Moving through your folder with the command line
 ```
 
 ````
+
+### Jupyter Notebook and Jupyter Lab
+In this course we make use of .ipynb files which are Jupyter Notebooks. To run these notebooks we can use IDE's as *Jupyter Notebook* or *Jupyter Lab*. Jupyter Notebook is a web-based interface that allows users to create and share documents with live code, visualizations, and narrative text in a linear format. JupyterLab, on the other hand, is a more advanced interface offering a flexible and modular environment with multiple panels, including notebooks, terminals, and text editors, providing a more versatile experience for interactive computing. I prefer to use Jupyter lab.
+
+To start Jupyter lab, open the Anaconda terminal (Anaconda Prompt), move to the folder where you want to start Jupyter Lab in (where your files are located) and run the command `jupyter lab`. A browser is started with which you can open your Notebooks, see {numref}`Figure {number} <fig_jl>`.
+
+```{figure} jupyterlab.PNG
+---
+name: fig_jl
+width: 70%
+---
+The Jupyter lab IDE
+```
+
 
 
 
