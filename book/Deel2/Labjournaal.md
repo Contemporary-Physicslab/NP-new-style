@@ -4,7 +4,7 @@
 
 *For this you keep a lab notebook. Everything gets written down, formally, so that you know at all times where you are, where you've been, where you're going and where you want to get. In scientific work and electronics technology this is necessary because otherwise the problems get so complex you get lost in them and confused forget what you know and what you don't know and have to give up. In cycle maintenance things are not that involved, but when confusion starts it's a good idea to hold it down by making everything formal and exact. Sometimes just the act of writing down the problems straightens out your head as to what they really are.*
 
-Robert Pirsig - On Scientific Method in Zen & the art of motorcycle maintenance
+Robert Pirsig - On Scientific Method in [Zen & the art of motorcycle maintenance](https://www.bol.com/nl/nl/p/zen-the-art-of-motorcycle-maintenanc/9200000026487265/?bltgh=hqNi8T4ryrZG-VUp0pVGcw.2_6.7.ProductTitle)
 
 </div>
 

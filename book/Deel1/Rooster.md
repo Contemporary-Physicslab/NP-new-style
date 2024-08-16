@@ -4,7 +4,7 @@
 |--------|---|--------|-------------------------------------------------------------------------------|------------------------------------------------------------------------|---|------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 |      1.1      | 1 | Online | [Notebook 1](../External/fyplc-python/Course%20files/Notebook%201/Notebook%201%20Python%20Basics.ipynb)   | Introductie tot   TN1405     |   |   | Vervalt   ivm opening academisch jaar, materiaal zelf inhalen.|
 | | 2 | Campus | [Notebook   1](../External/fyplc-python/Course%20files/Notebook%201/Notebook%201%20Python%20Basics.ipynb) & [2](../External/fyplc-python/Course%20files/Notebook%202/Notebook%202%20Functions.ipynb)<br>     College    | Introductie   BS & dictaat<br>     Mens van Vitruvius    |   | Optioneel: Lezen   H1-3.      ||
-|      1.2      | 1 | Online | Notebook   3<br>      |  |   |   ||
+|      1.2      | 1 | Online | Notebook   3<br>      |  |   |   |Installeren [software](../Deel2/Python/Software.md)|
 | | 2 | Campus | Notebook   3 & 4<br>     College    | Plagiaat   en datamanagement<br>     Bepaling van g      |   | Lezen   H4. Structuur, cijfers en regels    ||
 |      1.3      | 1 | Online | Notebook   4 <br>     Python toets NB 1-3<br>     |  |   |   | Python toets 1: NB 1   - 3 |
 | | 2 | Campus | Notebook   5<br>     College | Labjournaal<br>     Zingende staaf<br>     |   | Lezen H6. Labjournaal  ||
