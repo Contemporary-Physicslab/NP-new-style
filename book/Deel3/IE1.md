@@ -1,8 +1,7 @@
 # De magneetzweeftrein
 
-
 ## Doelen & structuur
-```{tip}
+```{Note}
 In elke practicumhandleiding vind je twee soorten doelen. De practicumdoelen vertellen wat je in het practicum gaat doen. De leerdoelen geven aan wat we willen dat je hebt geleerd na het doen van het practicum.
 ```
 
@@ -31,10 +30,10 @@ Het verslag maak je met de partner waarmee je samenwerkt.
 ## Inleiding
 Magneetzweeftreinen blijven vlak boven de grond zweven doordat ze gebruik maken van magneten die elkaar afstoten en aantrekken. In het ontwerpen van de magneetzweeftrein is het modelleren van het gedrag van de trein bij hoge snelheden van groot belang. Zonder een goed computermodel zal het niet mogelijk zijn om een goed werkend prototype te maken. 
 
-Een van de factoren die van invloed is op het gedrag van de trein is de afstand tussen de grond en de trein en de demping wanneer er over een niet volledig horizontaal traject wordt gereden. Om dat te kunnen modelleren is het van belang dat de precieze relatie tussen de afstand tussen de magneten en de grootte van de afstotende kracht bekend is. Alhoewel de theorie een goede indruk geeft van deze relatie, zal deze relatie voor niet geïdealiseerde situaties experimenteel bevestigd moeten worden. Het is belangrijk om inzicht te krijgen in hoeverre de geïdealiseerde theorie in staat is de praktijk te benaderen (of vice versa). De onderzoeksvraag wordt daarmee:
+Een van de factoren die van invloed is op het gedrag van de trein is de afstand tussen de grond en de trein, en de demping wanneer er over een niet volledig horizontaal traject wordt gereden. Om dat te kunnen modelleren is het van belang dat de precieze relatie tussen de afstand tussen de magneten en de grootte van de afstotende kracht bekend is. Alhoewel de theorie een goede indruk geeft van deze relatie, zal deze relatie voor niet geïdealiseerde situaties experimenteel bevestigd moeten worden. Het is belangrijk om inzicht te krijgen in hoeverre de geïdealiseerde theorie in staat is de praktijk te benaderen (of vice versa). De onderzoeksvraag wordt daarmee:
 <p align="center"><i> Hoe hangt de kracht tussen twee tegenover elkaar geplaatste schijfmagneten af van de afstand tussen de magneten? </i></p>
 
-```{note}
+```{warning}
 De hoofdonderzoeker die het onderzoek zou uitvoeren is in het buitenland en kan onmogelijk het onderzoek afronden. Jij en je partner zijn aangesteld als de vervanger van de hoofdonderzoeker en moeten een overtuigend antwoord op deze onderzoeksvraag geven. Gelukkig ligt er een theoretische afleiding voor een natuurkundig model en zijn er door de hoofdonderzoeker een introductie en methode geschreven. Deze staan hieronder uitgewerkt. De methode is goed genoeg beschreven om de daadwerkelijke metingen uit te voeren. Helaas zijn wel alle meetonzekerheden en de daarbij behorende berekeningen niet uitgevoerd. Ook die berekeningen en afleidingen moeten door jullie gemaakt worden.
 ```
 
@@ -64,7 +63,6 @@ name: fig:magneten
 ---
 Krachten tussen schijfmagneetjes in geval van aantrekking. $F_{21}$  is de kracht die magneet 2 uitoefent op magneet 1 en $F_{12}$ is de kracht die magneet 1 uitoefent op magneet 2. De twee afstanden tussen de magneetjes zijn aangeduid.
 ```
-
 
 ### Magnetische dipolen
 Eigenschappen van het magnetisch veld van een schijfmagneet kunnen grotendeels afgeleid worden uit de benadering dat een schijfmagneet opgevat mag worden als een klassieke magnetische dipool. Een klassieke magnetische dipool is een kleine draadlus waardoorheen een elektrische stroom loopt. {numref}`Figuur {number} <fig:magneetvelden>`geeft een voorstelling van zo'n dipool met het bijbehorend patroon van magnetische veldlijnen. De dipool wordt gekarakteriseerd door het magnetisch dipoolmoment $(\vec{m}=I\vec{A})$, een vector (met grootte en richting). Hierin is:
@@ -117,9 +115,9 @@ In formule {eq}`eq:Br` is $V$ het volume van de magneet, zodat het remanente vel
 De hier gepresenteerde theorie is van toepassing op puntdipolen. De schijfmagneetjes van deze proef zijn echter geen punten, maar hebben een zekere ruimtelijke uitgebreidheid. Daarom kan in het experiment mogelijk een afwijking gevonden worden van de afstandsafhankelijkheid als beschreven door formule {eq}`eq:model`.
 %
 ## Introductie
-Voor het ontwerpen van nieuwe, snellere en veiligere zweeftreinen is het essentieel om accurate computermodellen te gebruiken die het rijgedrag van de zweeftrein kunnen simuleren. Voor een accuraat computermodel is een model van de relatie tussen de afstand tussen de twee magneten en de onderlinge kracht essentieel {cite}`sanagawa2001characteristics`. In dit onderzoek wordt een model dat gebaseerd is op de superpositie van magnetische puntdipolen getest. 
+Voor het ontwerpen van nieuwe, snellere en veiligere zweeftreinen is het essentieel om accurate computermodellen te gebruiken die het rijgedrag van de zweeftrein kunnen simuleren. Voor een accuraat computermodel is een model van de relatie tussen de afstand tussen de twee magneten en de onderlinge kracht essentieel {cite:t}`sanagawa2001characteristics`. In dit onderzoek wordt een model dat gebaseerd is op de superpositie van magnetische puntdipolen getest. 
 
-Het model, afgeleid en beschreven in {cite}`Pols`, gaat ervan uit dat de totale potentiele energie van de magneten gelijk is aan de som van potentiele energie van magnetische puntdipolen. Met het gegeven dat de kracht gelijk is aan de afgeleide van de potentiele energie naar de afstand, geldt voor de kracht tussen twee magneten:
+Het model, afgeleid en beschreven in {cite:p}`Pols`, gaat ervan uit dat de totale potentiële energie van de magneten gelijk is aan de som van potentiële energie van magnetische puntdipolen. Met het gegeven dat de kracht gelijk is aan de afgeleide van de potentiële energie naar de afstand, geldt voor de kracht tussen twee magneten:
 %
 $$
 F_{m}(z)=\frac{3 \mu_{0} m^{2}}{2 \pi} \frac{1}{z^{4}}=\alpha \frac{1}{z^{4}}
