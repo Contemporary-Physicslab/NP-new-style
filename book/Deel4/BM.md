@@ -36,7 +36,7 @@ $$ I_{D}\left(V_{D}\right)=I_{0}\left(e^{\frac{-q V_{D}}{n k_{B} T}}-1\right) $$
 
 $q$ is hier de lading van een elektron, $-1.602*10^{-19}$ C, $k_B$ is de Boltzmann constante, $n$ is de idealiteitsfactor (hangt af van waar precies de recombinatie plaatsvindt; $n = 2.0 \pm 0.1$ voor Si) en $I_0$ is de sperstroom, de stroom die loopt als $V_D$ sterk negatief wordt. Schematisch ziet de $(I,V)$ karakteristiek er op lineaire schaal uit als weergegeven in figuur {numref}`{number} <fig:ii1_fig_schematisch>`.
 
-```{figure} Figures/Boltzmann/diodekarakteristiek.jpg
+```{figure} Figures/BM/diodekarakteristiek.jpg
 ---
 width: 80%
 name: fig:ii1_fig_schematisch
@@ -48,7 +48,7 @@ In figuur {numref}`{number} <fig:ii1_fig_schematisch>` zien we ook dat bij zeker
 
 Maken we een plot van vergelijking {eq}`eq:stroom_diode` waarbij we de $^{10}$log van $I_D$ uitzetten tegen $V_D$ dan vinden we de doorgetrokken kromme in figuur {numref}`{number} <fig:karakteristiek_halfgeleider>`.
 
-```{figure} Figures/Boltzmann/VIkarakteristiek.jpg
+```{figure} Figures/BM/VIkarakteristiek.jpg
 ---
 width: 80%
 name: fig:karakteristiek_halfgeleider
@@ -81,7 +81,7 @@ In deze proef beperken we ons tot gelijkspannings-, gelijkstroom- en weerstandsm
 
 Als wij een gelijkstroommeting uitvoeren, gebruiken wij de ingangen **I** of **mA** of **A** en **com** of **lo**. We meten bij een gelijkstroommeting in feite de gelijkspanning over een weerstand $R_s$ (zie figuur {numref}`{number} <fig:DMM>` links onder). $R_s$ wordt de shunt weerstand genoemd omdat daar de stroom doorheen loopt en niet door de rest van de meter. Deze weerstand kunnen we beschouwen als de inwendige weerstand van de stroommeter. In de *laagste* stroombereiken is $R_s$ van de orde 100 $\Omega$ tot 1000 $\Omega$. 
 
-```{figure} Figures/Boltzmann/weerstandsmeting.jpg
+```{figure} Figures/BM/weerstandsmeting.jpg
 ---
 width: 80%
 name: fig:DMM
@@ -98,7 +98,7 @@ De schema's in figuur {numref}`{number} <fig:DMM>` zijn min of meer equivalente 
 
 Bij het aansluiten van DMM's moeten we ons ervan bewust zijn dat, zoals in figuur {numref}`{number} <fig:DMM>` links al is aangegeven, voor stroommeting heel vaak een andere ingang wordt gebruikt dan voor spannings- en weerstandsmetingen. In figuur {numref}`{number} <fig:aansluitingen>` zijn de ingangen van een aantal DMM's zoals wij die op het practicum gebruiken weergeven. Links de Dynatek D9100, $3\frac{1}{2}$ digit DMM, in het midden de $5\frac{1}{2}$ digit Thurlby 1905a en rechts de $6\frac{1}{2}$ digit Agilent 34401A.
 
-```{figure} Figures/Boltzmann/DMMpoorten.jpg
+```{figure} Figures/BM/DMMpoorten.jpg
 ---
 width: 80%
 name: fig:aansluitingen
@@ -115,7 +115,7 @@ De kans is zeer groot dat, als wij van stroommeting overgaan op spanningsmeting 
 
 We zouden kunnen veronderstellen dat de nauwkeurigheid van een meter bepaald wordt door een tel van de laatste decimaal van de uitlezing. Zo simpel is het meestal niet. Een fabrikant geeft de nauwkeurigheid van een DMM meestal op in $\pm$(..\% aflezing + ..\% bereik) of zelfs $\pm$(..\% aflezing + ..\% bereik + ..tellen (counts, digits)). Deze manier om de nauwkeurigheid op te geven is redelijk als we bedenken dat het verband tussen de ingangsspanning en wat er op de uitlezing staat in hoge mate lineair is ($V_{\text{uit}} = aV_{\text{in}} + b$). Fouten in $V_{\text{uit}}$ kunnen dan goed gespecificeerd worden door fouten in $a$ en $b$ op te geven. De specificatie +\% aflezing correspondeert met de nauwkeurigheid van de "gain" (= versterking) $a$ en de aanduiding +\% bereik + .. tellen correspondeert met de "offset" (= afsnijding) $b$, die in het ideale geval precies nul is (zie figuur {numref}`{number} <fig:nauwkeurigheid_DMM>`).
 
-```{figure} Figures/Boltzmann/DMMmeting.png
+```{figure} Figures/BM/DMMmeting.png
 ---
 width: 80%
 name: fig:nauwkeurigheid_DMM
@@ -152,7 +152,7 @@ Bij het meten van de spanning tussen twee punten wordt de meter parallel gezet m
 
 Door een niet-ideale spanningsmeter loopt dus wel stroom, de weerstand tussen de twee aansluitpunten is niet oneindig. Een niet-ideale spanningsmeter kunnen we representeren door een parallelschakeling van een ideale spanningsmeter en een weerstand (zie figuur {numref}`{number} <fig:ideaal_niet_ideaal>` tweede figuur van links).
 
-```{figure} Figures/Boltzmann/VAmeters.jpg
+```{figure} Figures/BM/VAmeters.jpg
 ---
 width: 80%
 name: fig:ideaal_niet_ideaal
@@ -214,7 +214,7 @@ Bekijk figuur {numref}`{number} <fig:II_1:voltdiv>`. Dit is de (basis)opstelling
 * Bepaal met behulp van bovenstaande twee methodes de onzekerheid in $I_D$ en $U_D$.
 ```
 
-```{figure} Figures/Boltzmann/volt_div.jpg
+```{figure} Figures/BM/volt_div.jpg
 ---
 width: 40%
 name: fig:II_1:voltdiv
@@ -232,7 +232,7 @@ Omdat de weerstandswaarde van de diode zo sterk verschilt, is het lastig om een 
 Een tweede probleem is de stabiliteit van de voeding bij lagere spanningen. De spanning is dan niet stabiel, en de onzekerheid in de spanning groot. Je kunt dit oplossen door gebruik te maken van een tweede spanningsdeler, zie {numref}`{number} figuur <fig:BMopst>`. Doordat de spanning zich deelt over twee weerstanden is de spanning over de diodeschakeling ook kleiner.
 
 
-```{figure} Figures/Boltzmann/BMopstelling.png
+```{figure} Figures/BM/BMopstelling.png
 ---
 width: 40%
 name: fig:BMopst
@@ -285,7 +285,7 @@ Het electronica boardje dat gebruikt wordt in het experiment.
 5. We gaan nu direct de stroom door de spanningsdeler meten met de $3\frac{1}{2}$ digit DMM. Verander de instelling van de voedingsbron niet (controleer dit met de $5\frac{1}{2}$ digit DMM). Plaats de stroommeter in het circuit zoals in figuur {numref}`{number} <fig:spanningsdeler_stroommeter>` is aangegeven. Meet de stroom. Klopt de gemeten waarde met de berekende waarde?
 6. Verlaag de voedingsspanning met een factor 10. Verander verder niets. Welke stroom lees je op het 40 mA bereik van de $3\frac{1}{2}$ digit DMM af? Schakel over het 4 mA bereik van deze DMM. Waarom wijkt de nu gevonden waarde af van de waarde op het 40 mA bereik? Wat moet je weten om het verschil kwantitatief te verklaren?
 
-```{figure} Figures/Boltzmann/spanningsdeler1.jpg
+```{figure} Figures/BM/spanningsdeler1.jpg
 ---
 width: 40%
 name: fig:spanningsdeler_spanningsbron
@@ -293,7 +293,7 @@ name: fig:spanningsdeler_spanningsbron
 De opstelling voor het meten van de spanningsdeling.
 ```
 
-```{figure} Figures/Boltzmann/spanningsdeler2.jpg
+```{figure} Figures/BM/spanningsdeler2.jpg
 ---
 width: 40%
 name: fig:spanningsdeler_stroommeter
@@ -319,7 +319,7 @@ De opstelling voor het meten van de stroomsterkte.
 
 Veelal kunnen we een schakeling vereenvoudigen door een serie (of parallel) schakeling van twee weerstanden te vervangen door één weerstand. Als geheugensteuntje geven we hier een samenvatting van de formules die daarbij horen. Voor wie het niet meer precies weet: zie hfdst. 25-2 van Wolfson.
 
-```{figure} Figures/Boltzmann/serieparallel.png
+```{figure} Figures/BM/serieparallel.png
 ---
 width: 80%
 name: fig:serie_parallel
@@ -382,7 +382,7 @@ Om de werking van een halfgeleiderdiode goed te begrijpen is een behoorlijke ken
 4. Voegen we aan Si een 3-waardig element toe, b.v. B, dan heeft dit element sterk de neiging een elektron van een Si atoom te binden. Door dit proces ontstaat er een "gat" in de elektronen omringing van het Si atoom. Dit gat kan weer opgevuld worden door een elektron van een ander Si atoom, enz. Op deze manier beweegt het gat als het ware vrij door het materiaal. Het gat gedraagt zich als een positieve ladingsdrager. Het zijn de gaten die ervoor zorgen dat stroomgeleiding in dit "p-type" materiaal kan plaatsvinden.
 
 
-```{figure} Figures/Boltzmann/halfgeleiderstroom.png
+```{figure} Figures/BM/halfgeleiderstroom.png
 ---
 width: 60%
 name: fig:stroom_door_halfgeleider
@@ -393,7 +393,7 @@ Stroom door een halfgeleiderdiode. De pluspool van een spanningsbron is aangeslo
 Daar gebeurt iets bijzonders: de arriverende elektronen vallen in de arriverende gaten. Dit wordt recombinatie genoemd. Hierdoor raken we twee vrije ladingsdragers kwijt. Echter, door de aanwezigheid van de spanningsbron worden steeds nieuwe gaten en elektronen aangevoerd. Door dit proces ontstaat er een constante gaten (en elektronen) stroom naar het grensvlak. Van buiten af gezien denk je dat er gewoon een stroom van de plus naar de minpool loopt. Wij zeggen dat de diode in voorwaartse richting is geschakeld.
 Nu sluiten we de minpool van de spanningsbron aan op het p-type en de pluspool aan op het n-type materiaal. <!--(zie Fig. {!!!!!!}) -->
 
-```{figure} Figures/Boltzmann/halfgeleiderstroom2.png
+```{figure} Figures/BM/halfgeleiderstroom2.png
 ---
 width: 60%
 name: fig:minpool_spanningsbron

@@ -22,7 +22,7 @@ $$ T = 2\pi\sqrt{\frac{l}{g}}$$
 
 Wanneer de lengte van de slinger bekend is en de periode bepaald, volgt uit bovenstaande vergelijking de waarde voor de zwaartekrachtsversnelling.
 
-```{figure} Figures/gbepaling/Slinger.png
+```{figure} Figures/G/Slinger.png
 ---
 width: 15%
 name: fig:gbep:sling
@@ -47,14 +47,17 @@ Door de valtijd voor verschillende hoogtes te bepalen, volgt uit bovenstaande ve
 6. Hoe reduceert de meetonzekerheid door 10 periodes/valtijd te bepalen?
 7. Is de verkregen meetonzekerheid in de tijd voldoende om $g$ te bepalen met een foutenmarge van 0.5\%?
 8. Maak nu gebruik van de opstelling om de een gevoel te krijgen voor de spreiding in de metingen. Vergelijk de bepaalde waarden met jouw eerder gevonden waarden.
-```{admonition} tip
+
+```{tip}
 :class: dropdown
 Voor de valproef moet je soms de pinnen 2 en 8 in de code omdraaien. Test eerst met je hand of je een output krijgt als je je hand eerst langs de bovenste sensor haalt en vervolgens de onderste.
 ```
-```{admonition} tip
+
+```{tip} 
 :class: dropdown
 Je waarden uitlezen in Arduino kan via de seriële monitor.
 ```
+
 9. De theorie is te kort door de bocht en dient verder uitgewerkt te worden. Identificeer wat er ontbreekt en wat daaraan toegevoegd moet worden.
 10. Maak een meetplan voor een van de twee experimenten. Onderbouw elke keuze die je maakt, beschrijf de aannames die je doet en valideer deze waar nodig. Voer extra testen uit indien nodig.
 11. Laat je meetplan controleren door de assistent.
