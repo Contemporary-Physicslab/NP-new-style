@@ -115,9 +115,9 @@ In formule {eq}`eq:Br` is $V$ het volume van de magneet, zodat het remanente vel
 De hier gepresenteerde theorie is van toepassing op puntdipolen. De schijfmagneetjes van deze proef zijn echter geen punten, maar hebben een zekere ruimtelijke uitgebreidheid. Daarom kan in het experiment mogelijk een afwijking gevonden worden van de afstandsafhankelijkheid als beschreven door formule {eq}`eq:model`.
 %
 ## Introductie
-Voor het ontwerpen van nieuwe, snellere en veiligere zweeftreinen is het essentieel om accurate computermodellen te gebruiken die het rijgedrag van de zweeftrein kunnen simuleren. Voor een accuraat computermodel is een model van de relatie tussen de afstand tussen de twee magneten en de onderlinge kracht essentieel {cite:t}`sanagawa2001characteristics`. In dit onderzoek wordt een model dat gebaseerd is op de superpositie van magnetische puntdipolen getest. 
+Voor het ontwerpen van nieuwe, snellere en veiligere zweeftreinen is het essentieel om accurate computermodellen te gebruiken die het rijgedrag van de zweeftrein kunnen simuleren. Voor een accuraat computermodel is een model van de relatie tussen de afstand tussen de twee magneten en de onderlinge kracht essentieel {cite:p}`sanagawa2001characteristics`. In dit onderzoek wordt een model dat gebaseerd is op de superpositie van magnetische puntdipolen getest. 
 
-Het model, afgeleid en beschreven in {cite:p}`Pols`, gaat ervan uit dat de totale potentiële energie van de magneten gelijk is aan de som van potentiële energie van magnetische puntdipolen. Met het gegeven dat de kracht gelijk is aan de afgeleide van de potentiële energie naar de afstand, geldt voor de kracht tussen twee magneten:
+Het model, afgeleid en beschreven in {cite:t}`Pols`, gaat ervan uit dat de totale potentiële energie van de magneten gelijk is aan de som van potentiële energie van magnetische puntdipolen. Met het gegeven dat de kracht gelijk is aan de afgeleide van de potentiële energie naar de afstand, geldt voor de kracht tussen twee magneten:
 %
 $$
 F_{m}(z)=\frac{3 \mu_{0} m^{2}}{2 \pi} \frac{1}{z^{4}}=\alpha \frac{1}{z^{4}}
@@ -135,9 +135,6 @@ Het model is gevalideerd wanneer de experimentele waarden het verwachtte vierde 
 *  *Hoe hangt de afstotende/aantrekkende kracht tussen twee magneten af van hun onderlinge afstand?*
 *  *Is het theoretische model van een superpositie van dipolen voldoende om die relatie te beschrijven?*
 
-%
-Dit onderzoek is uitgevoerd als onderdeel van het vak Natuurkundig Practicum aan de TU Delft.
-%
 ## Experimentele methode
 ### Experiment en instrumentatie
 Voor het valideren van het voorgestelde model wordt gebruik gemaakt van een opstelling waarbij twee magneten boven elkaar hangen en de onderlinge kracht bepaald wordt, zie {numref}`Figuur {number} <fig_IE1opstelling>`. De hart-tot-hart afstand tussen de twee magneten, zie {numref}`Figuur {number} <fig:IE1opst_onz>`, wordt gegeven door:
