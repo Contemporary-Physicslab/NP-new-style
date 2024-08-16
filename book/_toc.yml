@@ -52,3 +52,5 @@ parts:
     numbered: true
     chapters:
     - file: Deel4/RC
+    - file: Deel4/G
+    - file: Deel4/BM
