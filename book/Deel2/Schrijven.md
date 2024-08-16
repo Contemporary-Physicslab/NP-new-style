@@ -1,16 +1,3 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 # Verslag schrijven
 
 Een belangrijk onderdeel van de opleidingen binnen TNW is het leren schrijven van een verslag of wetenschappelijk rapport. In het eerstejaar leggen we daar de basis van. Het schrijven van het eerste verslag kost veel studenten nogal wat moeite en tijd. Dit komt onder andere omdat we hogere eisen stellen aan het verslag dan op de middelbare school. Dat is noodzakelijk omdat, uiteindelijk, anderen in aanraking komen met jouw onderzoek door de artikelen en verslagen die je hebt geschreven. Zo'n verslag of artikel moet dan ook alles staan wat belangrijk is en netjes opgebouwd zijn om uiteindelijk te laten zien dat het niet anders kan dan dat de getrokken conclusie volgt uit het onderzoek dat gedaan is.
@@ -19,16 +6,19 @@ Een belangrijk onderdeel van de opleidingen binnen TNW is het leren schrijven va
 Details over de presentatie van de experimenten kunnen verschillen, afhankelijk van de aard van het onderzoek en de tradities van het vakgebied. Volg daarom ook altijd de **aanvullende vakspecifieke instructies** als die vermeld staan in de betreffende practicumhandleiding.
 ```
 
-<div style='text-align: center;'>
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from IPython.display import YouTubeVideo
-VideoWidth=600
-YouTubeVideo("d1GY1Nr106s", width=VideoWidth, align='center')
-```
-
+<div style="display: flex; justify-content: center;">
+    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+        <iframe
+            src="https://www.youtube.com/embed/d1GY1Nr106s?si=wdr9gxXD4fpmV4nG"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </div>
 </div>
+
+
 In dit hoofdstuk proberen we je te helpen bij het opzetten van een verslag door uit te leggen waarom je schrijft, voor wie je schrijft, en wat er in een verslag moet staan. Hoewel de voorschriften van de tijdschriften voor verschillende vakgebieden in details verschillen, is de **algemene structuur** van de meeste wetenschappelijk artikel gelijk. Naast de indeling van een wetenschappelijk artikel zijn er ook algemene regels over taalgebruik, vormgeving, verwijzingen, enz. Het uiteindelijke doel van deze regels is de informatie in het artikel zo efficiënt en helder mogelijk over te brengen aan de lezer. Bedenk daarbij dat wetenschappers altijd druk zijn. Ze hebben weinig tijd om hele lappen tekst te lezen. Artikelen zijn daarom kort en hebben een hoge informatiedichtheid. De kunst van wetenschappelijk schrijven is het zo bondig mogelijk schrijven, maar wel op zo'n manier dat het eenduidig is. Dat wil zeggen, datgene wat er staat moet duidelijk zijn.
 
 ## Waarom schrijf je?
@@ -65,7 +55,7 @@ Dit klinkt als een ver-van-mijn-bed-show, maar bedenk wel dat verslagen ook een 
 Het gaat hier om verslagen over experimenten die we in het Inleidend Practicum doen. Natuurlijk zijn deze verslagen beperkt in de zin dat ze niet over nieuwe ontdekkingen gaan. Maar de principes die we hier leren toepassen, gelden net zo sterk voor het schrijven van een artikel over een geweldige ontdekking.
 
 ## Een overtuigend argument voor een claim
-Om anderen te overtuigen gebruik je argumentatie: Een onderbouwing voor wat er gedaan is en wat daaruit komt. Toulmin [1] levert daartoe een goede argumentatiestructuur, zie {numref}`Figure {number} <fig:Toulmin>`. In dat model wordt er een link gelegd tussen de te maken claim (de conclusie) en de data.
+Om anderen te overtuigen gebruik je argumentatie: Een onderbouwing voor wat er gedaan is en wat daaruit komt. {cite:t}`toulmin2003uses` levert daartoe een goede argumentatiestructuur, zie {numref}`Figure {number} <fig:Toulmin>`. In dat model wordt er een link gelegd tussen de te maken claim (de conclusie) en de data.
 >Het model van Toulmin bestaat uit de volgende elementen:\
 • Claims: De conclusies die gemaakt worden.\
 • Data: De data die gebruikt zijn als bewijs voor de claim.\
@@ -307,3 +297,10 @@ o De figuren voldoen aan de kwaliteitseisen en zijn voorzien van een informatiev
 o De discussie plaatst het onderzoek in de grotere context.\
 o De belangrijkste verbeteringen / tekortkomingen zijn besproken.\
 o De conclusie heeft een heldere structuur (herhalen van context & onderzoeksprobleem / belangrijkste conclusies / vervolgonderzoek).
+
+### Referenties
+
+```{bibliography}
+:style: unsrt
+:filter: docname in docnames
+```
