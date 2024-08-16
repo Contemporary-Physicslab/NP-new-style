@@ -1,6 +1,6 @@
 # Verslag schrijven
 
-Een belangrijk onderdeel van de opleidingen binnen TNW is het leren schrijven van een verslag of wetenschappelijk rapport. In het eerstejaar leggen we daar de basis van. Het schrijven van het eerste verslag kost veel studenten nogal wat moeite en tijd. Dit komt onder andere omdat we hogere eisen stellen aan het verslag dan op de middelbare school. Dat is noodzakelijk omdat, uiteindelijk, anderen in aanraking komen met jouw onderzoek door de artikelen en verslagen die je hebt geschreven. Zo'n verslag of artikel moet dan ook alles staan wat belangrijk is en netjes opgebouwd zijn om uiteindelijk te laten zien dat het niet anders kan dan dat de getrokken conclusie volgt uit het onderzoek dat gedaan is.
+Een belangrijk onderdeel van de opleidingen binnen TNW is het leren schrijven van een verslag of wetenschappelijk rapport. In het eerste jaar leggen we daar de basis van. Het schrijven van het eerste verslag kost veel studenten nogal wat moeite en tijd. Dit komt onder andere omdat we hogere eisen stellen aan het verslag dan op de middelbare school. Dat is noodzakelijk omdat, uiteindelijk, anderen in aanraking komen met jouw onderzoek door de artikelen en verslagen die je hebt geschreven. Zo'n verslag of artikel moet dan ook alles staan wat belangrijk is en netjes opgebouwd zijn om uiteindelijk te laten zien dat het niet anders kan dan dat de getrokken conclusie volgt uit het onderzoek dat gedaan is.
 
 ```{Warning}
 Details over de presentatie van de experimenten kunnen verschillen, afhankelijk van de aard van het onderzoek en de tradities van het vakgebied. Volg daarom ook altijd de **aanvullende vakspecifieke instructies** als die vermeld staan in de betreffende practicumhandleiding.
@@ -29,7 +29,7 @@ Je hebt een experiment gedaan waarbij je alles wat nodig is om het experiment te
 
 Door het schrijven van het verslag begrijp je nog beter wat er is gedaan, waarom dat is gedaan en wat de relevantie daarvan is. **Schrijven = begrijpen**.  Het schrijven helpt je **nadenken over wat je doet**, wat dat betekent. Met een schriftelijk verslag rond je dit proces op een natuurlijke manier af, waarna iedere geïnteresseerde kennis kan nemen van jouw bevindingen. 
 
-```{admonition}
+```{admonition} Quote
 If people cannot write well,
 they cannot think wel,
 and if they cannot think well,
@@ -263,7 +263,7 @@ Er zijn een aantal bronnen die je kunt raadplegen, daarnaast biedt de TUD een aa
 **Lean Library** Wanneer je op het internet naar artikelen, tijdschriften of databanken zoekt, vind je mogelijk inhoud waarvoor wij
 een licentie hebben. Maar als je niet op de campus bent of niet op het campusnetwerk bent aangesloten, weet de website die je bezoekt dat niet en krijg je geen toegang tot webpagina's of publicaties. Of erger nog, je wordt gevraagd te betalen voor toegang (paywall).
 
-In deze gevallen zal de browserextensie Lean Library je automatisch een melding tonen en je toegang geven tot de gelicentieerde inhoud van de [TU Delft Library.](https://www.tudelft.nl/library/bezoek-gebruik/faciliteiten-studieplekken/toegang-buiten-de-campus/overal-toegang-met-lean-library)
+In deze gevallen zal de browserextensie Lean Library je automatisch een melding tonen en je toegang geven tot de gelicenseerde inhoud van de [TU Delft Library.](https://www.tudelft.nl/library/bezoek-gebruik/faciliteiten-studieplekken/toegang-buiten-de-campus/overal-toegang-met-lean-library)
 
 **Writing Centre:** Het [Writing Centre](https://www.tudelft.nl/tbm/over-de-faculteit/afdelingen/stafafdelingen/itav/onderwijs/writing-centre/) biedt mogelijkheid om op afspraak onderdelen van een tekst te bespreken. Zo'n gesprek duurt 45 minuten en is gratis.
  
@@ -284,7 +284,7 @@ In deze gevallen zal de browserextensie Lean Library je automatisch een melding 
 **Reporting Results:** [Reporting results](https://www.bol.com/nl/f/reporting-results/9200000009039315/) van Van Aken & Hosford is een boek dat beknopt weergeeft wat de afspraken zijn met betrekking tot wetenschappelijk schrijven. Daarnaast geeft het boek een overzicht van het doorrekenen van meetonzekerheid.
 
 ## Checklist
-o De titel bestaat uit 10-12 woorden, is aantrekklijk en geeft duidelijk weer waar het onderzoek over gaat.\
+o De titel bestaat uit 10-12 woorden, is aantrekkelijk en geeft duidelijk weer waar het onderzoek over gaat.\
 o De inleiding heeft een V-structuur, van breed/algemeen naar specifiek.\
 o De inleiding geeft helder het doel van het onderzoek weer.\
 o Het theoretisch kader beschrijft bondig de benodigde (natuurkundige) voorkennis om het experiment te begrijpen.\
