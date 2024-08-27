@@ -11,10 +11,19 @@ If you want to install Anaconda, see their [website](https://docs.anaconda.com/a
 ### Install Miniconda
 We recommend, however, to install Miniconda since it gives you a better idea how your computer works, have more control of what is being installed and takes far less disk space. To install Miniconda, download and run the .exe file as described on their [website](https://docs.anaconda.com/miniconda/miniconda-install/)
 
+```{warning}
+There are multiple download options at the site of conda. Be sure you download miniconda. Furthermore, wait with continuing the instructions below until the miniconda is fully installed.
+```
+
 Once installed, open the anaconda prompt. This opens a terminal (a text-based interface used to interact with the operating system by executing commands, scripts, or programs). To check whether the installation is correct and which version is installed, type: 
 
 ```{code}
 conda --version
+```
+
+```{figure} condaversion.PNG
+:figclass: margin
+:width: 100%
 ```
 
 and press enter, the terminal will return the conda version.
