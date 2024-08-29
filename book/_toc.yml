@@ -54,3 +54,10 @@ parts:
     - file: Deel4/RC
     - file: Deel4/G
     - file: Deel4/BM
+
+  - caption: Appendix
+    numbered: false
+    chapters:
+    - file: Appendix/demos/Panfluit.ipynb
+    - file: Appendix/demos/Valversnelling.ipynb
+    - file: Appendix/demos/Young.ipynb
