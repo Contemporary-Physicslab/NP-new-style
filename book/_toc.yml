@@ -62,3 +62,4 @@ parts:
     - file: Appendix/demos/Panfluit.ipynb
     - file: Appendix/demos/Valversnelling.ipynb
     - file: Appendix/demos/Young.ipynb
+    - file: Appendix/demos/Vitruvian.ipynb
