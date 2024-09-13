@@ -148,7 +148,7 @@ Handling of Dewars
 * Cryogenic liquids, larger volumes more than 1 liter, must never be stored in areas other than the approved
 
 Departmental storage facilities (ventilation, detection).
-* Safe limit in an unventilated space: Calculate the room volume in m3 and the max volume of nitrogen in m3 (1 liter of LN2 or LHe corresponds respectivaly with a volume of 0.7 m3 and 0.76 m3 gas @ 21 °C and 1 atm). The ratio of gas volume/room volume should be <0.15.
+* Safe limit in an unventilated space: Calculate the room volume in m3 and the max volume of nitrogen in $\mathrm{m^3}$ (1 liter of LN2 or LHe corresponds respectively with a volume of 0.7 $\mathrm{m^3}$ and 0.76 $\mathrm{m^3}$ gas @ 21 °C and 1 atm). The ratio of gas volume/room volume should be <0.15.
 
 ## Elevator procedure for transporting cryogenic liquids
 You can call the goods lift to any floor using an authorised campus card.
