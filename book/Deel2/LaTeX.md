@@ -126,7 +126,7 @@ Een van de grote voordelen van het gebruiken van LaTeX zijn formules. Formules k
 
 ```{admonition} Opdracht: Maken van een formule
 :class: dropdown
-Neem een kijkje op [deze site](https://en.wikibooks.org/wiki/LaTeX/Mathematics). Zet de volgende formule als oefening in LaTeX. Het is hiervoor nodig dat je het package `amsmath` toevoegt aan de preamble. $f^{(n)}(a) = \frac{n!}{2\pi i}\oint_C \frac{f(z)}{(z-a)^{n+1}}\dd{z}$
+Neem een kijkje op [deze site](https://en.wikibooks.org/wiki/LaTeX/Mathematics). Zet de volgende formule als oefening in LaTeX. Het is hiervoor nodig dat je het package `amsmath` toevoegt aan de preamble. $f^{(n)}(a) = \frac{n!}{2\pi i}\oint_C \frac{f(z)}{(z-a)^{n+1}}\mathrm{d}z$
 ```
 
 ```{tip}
@@ -146,7 +146,8 @@ Mocht je er niet direct uitkomen, dan kunnen de volgende sites wellicht helpen.
 
 ```{admonition}  Opdracht: Formule maken
 :class: dropdown
-Maak de formule voor het doorrekenen van onzekerheden in je experiment in de volgende vorm en zet deze in je resultaten sectie: $$u(Z) = \sqrt{\left(\frac{\partial Z}{\partial A}\right)^2 u(A)^2 + \left(\frac{\partial Z}{\partial B}\right)^2 u(B)^2 + ...}$$ Probeer zowel de inline equation als de equation environment uit. Wat past hier het beste?
+Maak de formule voor het doorrekenen van onzekerheden in je experiment in de volgende vorm en zet deze in je resultaten sectie: $$u(Z) = \sqrt{\left(\frac{\partial Z}{\partial A}\right)^2 u(A)^2 + \left(\frac{\partial Z}{\partial B}\right)^2 u(B)^2 + ...}$$
+Probeer zowel de inline equation als de equation environment uit. Wat past hier het beste?
 ```
 
 Wanneer je de equation environment gebruikt, kun je vergelijkingen net als secties labelen om er daarna naar te kunnen verwijzen. Het label plaats je in dit geval binnen de equation environment.
