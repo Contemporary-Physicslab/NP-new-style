@@ -39,6 +39,7 @@ parts:
       - file: External/fyplc-python/Course files/Notebook 4/Notebook 4 Scientific Computing
       - file: External/fyplc-python/Course files/Notebook 5/Notebook 5 Data in Python
       - file: External/fyplc-python/Course files/Notebook 6/Notebook 6 Measurement uncertainty
+      - file: External/fyplc-python/Course files/Notebook 7/Notebook 7 Additional materials
 
     - file: Deel2/LaTeX
     - file: Deel2/Schrijven
