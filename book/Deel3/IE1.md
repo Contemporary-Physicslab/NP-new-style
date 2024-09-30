@@ -143,7 +143,7 @@ $$
 z=\frac{1}{2} d_{m}+h_{1}+h_{1,2}+h_{2}+\frac{1}{2} d_{m}
 $$ (eq:afstanden)
 %
-Voor bepaling van $h_1$ en $h_2$ wordt een [schuifmaat](https://youtu.be/eBG2Y0nXGAs) gebruikt met een meetonzekerheid van ... mm, $h_{1,2}$ wordt bepaald m.b.v. een liniaal met een meetonzekerheid van ... mm. Volgens de specificatie van de magneet is de meetonzekerheid in de dikte van de magneet ... mm {cite}`supermagnete_data_sheet_s-10-05-npdf_2011`. Dit levert een totaal meetonzekerheid van $\mu_r$= ... mm. Zie de Appendix voor de bijbehorende afleiding.
+Voor bepaling van $h_1$ en $h_2$ wordt een [schuifmaat](https://youtu.be/eBG2Y0nXGAs) gebruikt met een meetonzekerheid van ... mm, $h_{1,2}$ wordt bepaald m.b.v. een liniaal met een meetonzekerheid van ... mm. Volgens de [specificatie van de magneet](data_sheet_magneten.pdf) is de meetonzekerheid in de dikte van de magneet ... mm {cite}`supermagnete_data_sheet_s-10-05-npdf_2011`. Dit levert een totaal meetonzekerheid van $\mu_r$= ... mm. Zie de Appendix voor de bijbehorende afleiding.
 
 ```{figure} Figures/opstelling.jpg
 ---
@@ -204,7 +204,7 @@ Om je te helpen bij deze analyse, staan de stappen ook vermeld in het notebook.
 
 
 
-### Referenties
+## Referenties
 
 ```{bibliography}
 :style: unsrt
