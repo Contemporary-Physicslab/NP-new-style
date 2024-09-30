@@ -298,7 +298,7 @@ o De discussie plaatst het onderzoek in de grotere context.\
 o De belangrijkste verbeteringen / tekortkomingen zijn besproken.\
 o De conclusie heeft een heldere structuur (herhalen van context & onderzoeksprobleem / belangrijkste conclusies / vervolgonderzoek).
 
-### Referenties
+## Referenties
 
 ```{bibliography}
 :style: unsrt
