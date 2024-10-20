@@ -65,3 +65,8 @@ parts:
     - file: Appendix/demos/Valversnelling.ipynb
     - file: Appendix/demos/Young.ipynb
     - file: Appendix/demos/Vitruvian.ipynb
+    - file: Appendix/voorbeeldverslag.pdf
+      title: Voorbeeldverslag
+    - file: Appendix/voorbeeldverslag2.pdf
+      title: Voorbeeldverslag 2
+

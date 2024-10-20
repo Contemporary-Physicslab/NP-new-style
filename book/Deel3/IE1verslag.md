@@ -4,12 +4,10 @@
 ### Voorbereiding
 Om de twee eerste verslagmiddagen effectief en efficiënt te besteden is een goede voorbereiding noodzakelijk. Lees daarom vooraf:
 
-*  Het hoofdstuk over schrijven in dit dictaat
-*  Whitesides’ Group: Writing a Paper
-*  Unspoken rules for writing a paper
-*  Robert Pirsig' on the scientific method
+*  Het hoofdstuk over [schrijven](../Deel2/Schrijven.md) in dit dictaat
+*  [Whitesides’ Group: Writing a Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/adma.200400767)
+*  [Unspoken rules for writing a paper](../Appendix/Unspokenrules.pdf)
 
-Deze documenten zijn te vinden in de appendix van het dictaat.
 
 ### Introductie tot verslaglegging
 Je hebt een experiment gedaan waarbij je alles wat nodig is om het experiment te begrijpen en de conclusies na te gaan in je labjournaal / logboek hebt gezet. Waarom dan toch nog een verslag of artikel schrijven over dat experiment? 
