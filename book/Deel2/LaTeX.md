@@ -122,7 +122,9 @@ Als je een nieuw .tex bestand maakt voor een nieuw hoofdstuk, zorg dan dat de na
   </div>
 </div>
 
-Een van de grote voordelen van het gebruiken van LaTeX zijn formules. Formules komen in twee vormen: (1) Inline, door gebruik te maken van de enkele dollar tekens: `$y=4x$` of met `\(y=4x\)`. (2) Op een nieuwe regel door gebruik te maken van de environment equation: `\begin{equation}` & `\end{equation}`.
+Een van de grote voordelen van het gebruiken van LaTeX zijn formules. Formules komen in twee vormen: 
+1. Inline, door gebruik te maken van de enkele dollar tekens: `$y=4x$` of met `\(y=4x\)`. 
+2. Op een nieuwe regel door gebruik te maken van de environment equation: `\begin{equation}` & `\end{equation}`.
 
 ```{admonition} Opdracht: Maken van een formule
 :class: dropdown
