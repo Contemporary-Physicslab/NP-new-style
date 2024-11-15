@@ -84,14 +84,14 @@ Bij het beoordelen van het onderzoeksvoorstel kijken we naar de volgende punten:
 4. Beschrijving en onderbouwing methode
 5. ...
 
-Je levert het onderzoeksvoorstel in uiterlijk op 22 december (hoe eerder hoe beter, want dan krijg je het sneller terug). Maak van je voorstel geen boekwerk. Wel moeten alle onderdelen van het template ingevuld zijn. Belangrijk is dat het voorstel niet alleen voor 15% mee telt maar ook een GO / NO GO moment is. Als je een GO hebt kun je je experiment uitvoeren. De deadline voor het eindverslag is de vrijdag na de 5e week.
+Je levert het onderzoeksvoorstel in uiterlijk op 20 december (hoe eerder hoe beter, want dan krijg je het sneller terug). Maak van je voorstel geen boekwerk. Wel moeten alle onderdelen van het template ingevuld zijn. Belangrijk is dat het voorstel niet alleen voor 15% mee telt maar ook een GO / NO GO moment is. Als je een GO hebt kun je je experiment uitvoeren. De deadline voor het eindverslag is de vrijdag na de 5e week.
 
 Bij een NO GO heb je een gesprek met een van de twee docenten. We gaan er dan gezamenlijk inventariseren wat er gedaan kan / moet worden om een succesvol onderzoek neer te zetten. Je hoeft niet het hele proces opnieuw in, maar we zoeken naar een oplossing die ervoor zorgt dat je verder kunt.
 
 ## Groepsgrootte
 Je werkt met groepjes van twee tot maximaal drie personen die op dezelfde dag practicum hebben (geen onderhandelingen mogelijk).
 
-Januari is een maand waar veel studenten zich uitschrijven voor de studie. Het kan zijn dat een van je partners dus ineens weg is. Hen die zich willen uitschrijven moedig ik toch aan om het eindproject af te ronden. Je kunt zo alsnog de punten voor het vak binnen halen. Bovendien help je de studiegenoten om een mooi cijfer te krijgen. Zie je dit toch niet zitten, meld het je partner en de practicumadministratie. Voor degene die doorgaan, als je met z’n tweeen bent moet dit geen probleem zijn. Ben je nog maar in je eentje, meld je dan bij de docent via Teams, dan zoeken we naar een oplossing.
+Januari is een maand waar veel studenten zich uitschrijven voor de studie. Het kan zijn dat een van je partners dus ineens weg is. Hen die zich willen uitschrijven moedig ik toch aan om het eindproject af te ronden. Je kunt zo alsnog de punten voor het vak binnen halen. Bovendien help je de studiegenoten om een mooi cijfer te krijgen. Zie je dit toch niet zitten, meld het je partner en de practicumadministratie. Voor degene die doorgaan, als je met z’n tweeën bent moet dit geen probleem zijn. Ben je nog maar in je eentje, meld je dan bij de docent via Teams, dan zoeken we naar een oplossing.
 
 ## Eisen verslaglegging
 De verslaglegging van het onderzoek is het schrijven van een ’wetenschappelijk’ artikel. Als team maak je één artikel. We stellen daaraan de volgende eisen:
@@ -107,35 +107,35 @@ Het cijfer voor het eindonderzoek is 20% van het totaalcijfer voor het natuurkun
 3. Kwaliteit verslag 40%
 
 ## Korte beschrijving experimenten
-[**Spectroscopie:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Spectroscopie.html)
+[**Spectroscopie:**](./Spectroscopie.md)
 
 In het practicum heb je de spectraallijnen van een bepaalde stof bepaald. Maar we hebben nog veel meer materialen (Cd, Na, Hg, He, Ne, Xe ...) waar je de spectraallijnen van kunt bepalen. Daarnaast kun je kiezen voor verschillende gratings, of het experiment uitvoeren met een cd-tje of met een prisma. Hoe ziet zichtbaar licht er uit of een LED? Met andere woorden: gebruik de kennis die je hebt opgedaan bij spectroscopie om je eigen onderzoek vorm te geven.
 
-[**Soortelijke warmte van een stof:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Cu.html)
+<!-- [**Soortelijke warmte van een stof:**]()
 
 De soortelijke warmte van een stof is een stofeigenschap. Echter de soortelijke warmte van een stof hangt wel af van de temperatuur. Op basis van de soortelijke warmte (als functie van de temperatuur) kun je ook de Einsteintemperatuur bepalen. Om dat te kunnen doen ga je aan de slag met vloeibaar stikstof, waarin je een bekend metaal onderdompelt en vervolgens weer opwarmt. Hoe verschillen die materialen van elkaar, en hoe gedragen die materialen zich als functie van de temperatuur? Dat zijn zomaar een paar vragen waar je antwoord op kunt zoeken.
 
-[**Oppervlaktespanning:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Oppspanning.html)
+[**Oppervlaktespanning:**]()
 
-Schaatsrijders op het water hebben we allemaal wel eens gezien. Dankzij de oppervlaktespanning van water zinken ze niet. In dit experiment krijg je een goude ouwe opstelling waarmee je de oppervlaktespanning van water als functie van ... kunt onderzoeken, of je kunt op zoek naar de oppervlaktespanning van verschillende stoffen.
+Schaatsrijders op het water hebben we allemaal wel eens gezien. Dankzij de oppervlaktespanning van water zinken ze niet. In dit experiment krijg je een goude ouwe opstelling waarmee je de oppervlaktespanning van water als functie van ... kunt onderzoeken, of je kunt op zoek naar de oppervlaktespanning van verschillende stoffen. -->
 
-[**Luchtkussenbaan:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Airtrack.html)
+[**Luchtkussenbaan:**](./Airtrack.md)
 
 Een luchtkussenbaan zorgt ervoor dat een karretje vrijwel wrijvingsloos horizontaal kan bewegen. Ideaal voor de toestel van Atwood. Maar hoe groot is die wrijving dan nog? Ook biedt deze baan de mogelijkheid om botsingen te bestuderen, of harmonische oscillatoren nader te beschouwen. Genoeg keuze, veel vrijheid.
 
-[**Waterdruppel:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Valmetwrijving.html)
+[**Waterdruppel:**](./Valmetwrijving.md)
 
 Regendruppels... je wordt er nat van. Maar, ze bieden ook een prachtige onderzoekscontext. Hoe snel valt een regendruppel? Hangt dat af van de grote van de druppel? Wat is de wrijvingscoëfficiënt van een druppel? Dit experiment biedt een wat zonnigere kijk op regendruppels.
 
-[**Elasticiteitsmodulus:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Elasticiteitsmodulus.html)
+<!-- [**Elasticiteitsmodulus:**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Elasticiteitsmodulus.html)
 
-De elasticiteitsmodulus is een belangrijk stofeigenschap. Een goed begrip van de elasticiteitsmodulus geeft ons de mogelijkheid om sterkere bruggen / gebouwen te bouwen omdat het aangeeft hoe ‘makkelijk’ het is om een materiaal te vervormen. In dit onderzoek kun je de elasticiteitsmodulus van een materiaal op diverse manieren bepalen.
+De elasticiteitsmodulus is een belangrijk stofeigenschap. Een goed begrip van de elasticiteitsmodulus geeft ons de mogelijkheid om sterkere bruggen / gebouwen te bouwen omdat het aangeeft hoe ‘makkelijk’ het is om een materiaal te vervormen. In dit onderzoek kun je de elasticiteitsmodulus van een materiaal op diverse manieren bepalen. -->
 
-[**K-40**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/K40.html)
+[**K-40**](./K40.md)
 
 Radioactiviteit wordt wel eens gemeten in aantal bananen. In bananen zit namelijk een verhoogde concentratie Kalium-40, een radioactief isotoop van Kalium. In dit experiment kun je onderzoek doen naar de activiteit van een banaan, maar ook aan de slag met K-CL, een zout waarin een klein percentage K-40 aanwezig is. Houdt papier de straling tegen? Zo ja, hoeveel?
 
-[**Slingers**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Slingers.html)
+[**Slingers**](./Slingers.md)
 
 Geef een slinger aan je onderzoek...
 
@@ -144,21 +144,21 @@ Geef een slinger aan je onderzoek...
 
 Bij de bepaling van $g$ heb je een opstelling gebruikt die voor nog veel meer experimenten gebruikt kan worden. Hoe hangt de periode van een slinger af van bijvoorbeeld de beginhoek? Kunnen we $g$ ook bepalen met een pingpongbal? Of wat is de wrijvingscoëfficiënt van een voorwerp door het te laten vallen en de beweging in kaart te brengen? Zo maar wat vragen die beantwoord kunnen worden met deze opstelling.
 
-[**Muziek**](link hier)
+<!-- [**Muziek**](link hier)
 
-Wat gebeurt er met de frequentie van een stemvork als je deze eerst onderdompelt in vloeibaar stikstof en daarna aanslaat? Of, hoe werkt het stemmen van een gitaar eigenlijk? Als je kiest voor dit onderwerp kun je een eigen onderzoek opzetten dat te maken heeft met muziek.
+Wat gebeurt er met de frequentie van een stemvork als je deze eerst onderdompelt in vloeibaar stikstof en daarna aanslaat? Of, hoe werkt het stemmen van een gitaar eigenlijk? Als je kiest voor dit onderwerp kun je een eigen onderzoek opzetten dat te maken heeft met muziek. -->
 
-[**Microscopie**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Microscopie.html)
+<!-- [**Microscopie**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Microscopie.html)
 
-Toen in de jaren ’60 natuurkundigen aan biologen vroegen wanneer ze nou eindelijk grote stappen in hun kennis zouden zetten was het antwoord: Wanneer jullie natuurkundigen ons de instrumenten geven. De natuurkundigen gingen aan de slag en maakten vele mooie apparaten. Maar de basis bleef de microscoop (met als grondlegger van Leeuwenhoek, ook een natuurkundige). In dit onderzoek ga je dieper in op de werking van de microscopie of gebruik je de microscoop om mooie natuurkunde te bestuderen (denk bijvoorbeeld aan Brownian motion).
+Toen in de jaren ’60 natuurkundigen aan biologen vroegen wanneer ze nou eindelijk grote stappen in hun kennis zouden zetten was het antwoord: Wanneer jullie natuurkundigen ons de instrumenten geven. De natuurkundigen gingen aan de slag en maakten vele mooie apparaten. Maar de basis bleef de microscoop (met als grondlegger van Leeuwenhoek, ook een natuurkundige). In dit onderzoek ga je dieper in op de werking van de microscopie of gebruik je de microscoop om mooie natuurkunde te bestuderen (denk bijvoorbeeld aan Brownian motion). -->
 
-[**Viscositeit**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Stromingsleer.html)
+<!-- [**Viscositeit**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Stromingsleer.html)
 
 Wil je een lekkere pannenkoek met stroop, dan moet je even geduld hebben... Die stroop gaat maar
 langzaam uit de fles. Waarom? Stroop is een beetje stroperig. De fysische term hiervoor is
 viscositeit. In dit onderzoek duik je dieper de stromingsleer in en kun je onderzoek doen naar het gedrag van verschillende vloeistoffen of gedrag van vloeistof om een voorwerp
 
 [**RLC circuits**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/Elektromagnetisme.html)
-In het practicum heb je al metingen gedaan aan een RC-circuit. Dat kun je uitbreiden door bijvoorbeeld een tweede RC-circuit te koppelen waardoor je een betere filter of een bijvoorbeeld een band-pass filter krijgt. Een andere optie is het circuit aanpassen of uitbreiden met een spoel. Daarmee kun je bijvoorbeeld een AM-radio bouwen. 
+In het practicum heb je al metingen gedaan aan een RC-circuit. Dat kun je uitbreiden door bijvoorbeeld een tweede RC-circuit te koppelen waardoor je een betere filter of een bijvoorbeeld een band-pass filter krijgt. Een andere optie is het circuit aanpassen of uitbreiden met een spoel. Daarmee kun je bijvoorbeeld een AM-radio bouwen.  -->
 
 %[**Trekken aan een katrol**](https://polslab.tnw.tudelft.nl/dictaat/Deel5/PullingaSpool.html)

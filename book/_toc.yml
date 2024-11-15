@@ -65,6 +65,12 @@ parts:
     numbered: true
     chapters:
     - file: Deel5/Inleiding
+    - file: Deel5/Spectroscopie
+    - file: Deel5/Airtrack
+    - file: Deel5/Valmetwrijving
+    - file: Deel5/K40
+    - file: Deel5/Slingers
+    
   #   - file: Deel5/TEverslag
 
   - caption: Appendix
