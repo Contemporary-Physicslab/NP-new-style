@@ -61,10 +61,10 @@ parts:
       - file: Deel4/G_slinger.ipynb
     - file: Deel4/BM
 
-  # - caption: Toepassingsexperiment
-  #   numbered: true
-  #   chapters:
-  #   - file: Deel5/TE
+  - caption: Toepassingsexperiment
+    numbered: true
+    chapters:
+    - file: Deel5/Inleiding
   #   - file: Deel5/TEverslag
 
   - caption: Appendix
