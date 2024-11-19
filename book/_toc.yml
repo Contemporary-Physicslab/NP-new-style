@@ -70,6 +70,7 @@ parts:
     - file: Deel5/Valmetwrijving
     - file: Deel5/K40
     - file: Deel5/Slingers
+    - file: Deel5/Millikan
     
   #   - file: Deel5/TEverslag
 
@@ -80,8 +81,10 @@ parts:
     - file: Appendix/demos/Valversnelling.ipynb
     - file: Appendix/demos/Young.ipynb
     - file: Appendix/demos/Vitruvian.ipynb
-    - file: Appendix/voorbeeldverslag.pdf
+    - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/voorbeeldverslag.pdf"
       title: Voorbeeldverslag
-    - file: Appendix/voorbeeldverslag2.pdf
+    - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/voorbeeldverslag2.pdf"
       title: Voorbeeldverslag 2
+    - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/Unspokenrules.pdf"
+      title: Unspoken rules in writing a scientific report
 
