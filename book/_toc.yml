@@ -57,6 +57,7 @@ parts:
     - file: Deel4/RC
       sections:
       - file: Deel4/RC_labjournaal.ipynb
+        title: Labjournaal
     - file: Deel4/G
       sections:
       - file: Deel4/G_val.ipynb
