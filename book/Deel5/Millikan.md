@@ -81,17 +81,25 @@ h. Een telefoon houder of webcam
 Bij deze proef meet men de looptijden die een geladen olie-druppeltje nodig heeft om een bepaalde afstand in lucht af te leggen zowel met als zonder elektrisch veld. Voor deze afstand neemt men de afstand tussen de twee streepjes op het ijkschaaltje. Deze afstand kan men laten corresponderen met de afstand tussen de kruisdraden van de microscoop, die men gebruikt om de deeltjes te volgen, door de vergroting van de microscoop te regelen. Raadpleeg verder de bij het Millikan-apparaat horende gebruiksaanwijzing. Voor het doen van een nauwkeurige proef is het noodzakelijk druppeltjes te nemen van uiteenlopende grootte en met ladingen ($q$) kleiner dan ongeveer 10 elektronladingen.Dit betekent dat men moet meten aan druppeltjes waarvan de looptijden in bepaalde intervallen liggen. Omdat in principe de elektronlading ($e$) nog niet bekend is, kan men deze intervallen niet berekenen. Men zou daarom eerst een ruwe experimentele bepaling van $e$ moeten doen om bovengenoemde intervallen te kunnen schatten. Hiervoor ontbreekt de tijd en daarom mag men bij de voorbereiding van de proef de intervallen berekenen met $e = 2 * 10^{-9}$C.
 
 Verder heeft men daarbij nodig de hieronder vermelde gegevens die bij het Millikan-apparaat horen:
+
 Afstand tussen de platen van de Millikan-cel: $(6.36 ± 0.02)\cdot10^{-3}$m.
+
 Afstand tussen de streepjes op het ijkschaaltje: $(2.90±0.01)\cdot10^{-3}$m.
+
 Dichtheid van de olie: 865 ± 5 kg m$^3$.
+
 De viscositeit van lucht bij kamertemperatuur is ongeveer $1.8*10^{-5}$ kgm$^{-1}$s$^{-1}$
+
 Het spanningsverschil tussen de platen is instelbaar tussen 500 en 1500 V.
 
 ## Voorbereiding
 Bereken als onderdeel van de voorbereiding in welke intervallen de looptijden ongeveer moeten liggen opdat de lading van het druppeltje kleiner is dan ongeveer 10 elektronladingen.
 
-Bepaal voor een aantal druppeltjes de looptijden en bereken hieruit hun ladingen q. Pas, indien nodig, de correctie op de wet van Stokes toe. De constante die daarbij een rol speelt heeft een waarde van ongeveer 8.2*10 Nm$^{-1}$.
+Bepaal voor een aantal druppeltjes de looptijden en bereken hieruit hun ladingen q. Pas, indien nodig, de correctie op de wet van Stokes toe. De constante die daarbij een rol speelt heeft een waarde van ongeveer 8.2*10^1 Nm$^{-1}$.
 
 Bereken $e$ uit de gevonden ladingen. Doe dit bijvoorbeeld grafisch.
-Bedenk hierbij dat $q = ne$ met $n$ geheeltallig, zodat $q$ uitgezet tegen $n$ een rechte moet opleveren door de oorsprong. Om deze rechte te vinden zet men verticaal de gevonden q-waarden uit en horizontaal n. Alle punten (n,q) in het vlak zijn mogelijke punten van deze rechte. Trek door de oorsprong een rechte zodat zo goed mogelijk is voldaan aan $q = ne$. Uit de richtingscoëfficiënt van
-deze lijn volgt $e$. Vraag: Is dit altijd juist?
+Bedenk hierbij dat $q = ne$ met $n$ geheeltallig, zodat $q$ uitgezet tegen $n$ een rechte moet opleveren door de oorsprong. Om deze rechte te vinden zet men verticaal de gevonden q-waarden uit en horizontaal n. Alle punten (n,q) in het vlak zijn mogelijke punten van deze rechte. Trek door de oorsprong een rechte zodat zo goed mogelijk is voldaan aan $q = ne$. Uit de richtingscoëfficiënt van deze lijn volgt $e$. 
+
+```{exercise}
+Is dit altijd juist? Leg uit.
+```

@@ -55,6 +55,8 @@ parts:
     numbered: true
     chapters:
     - file: Deel4/RC
+      sections:
+      - file: Deel4/RC_labjournaal.ipynb
     - file: Deel4/G
       sections:
       - file: Deel4/G_val.ipynb
