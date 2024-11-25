@@ -33,7 +33,7 @@ Wanneer de druppeltjes bewegen met constante snelheid is er wrijvingskracht in h
 
 $$F_w=6\pi\eta rv$$ (eq:Stokes) 
 
-Hierin is $\eta$ de viscositeit van lucht, $r$ de straal van de druppel en $v$ de snelheid van de druppel. Deze vergelijking geldt alleen onder bepaalde voorwaarden. Omdat de druppels klein zijn ($0.5*10^{-6}$)m is deze in de orde van de vrije weglengte van gasmoleculen ($0.07*10^{-6}$m) en moet er een correctiefactor in rekening gebracht worden. De snelheid krijgt een correctiefactor van $k=1+\frac{b}{p+r}$ waarin de correctiefactor $b=80 \textrm{μm·hPa}$, $p$ de druk in Pa en $r$ de straal van de druppel (in m).
+Hierin is $\eta$ de viscositeit van lucht, $r$ de straal van de druppel en $v$ de snelheid van de druppel. Deze vergelijking geldt alleen onder bepaalde voorwaarden. Omdat de druppels klein zijn ($0.5*10^{-6}$)m is deze in de orde van de vrije weglengte van gasmoleculen ($0.07*10^{-6}$m) en moet er een correctiefactor in rekening gebracht worden. De snelheid krijgt een correctiefactor van $k=1+\frac{b}{p+r}$ waarin de correctiefactor $b=80 \textrm{μm} \cdot \textrm{hPa}$, $p$ de druk in Pa en $r$ de straal van de druppel (in m).
 
 Voor de straal van de oliedruppel geldt: 
 
