@@ -1,6 +1,3 @@
-[submodule "book/External/fyplc-python"]
-	path = book/External/fyplc-python
-	url = https://gitlab.tudelft.nl/fpols/fyplc-python.git
 [submodule "book/External/FYPLC"]
 	path = book/External/FYPLC
 	url = https://github.com/Contemporary-Physicslab/FYPLC.git
