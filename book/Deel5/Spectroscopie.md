@@ -311,7 +311,7 @@ Horizontaal en verticaal uitlijnen is essentieel voor het verkrijgen van een goe
 width: 80%
 name: fig_uitlijnen
 ---
-Uitlijnen met een laser
+Uitlijnen met een laser, waarbij gebruik gemaakt is van een breadboard.
 ```
 
 * Bouw de opstelling van {numref}`Figuur {number} <fig_uitlijnen>`, zorg ervoor dat de laser horizontaal en verticaal is uitgelijnd (doe dit zonder lens en spleet).
