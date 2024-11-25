@@ -207,7 +207,7 @@ De opstelling die we gebruiken voor het bepalen van de golflengte van de zichtba
 
 ```{figure} Figures/Spectroscopie/II_8_figuur11.png
 ---
-width: 40%
+width: 60%
 name: fig:II8opstelling
 ---
 Opstelling voor het meten van de golflengte van spectraallijnen.
@@ -229,13 +229,12 @@ waarin het $N$ het aantal lijnen per lengte eenheid is,
 $\lambda$ de golflengte en $m$ orde van de buiging. $m$ kan positieve en negatieve waarden (en nul) aannemen. 
 ```
 
-
-```{admonition} Opdracht 9
+```{exercise}
 :class: dropdown
  Voor de situatie geschetst in {numref}`Figuur {number} <fig:II8opstelling>`, is $m$ dan positief of negatief? Klopt dat met je antwoord bij vraag 5?  
 ```
 
-```{admonition} Opdracht 10
+```{exercise}
 :class: dropdown
  Met de vergelijking uit opdracht 8 kunnen we uit metingen van $\alpha$ en $\phi$, $\lambda$ bepalen. Als we de 
 onzekerheden in $\alpha$ en $\phi$, $u(\alpha)$ en $u(\phi)$ noemen, leid dan de doorwerkingsformule voor de onzekerheid in $\lambda$ , $u(\lambda)$ af.
@@ -252,7 +251,7 @@ $$ \Delta \lambda=\frac{\cos u}{m N} \Delta u $$ (eq:delta_lambda)
 
 $\Delta u$ berekenen we uit de afstand van de spectraallijnen op de camera en de brandpuntsafstand van $f_2$. De eenheid van $\Delta u$ is radialen.
 
-```{admonition} Opdracht 11
+```{exercise}
 :class: dropdown
  Met vgl. {eq}`eq:delta_lambda` kan uit metingen van $u$ en $\Delta u$, $\Delta\lambda$ bepaald worden. Je wilt natuurlijk de onzekerheid in $\Delta\lambda$ weten. Als je op de gebruikelijke manier de doorwerkingformule gaat uitrekenen, stuit je op een notatieprobleem. Noem daarom in deze vraag de uitgaande hoek $v$ (was $u$) en het kleine verschil in uitgaande hoek $\Delta v$ (was $\Delta u$). Als we de onzekerheden in $v$ en $\Delta v$ aangeven met $u(v)$ en $u(\Delta v)$, leid dan de doorwerkingsformule voor de onzekerheid in $\Delta\lambda$, $u(\Delta\lambda)$ af.  
 ```
@@ -280,13 +279,13 @@ $$ R_{theor}=\frac{\lambda}{\Delta \lambda}=m N_{tot} $$ (eq:Rtheory)
 
 waarin $m$ de orde van de spectraallijnen is. $N_{tot}$ is het totaal aantal tralielijnen dat meedoet in het interferentie proces. Dus voor een tralie dat volledig belicht wordt, is $N_{tot}$ het aantal lijnen op het tralie (zie ook Wolfson hfdst. 32.3). 
 
-```{admonition} Opdracht 12
+```{exercise}
 :class: dropdown
  Bedenk tenminste twee redenen waarom in de praktijk het waargenomen oplossend vermogen kleiner is dan de theoretische waarde. 
 ```
 
 
-## Opdrachten
+## Lab opdrachten
 
 ```{warning}
 * **HOUD DE TRALIES ALLEEN VAST AAN DE RECHTHOEKIGE TRALIEBEHUIZING OF AAN DE STEEL VAN DE BEHUIZING. Een vingerafdruk of een kras kan niet worden gereinigd of gerepareerd. Tralies zijn erg duur.**
@@ -305,8 +304,24 @@ Bij het opzetten van de experimenten moet je ervoor zorgen dat het gehele optisc
 ```
 
 ### Uitlijnen en bepaling tralieconstante
-BLABLA TEKST
+Horizontaal en verticaal uitlijnen is essentieel voor het verkrijgen van een goede meting. Omdat de lichtopbrengst van de lampen gering is, maken we gebruik van een richtlaser in het eerste deel van deze proef.
 
+```{figure} Figures/Spectroscopie/Uitlijnen.png
+---
+width: 80%
+name: fig_uitlijnen
+---
+Uitlijnen met een laser
+```
+
+* Bouw de opstelling van {numref}`Figuur {number} <fig_uitlijnen>`, zorg ervoor dat de laser horizontaal en verticaal is uitgelijnd (doe dit zonder lens en spleet).
+* Stel de lens nu zo in dat de lichtstreep scherp (en uitgelijnd) op de muur staat. 
+* Bouw nu de rest van de monochromatoropstelling zoals op {numref}`Figuur {number} <fig:II8opstelling>` (waarbij de lamp de laser is).
+* Bepaal de hoeken waar sprake is van constructieve interferentie en bereken de tralieconstante. 
+
+```{tip}
+Na uitlijning volgens bovenstaande stappenproces hoef je alleen de laser te vervangen door de lamp.
+```
 
 ### Hg-lamp 
  
