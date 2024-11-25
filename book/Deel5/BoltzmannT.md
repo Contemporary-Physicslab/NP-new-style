@@ -3,9 +3,9 @@
 In een van de voorgeschreven experimenten heb je onderzoek gedaan naar het ($V,I$)-karakteristiek van een diode, bij gelijke temperatuur. Maar in de Boltzmann energiedistributie zit ook een temperatuurafhankelijkheid. Op basis van dit experiment kun je het effect van temperatuur op de karakteristiek van een diode en een Ohmse weerstand bepalen.
 
 ## Introductie
-Zowel het klassieke vrij-elektron model als het quantum mechanische vrij-elektron model leidt tot een Ohm’s gedrag voor de geleiding van metalen en halfgeleiders. In dit experiment wordt de weerstand als functie van de temperatuur gemeten van een metaal (dat voldoet aan criteria van een vrij elektron gas) en twee halfgeleiders. We verwachten van je dat je aan het einde van het project de meetresultaten kunt interpreteren volgens het microscopische geleidingsmodel waarbij de begrippen elektronmassa, elektronendichtheid, elektronlading en de relaxatie (of botsings) tijd aan bod komen en de invloed van de temperatuur op deze grootheden. Met de interpretatie dienen de geleidingsmodellen, geverifieerd dan wel gefalsificeerd te worden.
+Zowel het klassieke vrij-elektron model als het quantum mechanische vrij-elektron model leidt tot een Ohm’s gedrag voor de geleiding van metalen en halfgeleiders. In dit experiment wordt de weerstand als functie van de temperatuur gemeten van een metaal (dat voldoet aan criteria van een vrij elektron gas) en twee halfgeleiders. We verwachten van je dat je aan het einde van het project de meetresultaten kunt interpreteren volgens het microscopische geleidingsmodel waarbij de begrippen elektronmassa, elektronendichtheid, elektronlading en de relaxatie- (of botsings-) tijd aan bod komen en de invloed van de temperatuur op deze grootheden. Met de interpretatie dienen de geleidingsmodellen, geverifieerd dan wel gefalsificeerd te worden.
 
-In het microscopische beeld van de elektrische geleiding leidt de wet van Ohm tot een relatie (vergelijking 38.12, pagina 1235 ref {cite:p}`Tippler`) tussen de specifieke weerstand ($\rho$) en de effectieve elektronmassa ($m_e$), de ladingsdragerdichtheid ($n$), de elementaire lading ($e$) en de tijd tussen twee opeenvolgende botsingen ($\tau$).
+In het microscopische beeld van de elektrische geleiding leidt de wet van Ohm tot een relatie (vergelijking 38.12, pagina 1235 ref {cite}`Tippler`) tussen de specifieke weerstand ($\rho$) en de effectieve elektronmassa ($m_e$), de ladingsdragerdichtheid ($n$), de elementaire lading ($e$) en de tijd tussen twee opeenvolgende botsingen ($\tau$).
 
 $$\rho=\frac{m_e}{ne^2\tau}$$ (eq:elek_gel)
 
@@ -13,7 +13,7 @@ In een metaal zal de elektronendichtheid niet sterk van de temperatuur T afhange
 
 De klassieke geleidingstheorie voorspelt een temperatuurafhankelijkheid die evenredig is met de wortel uit de temperatuur ($\rho ~ \sqrt{T}$).
 
-De kinetische energie $E_{kin}$ van het elektron wordt gegeven door drie vrijheidsgraden (nml. bewegingen in de x, y en z richtingen) die ieder $\frac{1}{2}k_BT$ bijdragen aan de totale energie (equipartitie theorie, p 544 {cite:p}`Tippler`):
+De kinetische energie $E_{kin}$ van het elektron wordt gegeven door drie vrijheidsgraden (nml. bewegingen in de x, y en z richtingen) die ieder $\frac{1}{2}k_BT$ bijdragen aan de totale energie (equipartitie theorie, p 544 {cite}`Tippler`):
 
 $$E_{kin}=\frac{1}{2}mv^2=\frac{3}{2}k_BT$$ (eq:Evrijheidsgraden)
 
@@ -23,7 +23,7 @@ In het quantummechanische model daarentegen zijn het de voornamelijk roostertril
 
 Voor de geleiding in halfgeleiders zijn de temperatuurveranderingen in de botsingstijd veel geringer dan de veranderingen in de dichtheid van de ladingdragers. Vanwege de verboden zone (band gap) zijn de bezette valentiebanden en de onbezette geleidingsbanden van elkaar gescheiden. De geleiding vindt plaats door elektronen in de geleidingsband en gaten in de valentieband. De kans dat een valentie-elektron thermisch kan
 worden aangeslagen van de valentieband naar de geleidingsband wordt gegeven door de
-Fermi-Dirac verdeling (vgl 38.45, p 1257 {cite:p}`Tippler`):
+Fermi-Dirac verdeling (vgl 38.45, p 1257 {cite}`Tippler`):
 
 $$P(E)=(e^{\frac{E_g}{k_BT}}+1)^{-1}$$ (eq:FermiDirac)
 

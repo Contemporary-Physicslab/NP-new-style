@@ -115,7 +115,7 @@ Welke invloed heeft een toename in $d$ op $m$ en $\theta$, en welke invloed heef
 ```
 
 
-### Interferentie in ``een punt ver weg'': Meerdere bronnen.
+### Interferentie in "een punt ver weg": Meerdere bronnen.
 In {numref}`Figuur {number} <fig:2gaatjes>` is de afstand tussen een bron en het scherm van de orde van de afstand tussen twee bronnen. Het gaat om afstanden van de orde 10 $\mu$m. In de praktijk kijken we niet op zo'n kleine afstand naar het licht. De afstanden waar wij mee werken liggen in het gebied 10 - 100 cm. We zijn dus geïnteresseerd in wat er gebeurt in punten die ver weg liggen van de bronnen. Voor die punten verandert {numref}`Figuur {number} <fig:2gaatjes>` in het bovenste deel van {numref}`Figuur {number} <fig:3gaatjes>`.  
 
 
@@ -288,8 +288,7 @@ waarin $m$ de orde van de spectraallijnen is. $N_{tot}$ is het totaal aantal tra
 
 ## Opdrachten
 
-**Allereerst**
-
+```{warning}
 * **HOUD DE TRALIES ALLEEN VAST AAN DE RECHTHOEKIGE TRALIEBEHUIZING OF AAN DE STEEL VAN DE BEHUIZING. Een vingerafdruk of een kras kan niet worden gereinigd of gerepareerd. Tralies zijn erg duur.**
 * De spectrale lampen worden heet wanneer ze worden ingeschakeld. **Houd alleen de steel van de lamp vast. Je kunt je anders lelijk branden.**
 * Houd de lenzen en alle andere optische componenten vast aan de steel van de behuizing. 
@@ -299,12 +298,17 @@ waarin $m$ de orde van de spectraallijnen is. $N_{tot}$ is het totaal aantal tra
 * **Laat geen componenten op de tafel liggen. Daarmee voorkom je beschadiging.**
 * Kijk niet direct in de lamp. Het kan je ogen beschadigen. 
 * Zet de lamp, camera en computer uit wanneer je ze niet gebruikt. 
+```
 
-**Een tip:
- Bij het opzetten van de experimenten moet je ervoor zorgen dat het gehele optische systeem op één lijn ligt. Zorg ervoor dat elementen die op een rechte lijn moeten liggen ook echt op een rechte lijn liggen. Kijk van boven en maak gebruik van de lijnen op het breadboard. Zorg er ook voor dat alle elementen op de goede hoogte staan. Kijk van opzij en gebruik de hoogte indicator. 
+```{tip}
+Bij het opzetten van de experimenten moet je ervoor zorgen dat het gehele optische systeem op één lijn ligt. Zorg ervoor dat elementen die op een rechte lijn moeten liggen ook echt op een rechte lijn liggen. Kijk van boven en maak gebruik van de lijnen op het breadboard. Zorg er ook voor dat alle elementen op de goede hoogte staan. Kijk van opzij en gebruik de hoogte indicator. 
+```
+
+### Uitlijnen en bepaling tralieconstante
+BLABLA TEKST
 
 
- **Hg-lamp. Aan het werk:**
+### Hg-lamp 
  
 * Bouw de monochromatoropstelling. Gebruik de Hg lamp en het 600 lijnen per mm tralie. Start met het scherm. Houd voldoende ruimte om het scherm door de camera te kunnen vervangen. Controleer de collimatie en verzeker jezelf er van dat het scherm in het brandpunt van $f_{2}$ staat.
 * Draai het tralie zo dat $i(=\alpha + \phi) = 0$. (Gebruik autocollimatie, vraag de assistent). Lees de gradenschaal af. Dit is het nulpunt voor de hoekmeting. Wijs een vast punt op het scherm aan en draai het tralie nu zo dat de 0-de orde precies op dat punt valt. Hoe herken je hier de 0-de orde? Lees de gradenschaal af en bepaal $\alpha$. Vergeet niet een schatting van de fout in de hoeken te maken. Speel met de breedte van de spleet. 
@@ -313,7 +317,7 @@ waarin $m$ de orde van de spectraallijnen is. $N_{tot}$ is het totaal aantal tra
 * Bereken het gewogen gemiddelde van de golflengte van iedere gemeten spectraallijn en bereken de fout in deze gemiddelde waarde. Neem als gewicht $w = 1/u(\lambda)^2$. Gebruik hiervoor de formules die in de Appendix zijn gegeven. Is het resultaat strijdig met de literatuurwaarden?
 * We onderzoeken nu de splitsing van de gele Hg-lijnen. Vervang het scherm door de camera. Beeld een orde van de gele lijnen af op de camera (Opm. : de kleur op het scherm kan anders zijn. Let goed op.). (Denk aan de breedte van de spleet en het gebruik van het filter). Save het resultaat voor het verslag. (Gebruik de save icon midden boven.) Bepaal op het computerscherm de afstand tussen de lijnen uitgedrukt in pixels (knopje meetlat links in het scherm). Bereken hieruit het verschil in de hoek van uitval $\Delta u$. Check of je waarde voor $u$ nog actueel is. Bereken met vgl. {eq}`eq:delta_lambda` het verschil in golflengte $\Delta \lambda$. Wat is de fout $u(\Delta\lambda)$ ? 
  
- **Na-lamp. Aan het werk:**
+### Na-lamp
  
 * Bouw de monochromatoropstelling. Gebruik de Na lamp en het 600 lijnen per mm tralie. Start met het scherm. Houd voldoende ruimte om het scherm door de camera te kunnen vervangen. Controleer de collimatie en verzeker jezelf er van dat het scherm in het brandpunt van $f_{2}$ staat. 
 * Draai het tralie zo dat $i(=\alpha + \phi) = 0$. (Gebruik autocollimatie, vraag de assistent). Lees de gradenschaal af. Dit is het nulpunt voor de hoekmeting. Wijs een vast punt op het scherm aan en draai het tralie nu zo dat de 0-de orde precies op dat punt valt. Hoe herken je hier de 0-de orde? Lees de gradenschaal af en bepaal $\alpha$. Vergeet niet een schatting van de fout in de hoeken te maken. Speel met de breedte van de spleet.
