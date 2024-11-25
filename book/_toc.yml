@@ -74,6 +74,7 @@ parts:
     - file: Deel5/K40
     - file: Deel5/Slingers
     - file: Deel5/Millikan
+    - file: Deel5/BoltzmannT
     
   #   - file: Deel5/TEverslag
 
@@ -90,4 +91,6 @@ parts:
       title: Voorbeeldverslag 2
     - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/Unspokenrules.pdf"
       title: Unspoken rules in writing a scientific report
+    - url: "https://www.sciencedirect.com/science/article/pii/S1878764915001606"
+      title: 'Writing a scientific article: A step-by-step guide for beginners'
 

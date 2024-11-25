@@ -33,18 +33,18 @@ Het onderstaande rooster geeft een beeld van wat wanneer gedaan kan (of moet wor
 In je team bedenk je wat je precies wilt onderzoeken, hoe je dat grofweg gaat doen. Uiteraard ga je alvast op zoek naar voorbeelden van soortgelijke onderzoek.
 
 **2 Proefmetingen:** 
-Je begint met enkele proefmetingen. Op basis van die proefmetingen kun je verder specificeren wat je precies wilt onderzoeken en hoe. Input vanuit de literatuur kan hierbij verder helpen. Dit kan ook zijn dat je je MGO boek nog eens open doet of dat je een TA of de docent vraagt naar leerboeken. The Physics Teacher en Physics Education zijn bronnen die zeker de moeite waard zijn om te raadplegen. Ook start je op deze dag met het schrijven van je onderzoeksvoortsel.
+Je begint met enkele proefmetingen. Op basis van die proefmetingen kun je verder specificeren wat je precies wilt onderzoeken en hoe. Input vanuit de literatuur kan hierbij verder helpen. Dit kan ook zijn dat je je MGO boek nog eens open doet of dat je een TA of de docent vraagt naar leerboeken. [The Physics Teacher](https://pubs.aip.org/aapt/pte) en [Physics Education](https://iopscience.iop.org/journal/0031-9120) zijn bronnen die zeker de moeite waard zijn om te raadplegen. Ook start je op deze dag met het schrijven van je onderzoeksvoorstel.
 
 **3 Schrijven onderzoeksvoorstel:** 
-Zoals in een wetenschaplijk onderzoek moet je vooronderzoek leiden tot een goed onderzoeksvoorstel (anders krijg je geen geld en geen tijd). Dat onderzoeksvoorstel is de basis voor het verdere onderzoek. Het bevat de achtergrond van het onderwerp, je onderzoeksvraag, de methode, de verwachtte opbrengst. Het format dat we hier gebruiken is vrijwel gelijk aan het format dat wetenschappers gebruiken om de VICI beurs bij NWO aan te vragen.
+Zoals in een wetenschappelijk onderzoek moet je vooronderzoek leiden tot een goed onderzoeksvoorstel (anders krijg je geen geld en geen tijd). Dat onderzoeksvoorstel is de basis voor het verdere onderzoek. Het bevat de achtergrond van het onderwerp, je onderzoeksvraag, de methode, de verwachtte opbrengst. Het [format](onderzoeksvoorstel.docx) dat we hier gebruiken is vrijwel gelijk aan het format dat wetenschappers gebruiken om de VICI beurs bij NWO aan te vragen.
 
 In het voorstel leg je duidelijk uit wat je gaat onderzoeken en hoe je dat aanpakt (meetmethoden/instrumenten/analyse). Een belangrijk onderdeel van het voorstel is het tijdspad: Kom met een reëel, goed afgebakende planning. Denk van te voren goed na over verschillende relevante dingen bijv. hoeveel metingen voldoende moeten zijn om betrouwbare data te krijgen en een correcte interpretatie te maken, hoeveel parameters kun je variëren om een overzicht te vormen, welke mogelijke knelpunten kunnen er ontstaan en hoeveel extra tijd zou je dan nodig kunnen hebben om alle experimenten af te ronden et cetera. Een voorbeeld van een analyse voor de tijdsduur voor je onderzoek:
 * Elke meting duurt 1 min, er zijn 10 metingen per set; dus 10 min per set.
 * Om een Poisson verdeling te krijgen heb je minstens 25 sets metingen nodig.
 * Er zijn twee parameters (windsnelheid en diameter bal) die je wil graag variëren; dus totaal 50 sets metingen, ergo: 500 min (9h).
-* Creërt een windsnelheidveld door gebruik te maken van een ventilator. De ventilator is echter ook gebruikt door een andere groep en dus je hebt beperkte toegang tot deze. Dat kan mogelijk een klein beetje vertraging veroorzaken voor de helft (25 sets) van je metingen.
+* Creëert een windsnelheidveld door gebruik te maken van een ventilator. De ventilator is echter ook gebruikt door een andere groep en dus je hebt beperkte toegang tot deze. Dat kan mogelijk een klein beetje vertraging veroorzaken voor de helft (25 sets) van je metingen.
 
-Het onderzoeksvoorstel is een GO / NO GO moment, als het onderzoek niet te realiseren is, moet je terug naar de tekentafel (uiteraard gaan we er vanuit dat het goed gaat). Het volledige onderzoeksplan is onderdeel van de beoordeling.
+Het onderzoeksvoorstel is een **GO / NO GO moment**, als het onderzoek niet te realiseren is, moet je terug naar de tekentafel (uiteraard gaan we er vanuit dat het goed gaat). Het volledige onderzoeksplan is onderdeel van de beoordeling.
 
 **4 Bespreken onderzoeksvoorstel en starten verslag schrijven:** We bespreken het onderzoeksvoorstel. Dit hoeft maar kort te duren. Je kunt dus tijdens deze geroosterde uren ook bezig met het schrijven van het artikel. De introductie, theorie en methode kunnen alvast opgezet en geschreven worden. De structuur van de rest van je paper kun je ook opzetten. Maak gebruik van het RevTex template.
 
@@ -56,7 +56,7 @@ Je maakt per groepje één artikel. Voor het artikel maak je gebruik van de RevT
 
 ## Onderzoeksvoorstel
 Note: Dit template van het onderzoeksvoorstel is een aangepaste versie van het VICI template, NWO. Een
-word versie is te downloaden op Brightspace.
+word versie is [hier](onderzoeksvoorstel.docx) te downloaden, alsook op Brightspace.
 
 **Titel van het onderzoeksvoorstel:**
 
@@ -74,8 +74,12 @@ word versie is te downloaden op Brightspace.
 
 *Presenteer hier het voorgestelde tijdspad: welke activiteiten wil je wanneer hebben uitgevoerd. Wat zijn de ‘zachte’ deadlines en wat zijn de harde deadlines.*
 
+**Veiligheidsaspecten:**
+
+*Voorafgaand aan het experiment moet er een veiligheidsanalyse uitgevoerd worden: Wat zijn risico’s die naar voren komen? Hoe kunnen die risico’s verkleind worden?*
+
 ## Deadlines
-Om het proces te monitoren en te sturen zijn er een aantal deadlines opgenomen. De eerste deadline is het inleveren van het onderzoeksvoorstel. TAs en docenten hebben tijd nodig om het werk te bekijken en een oordeel te geven. Om daar voldoende ruimte voor in te richten is er de deadline gesteld op 22 december.
+Om het proces te monitoren en te sturen zijn er een aantal deadlines opgenomen. De eerste deadline is het inleveren van het onderzoeksvoorstel. TAs en docenten hebben tijd nodig om het werk te bekijken en een oordeel te geven. Om daar voldoende ruimte voor in te richten is er de deadline gesteld op **20 december**.
 
 Bij het beoordelen van het onderzoeksvoorstel kijken we naar de volgende punten:
 1. Volledigheid
@@ -84,7 +88,7 @@ Bij het beoordelen van het onderzoeksvoorstel kijken we naar de volgende punten:
 4. Beschrijving en onderbouwing methode
 5. ...
 
-Je levert het onderzoeksvoorstel in uiterlijk op 20 december (hoe eerder hoe beter, want dan krijg je het sneller terug). Maak van je voorstel geen boekwerk. Wel moeten alle onderdelen van het template ingevuld zijn. Belangrijk is dat het voorstel niet alleen voor 15% mee telt maar ook een GO / NO GO moment is. Als je een GO hebt kun je je experiment uitvoeren. De deadline voor het eindverslag is de vrijdag na de 5e week.
+Je levert het onderzoeksvoorstel in uiterlijk op **20 december** (hoe eerder hoe beter, want dan krijg je het sneller terug). Maak van je voorstel geen boekwerk. Wel moeten alle onderdelen van het template ingevuld zijn. Belangrijk is dat het voorstel niet alleen voor 15% mee telt maar ook een GO / NO GO moment is. Als je een GO hebt kun je je experiment uitvoeren. De deadline voor het eindverslag is de vrijdag voor de 5$^e$ week.
 
 Bij een NO GO heb je een gesprek met een van de twee docenten. We gaan er dan gezamenlijk inventariseren wat er gedaan kan / moet worden om een succesvol onderzoek neer te zetten. Je hoeft niet het hele proces opnieuw in, maar we zoeken naar een oplossing die ervoor zorgt dat je verder kunt.
 
