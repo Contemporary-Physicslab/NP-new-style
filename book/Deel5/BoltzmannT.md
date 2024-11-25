@@ -13,7 +13,7 @@ In een metaal zal de elektronendichtheid niet sterk van de temperatuur T afhange
 
 De klassieke geleidingstheorie voorspelt een temperatuurafhankelijkheid die evenredig is met de wortel uit de temperatuur ($\rho ~ \sqrt{T}$).
 
-De kinetische energie $E_{kin}$ van het elektron wordt gegeven door drie vrijheidsgraden (nml. bewegingen in de x, y en z richtingen) die ieder $1/2k_BT$ bijdragen aan de totale energie (equipartitie theorie, p 544 {cite:p}`Tippler`):
+De kinetische energie $E_{kin}$ van het elektron wordt gegeven door drie vrijheidsgraden (nml. bewegingen in de x, y en z richtingen) die ieder $\frac{1}{2}k_BT$ bijdragen aan de totale energie (equipartitie theorie, p 544 {cite:p}`Tippler`):
 
 $$E_{kin}=\frac{1}{2}mv^2=\frac{3}{2}k_BT$$ (eq:Evrijheidsgraden)
 
@@ -32,6 +32,14 @@ waarin $E$ de energie van het elektron, $E_g$ de bandgap energie voorstelt.
 ## Apparatuur
 ### Cryostaat
 Temperatuurafhankelijke metingen worden meestal in een cryostaat uitgevoerd. Dit is een apparaat dat is opgebouwd uit een aantal compartimenten. Het binnenste compartiment is de sampleruimte waarin zich het te meten sample bevindt en desgewenst een oventje orn te kunnen verwarmen. Om de sampleruimte heen is een compartiment voor de koelvloeistof (vloeibaar stikstof of helium). In dit experiment wordt stikstof als koeling gebruikt. Stikstof heeft een kookpunt van 77 K bij een atmosferische druk van 1010 hPa.
+
+```{figure} Figures/BoltzmannT/Cryo_1.jpg
+---
+width: 50%
+name: fig_cryo
+---
+De cryostaat met de elektronica.
+```
 
 Tussen de ruimte voor de vloeibare stikstof en de buitenwand is er een isolatiecompartiment dat onder vacuum staat, zodat er geen warmte via convectie wordt overgedragen aan de vloeibare stikstof. Bovendien bevindt zich in deze ruimte een absorptiepomp die begint te pompen zodra het compartiment voor de koelvloeistof gevuld wordt. De oppervakken in deze isolatieruimte die naar buiten zijn gericht, zijn ook nog voorzien van een laag superisolatie dat cen hoog reflecterend vermogen heeft voor warmtestraling.
 
@@ -53,7 +61,7 @@ Hoe komt in dit model de temperatuurafhankelijkheid tot uitdrukking? Schets het 
 ```
 
 ```{exercise} Fermi-Dirac verdeling in halfgeleiders
-Laat met behuip van {eq}`eq:elek_gel` en {eq}`eq:FermiDirac` zien dat het aantal ladingsdragers toeneemt bij toenemende temperatuur en dat hierdoor de weerstand in een halfgeleider afneemt.
+Laat met behulp van {eq}`eq:elek_gel` en {eq}`eq:FermiDirac` zien dat het aantal ladingsdragers toeneemt bij toenemende temperatuur en dat hierdoor de weerstand in een halfgeleider afneemt.
 ```
 
 Dc stroom in een diode wordt bepaald door de kans dat de elektronen de potentiaal stap kunnen maken van n → p. De stroom $I$ in een diode wordt daarom gegeven als:
@@ -66,10 +74,9 @@ $$Ae^{-\frac{E_g}{k_BT}}$$ (eq:I0)
 
 Uit {eq}`eq:lekstroom` en {eq}`eq:I0` volgt vervolgens dat:
 
-$$qU=E_g-k_BTln(\frac{A}{I}$$ (eq:iconst)
+$$qU=E_g-k_BTln(\frac{A}{I})$$ (eq:iconst)
 
-Bij een constant gehouden stroom i, is de spanning over een diode in de doorlaatrichting
-lineair met de temperatuur.
+Bij een constant gehouden stroom $I$, is de spanning over een diode in de doorlaatrichting lineair met de temperatuur.
 
 ```{exercise}
 Schets het spanningsverloop als functie van temperatuur en geef aan hoe hieruit de bandgap kan worden bepaald.
