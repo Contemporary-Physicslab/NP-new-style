@@ -31,8 +31,7 @@ parts:
     - file: Deel2/Python/Python intro #git submodule update --remote
       sections:
       - file: Deel2/Python/Python summary
-      #- file: Deel2/Python/Software
-      - file: External/FYPLC/Course files/Software
+      - file: External/FYPLC/Software
       - file: External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics
       - file: External/FYPLC/book/Course files/Notebook 2/Notebook 2 Functions
       - file: External/FYPLC/book/Course files/Notebook 3/Notebook 3 Program Flow Control
