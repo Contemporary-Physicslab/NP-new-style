@@ -78,6 +78,7 @@ parts:
     - file: Deel5/Millikan
     - file: Deel5/BoltzmannT
     - file: Deel5/Stromingsleer
+    - file: Deel5/Warmtetransport
     
   #   - file: Deel5/TEverslag
 
