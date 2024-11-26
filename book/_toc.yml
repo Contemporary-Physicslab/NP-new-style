@@ -40,7 +40,7 @@ parts:
       - file: External/FYPLC/book/Course files/Notebook 6/Notebook 6 Measurement uncertainty
       - file: External/FYPLC/book/Course files/Notebook 7/Notebook 7 Additional materials
       - file: External/FYPLC/book/Course files/Notebook 8/Notebook 8 Practice
-      - file: External/FYPLC/book/Course files/Example exam/Example exam
+      - file: External/FYPLC/book/Course files/Example exam/Example Exam
 
     - file: Deel2/LaTeX
     - file: Deel2/Schrijven
