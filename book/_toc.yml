@@ -30,6 +30,7 @@ parts:
 
     - file: Deel2/Python/Python intro #git submodule update --remote
       sections:
+      - file: External/FYPLC/book/README.md
       - file: Deel2/Python/Python summary
       - file: External/FYPLC/book/Software
       - file: External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics
