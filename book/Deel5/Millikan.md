@@ -67,30 +67,30 @@ b. Een regelbare gelijkspanningsbron.
 
 c. Een voltmeter.
 
-d. Een microscoop met een oculairglaasje met merkstrepen.
+d. Een microscoop met een oculairglaasje met ijkschaaltje.
 
 e. Een ijkschaaltje.
 
 f. Een olieverstuiver.
 
-g. Een stophorloge.
-
-h. Een telefoon houder of webcam
+g. Een telefoon houder of webcam
 
 ## Uitvoering
-Bij deze proef meet men de looptijden die een geladen olie-druppeltje nodig heeft om een bepaalde afstand in lucht af te leggen zowel met als zonder elektrisch veld. Voor deze afstand neemt men de afstand tussen de twee streepjes op het ijkschaaltje. Deze afstand kan men laten corresponderen met de afstand tussen de kruisdraden van de microscoop, die men gebruikt om de deeltjes te volgen, door de vergroting van de microscoop te regelen. Raadpleeg verder de bij het Millikan-apparaat horende gebruiksaanwijzing. Voor het doen van een nauwkeurige proef is het noodzakelijk druppeltjes te nemen van uiteenlopende grootte en met ladingen ($q$) kleiner dan ongeveer 10 elektronladingen. Dit betekent dat men moet meten aan druppeltjes waarvan de looptijden in bepaalde intervallen liggen. Omdat in principe de elektronlading ($e$) nog niet bekend is, kan men deze intervallen niet berekenen. Men zou daarom eerst een ruwe experimentele bepaling van $e$ moeten doen om bovengenoemde intervallen te kunnen schatten. Hiervoor ontbreekt de tijd en daarom mag men bij de voorbereiding van de proef de intervallen berekenen met $e = 2 * 10^{-19}$C.
+In deze proef worden de tijden gemeten die een geladen oliedruppeltje nodig heeft om een bepaalde afstand in lucht af te leggen, zowel met als zonder elektrisch veld. De olie wordt verneveld in de condensator door in de olieverstuiver te knijpen. Deze druppels kunnen dan gevolgd worden met het oculair. De te bepalen afstand komt overeen met de afstand tussen twee vooraf gekozen streepjes op het ijkschaaltje in het oculair. 
 
-Verder heeft men daarbij nodig de hieronder vermelde gegevens die bij het Millikan-apparaat horen:
+Om de proef nauwkeurig uit te voeren, is het belangrijk om druppeltjes te selecteren met verschillende groottes en met ladingen ($q$) kleiner dan ongeveer 10 keer de elementaire lading. Dit houdt in dat je de metingen moet richten op druppeltjes waarvan de looptijden binnen specifieke intervallen vallen. Aangezien de exacte waarde van de elementaire lading ($e$) nog niet bekend is, kunnen deze intervallen niet direct worden berekend. In theorie zou eerst een ruwe experimentele schatting van $e$ nodig zijn om deze intervallen te bepalen. Omdat hiervoor niet genoeg tijd is, wordt bij de voorbereiding van de proef aangenomen dat $e = 2 \cdot 10^{-19}\mathrm{~C}$.
 
-Afstand tussen de platen van de Millikan-cel: $(6.36 ± 0.02)\cdot10^{-3}$m.
+Daarnaast zijn de volgende gegevens van het Millikan-apparaat nodig:
 
-Afstand tussen de streepjes op het ijkschaaltje: $(2.90±0.01)\cdot10^{-3}$m.
+- **Afstand tussen de platen van de Millikan-cel:** $(6,36 \pm 0,02) \cdot 10^{-3}$ m.  
+- **Afstand tussen de streepjes op het ijkschaaltje:** $(\approx 1/20) \cdot 10^{-3}$ m.  
+- **Dichtheid van de olie (silicone):** $865 \pm 5$ kg/m³.  
+- **Viscositeit van lucht bij kamertemperatuur:** $1,8 \cdot 10^{-5}$ kg/m·s.  
+- **Spanningsverschil tussen de platen:** instelbaar van 0 tot 600 V.
 
-Dichtheid van de olie: $865 ± 5$ kg m$^3$.
-
-De viscositeit van lucht bij kamertemperatuur is ongeveer $1.8\cdot10^{-5}$ kgm$^{-1}$s$^{-1}$
-
-Het spanningsverschil tussen de platen is instelbaar tussen 500 en 1500 V.
+```{exercise}
+Kloppen al deze waardes? ga dit na.
+```
 
 ## Voorbereiding
 Bereken als onderdeel van de voorbereiding in welke intervallen de looptijden ongeveer moeten liggen opdat de lading van het druppeltje kleiner is dan ongeveer 10 elektronladingen.
