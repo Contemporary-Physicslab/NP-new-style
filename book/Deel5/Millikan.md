@@ -83,10 +83,14 @@ Om de proef nauwkeurig uit te voeren, is het belangrijk om druppeltjes te select
 Daarnaast zijn de volgende gegevens van het Millikan-apparaat nodig:
 
 - **Afstand tussen de platen van de Millikan-cel:** $(6,36 \pm 0,02) \cdot 10^{-3}$ m.  
-- **Afstand tussen de streepjes op het ijkschaaltje:** $(2,90 \pm 0,01) \cdot 10^{-3}$ m.  
-- **Dichtheid van de olie:** $865 \pm 5$ kg/m³.  
+- **Afstand tussen de streepjes op het ijkschaaltje:** $(\approx 1/20) \cdot 10^{-3}$ m.  
+- **Dichtheid van de olie (silicone):** $865 \pm 5$ kg/m³.  
 - **Viscositeit van lucht bij kamertemperatuur:** $1,8 \cdot 10^{-5}$ kg/m·s.  
 - **Spanningsverschil tussen de platen:** instelbaar van 0 tot 600 V.
+
+```{exercise}
+Kloppen al deze waardes? ga dit na.
+```
 
 ## Voorbereiding
 Bereken als onderdeel van de voorbereiding in welke intervallen de looptijden ongeveer moeten liggen opdat de lading van het druppeltje kleiner is dan ongeveer 10 elektronladingen.
