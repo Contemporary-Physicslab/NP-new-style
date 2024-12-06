@@ -14,11 +14,7 @@ Na het uitvoeren van dit practicum:
 De zwaartekracht zorgt er voor dat je terug naar de grond versnelt wanneer je omhoog springt. De grootte van de zwaartekrachtsversnelling $g$ is wel bekend en in Delft 9.812... m/s$^2$. Maar hoe goed kunnen we die waarde bepalen met eenvoudige middelen?
 
 ## Voorbereiding
-<<<<<<< HEAD
 1. Installeer de gratis <a href="www.arduino.cc" target="_blank">Arduino</a> software op je laptop, kies of [vrije val](./freefall/freefall.ino) of de [slinger](./pendulum/pendulum.ino) en download de bijbehorende code (zie link).
-=======
-1. Installeer de gratis [Arduino](https://arduino.cc) software op je laptop, kies of [vrije val](./freefall/freefall.ino) of de [slinger](./pendulum/pendulum.ino) en download de bijbehorende code (zie link).
->>>>>>> bfd55d04042757f1495e2d29768eb8c14dbf9ad0
 2. Download het bijbehorende labjournaal. Doe voor je gekozen experimenten een testrun waarbij je gebruikt maakt van de stopwatch op je telefoon.
 3. Voer de slingerproef uit met een slingerlengte van 1,0 m, of de valproef met een valhoogte van 1,0m. Meet vijfmaal.
 4. Bepaal de gemiddelde periode/valtijd, de standaarddeviatie en de meetonzekerheid voor de periode/valtijd die volgt uit dit experiment.
@@ -50,10 +46,10 @@ name: fig_COM
 De stappen om de juiste COM-poort te kiezen.
 ```
 
-Klik vervolgens {fa}`long-right` om de code naar de Arduino te sturen. Via de seriële monitor ![Figures/G/serial.PNG] kun je de gemeten tijden verkrijgen. 
+Klik vervolgens {fa}`arrow-right` om de code naar de Arduino te sturen. Via de seriële monitor ![Figures/G/serial.PNG] kun je de gemeten tijden verkrijgen. 
 
 ```{warning}
-Let op! De BAUD rate staat op 9600, die moet ook op 9600 staan in de seriele monitor.
+Let op! De BAUD rate staat op 9600, die moet ook op 9600 staan in de seriële monitor.
 ```
 
 We breken hieronder de code op in delen om duidelijk te maken hoe deze werkt.
