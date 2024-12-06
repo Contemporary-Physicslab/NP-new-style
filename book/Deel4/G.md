@@ -36,7 +36,7 @@ De zwaartekracht zorgt er voor dat je terug naar de grond versnelt wanneer je om
 
 (sec:Arduino)=
 ## Iets over Arduino
-De Arduino wordt gebruikt om de sensoren uit te lezen, en de tijd tussen twee metingen te sturen naar de computer. Om contact te maken met de Arduino moet je het bestand uploaden naar de Arduino, kiest eerst via het menu tools / port de USB-poort waar de Arduino zit, zie {numref}`Figuur {number} <fig_COM>`.
+De Arduino wordt gebruikt om de sensoren uit te lezen, en de tijd tussen twee metingen te sturen naar de computer. Om contact te maken met de Arduino moet je het bestand uploaden naar de Arduino, kiest eerst via het menu **tools / port** de USB-poort waar de Arduino zit, zie {numref}`Figuur {number} <fig_COM>`.
 
 ```{figure} Figures/G/COM.gif
 ---
@@ -54,7 +54,7 @@ Let op! De BAUD rate staat op 9600, die moet ook op 9600 staan in de seriële mo
 
 We breken hieronder de code op in delen om duidelijk te maken hoe deze werkt.
 
-In de programmeertaal C++ moet je aangeven van welk type je variabelen zijn. We maken dan voor het eigenlijke programma de variabelen aan. In de `setup()` geven we aan welk van die variabelen pinnen zijn op de Arduino. Met `Serial.begin` geven we aan dat we met de Arduino willen "praten".
+In de programmeertaal C$^{++}$ moet je aangeven van welk type je variabelen zijn. We maken dan voor het eigenlijke programma de variabelen aan. In de `setup()` geven we aan welk van die variabelen pinnen zijn op de Arduino. Met `Serial.begin` geven we aan dat we met de Arduino willen "praten".
 
 ```{code} C
 int value = 0;
