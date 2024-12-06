@@ -46,7 +46,7 @@ name: fig_COM
 De stappen om de juiste COM-poort te kiezen.
 ```
 
-Klik vervolgens {fa}`arrow-right` om de code naar de Arduino te sturen. Via de seriële monitor ![Figures/G/serial.PNG] kun je de gemeten tijden verkrijgen. 
+Klik vervolgens {fa}`arrow-right` om de code naar de Arduino te sturen. Via de seriële monitor ![serial](Figures/G/serial.PNG) kun je de gemeten tijden verkrijgen. 
 
 ```{warning}
 Let op! De BAUD rate staat op 9600, die moet ook op 9600 staan in de seriële monitor.
