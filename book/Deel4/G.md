@@ -14,7 +14,7 @@ Na het uitvoeren van dit practicum:
 De zwaartekracht zorgt er voor dat je terug naar de grond versnelt wanneer je omhoog springt. De grootte van de zwaartekrachtsversnelling $g$ is wel bekend en in Delft 9.812... m/s$^2$. Maar hoe goed kunnen we die waarde bepalen met eenvoudige middelen?
 
 ## Voorbereiding
-1. Installeer de gratis [Arduino](www.arduino.cc) software op je laptop, kies of [vrije val](./freefall/freefall.ino) of de [slinger](./pendulum/pendulum.ino) en download de bijbehorende code (zie link).
+1. Installeer de gratis [Arduino](https://arduino.cc) software op je laptop, kies of [vrije val](./freefall/freefall.ino) of de [slinger](./pendulum/pendulum.ino) en download de bijbehorende code (zie link).
 2. Download het bijbehorende labjournaal. Doe voor je gekozen experimenten een testrun waarbij je gebruikt maakt van de stopwatch op je telefoon.
 3. Voer de slingerproef uit met een slingerlengte van 1,0 m, of de valproef met een valhoogte van 1,0m. Meet vijfmaal.
 4. Bepaal de gemiddelde periode/valtijd, de standaarddeviatie en de meetonzekerheid voor de periode/valtijd die volgt uit dit experiment.
