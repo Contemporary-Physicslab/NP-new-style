@@ -14,7 +14,7 @@ Na het uitvoeren van dit practicum:
 De zwaartekracht zorgt er voor dat je terug naar de grond versnelt wanneer je omhoog springt. De grootte van de zwaartekrachtsversnelling $g$ is wel bekend en in Delft 9.812... m/s$^2$. Maar hoe goed kunnen we die waarde bepalen met eenvoudige middelen?
 
 ## Voorbereiding
-1. Installeer de gratis <a href="www.arduino.cc" target="_blank">Arduino</a> software op je laptop, kies of [vrije val](./freefall/freefall.ino) of de [slinger](./pendulum/pendulum.ino) en download de bijbehorende code (zie link).
+1. Installeer de gratis <a href="https://www.arduino.cc/" target="_blank">Arduino</a> software op je laptop, kies of [vrije val](./freefall/freefall.ino) of de [slinger](./pendulum/pendulum.ino) en download de bijbehorende code (zie link).
 2. Download het bijbehorende labjournaal. Doe voor je gekozen experimenten een testrun waarbij je gebruikt maakt van de stopwatch op je telefoon.
 3. Voer de slingerproef uit met een slingerlengte van 1,0 m, of de valproef met een valhoogte van 1,0m. Meet vijfmaal.
 4. Bepaal de gemiddelde periode/valtijd, de standaarddeviatie en de meetonzekerheid voor de periode/valtijd die volgt uit dit experiment.
@@ -35,7 +35,7 @@ De zwaartekracht zorgt er voor dat je terug naar de grond versnelt wanneer je om
 15. Verwerk je gegevens volgens het vooropgezette plan. Voer een strijdigheidsanalyse uit.
 
 (sec:Arduino)=
-### Iets over Arduino
+## Iets over Arduino
 De Arduino wordt gebruikt om de sensoren uit te lezen, en de tijd tussen twee metingen te sturen naar de computer. Om contact te maken met de Arduino moet je het bestand uploaden naar de Arduino, kiest eerst via het menu tools / port de USB-poort waar de Arduino zit, zie {numref}`Figuur {number} <fig_COM>`.
 
 ```{figure} Figures/G/COM.gif
