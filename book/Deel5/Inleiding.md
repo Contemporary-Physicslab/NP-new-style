@@ -88,7 +88,7 @@ Bij het beoordelen van het onderzoeksvoorstel kijken we naar de volgende punten:
 4. Beschrijving en onderbouwing methode
 5. ...
 
-Je levert het onderzoeksvoorstel in uiterlijk op **20 december** (hoe eerder hoe beter, want dan krijg je het sneller terug). Maak van je voorstel geen boekwerk. Wel moeten alle onderdelen van het template ingevuld zijn. Belangrijk is dat het voorstel niet alleen voor 15% mee telt maar ook een GO / NO GO moment is. Als je een GO hebt kun je je experiment uitvoeren. De deadline voor het eindverslag is de vrijdag voor de 5$^e$ week.
+Je levert het onderzoeksvoorstel in uiterlijk op **20 december** (hoe eerder hoe beter, want dan krijg je het sneller terug). Maak van je voorstel geen boekwerk. Wel moeten alle onderdelen van het template ingevuld zijn. Belangrijk is dat het voorstel niet alleen voor 20% mee telt maar ook een GO / NO GO moment is. Als je een GO hebt kun je je experiment uitvoeren. De deadline voor het eindverslag is de vrijdag voor de 5$^e$ week.
 
 Bij een NO GO heb je een gesprek met een van de twee docenten. We gaan er dan gezamenlijk inventariseren wat er gedaan kan / moet worden om een succesvol onderzoek neer te zetten. Je hoeft niet het hele proces opnieuw in, maar we zoeken naar een oplossing die ervoor zorgt dat je verder kunt.
 
