@@ -84,7 +84,7 @@ Daarnaast zijn de volgende gegevens van het Millikan-apparaat nodig:
 
 - **Afstand tussen de platen van de Millikan-cel:** $(6,36 \pm 0,02) \cdot 10^{-3}$ m.  
 - **Afstand tussen de streepjes op het ijkschaaltje:** $(\approx 1/20) \cdot 10^{-3}$ m.  
-- **Dichtheid van de olie (silicone):** $865 \pm 5$ kg/m³.  
+- **Dichtheid van de olie:** zie metingen
 - **Viscositeit van lucht bij kamertemperatuur:** $1,8 \cdot 10^{-5}$ kg/m·s.  
 - **Spanningsverschil tussen de platen:** instelbaar van 0 tot 600 V.
 
@@ -106,7 +106,7 @@ Is dit altijd juist? Leg uit.
 
 ## Metingen aan dichtheid
 
-```{code-cell} Python
+```{code} Python
 ### Siliconenolie
 
 V_so = np.array([0, 1.9, 1.7, 1.55, 1.40, 1.10, 1.0, .75, .55, .4, .25]) #mL
