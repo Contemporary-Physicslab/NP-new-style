@@ -13,7 +13,7 @@ parts:
       - file: Deel1/Wieiswie
       - file: Deel1/Regels
       - file: Deel1/Rooster
-      - file: Deel1/FAQ     
+    - file: Deel1/FAQ     
     #- file: Deel1/Licenses
     
   - caption: Essentiele basiskennis

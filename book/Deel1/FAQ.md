@@ -1,7 +1,7 @@
 # Frequent asked questions
 
 
-```{note}  Ik weet niet wat ik moet doen?
+```{admonition}  Ik weet niet wat ik moet doen?
 :class: dropdown
 
 Als je echt helemaal de weg kwijt bent raadpleeg dan de volgende bronnen
@@ -15,24 +15,30 @@ studiewijzer en het dictaat of het antwoord er niet gewoon staat.
 vraag dan een TA in het werkcollege.
 ```
 
-```{note}  Is het vak verplicht?
+```{admonition}  Is het vak verplicht?
 :class: dropdown
 
 Ja. Voor de bachelor af te ronden moet je dit vak met een voldoende afronden.
 ```
 
-```{note}  Wat moet ik doen als ik ziek ben?
+```{admonition} Is er verplichte aanwezigheid?
+:class: dropdown
+
+De practica zijn verplicht, net als de korte instructies bij Python omdat daar de belangrijkste informatie van het vak naar voren komt.
+```
+
+```{admonition}  Wat moet ik doen als ik ziek ben?
 :class: dropdown
 
 Indien het absoluut onmogelijk is persoonlijk te komen (zoals in het geval
 van ziekte), dan moet je die verhindering v´o´or 08.30 uur doorgeven als je proef
 op die dag ‘s morgens is ingeroosterd. Is de proef ‘s middags ingeroosterd,
-dan meld je je v´o´or 13.00 uur telefonisch (015-2785886 of 015-2786552) of per
-e-mail (adminnp-tnw@tudelft.nl) af. Lees verder op: https://contemporaryphysicslab.
-github.io/NP-new-style/main/Deel1/Regels.html
+dan meld je je voor 13.00 uur telefonisch (015-2785886 of 015-2786552) of per
+e-mail (adminnp-tnw@tudelft.nl) af. Lees [hier](https://contemporaryphysicslab.
+github.io/NP-new-style/main/Deel1/Regels.html) verder.
 ```
 
-```{note}  Waar lever ik een assignment in?
+```{admonition}  Waar lever ik een assignment in?
 :class: dropdown
 
 Assignments lever je in op Brightspace. Navigeer naar https://brightspace.tudelft.nl
@@ -40,14 +46,14 @@ Assignments lever je in op Brightspace. Navigeer naar https://brightspace.tudelf
 docent, deze mails worden verwijderd.
 ```
 
-```{note}  Wat moet ik inleveren?
+```{admonition}  Wat moet ik inleveren?
 :class: dropdown
 
 In de studiewijzer op Brightspace, staat geel gedrukt onder opmerkingen wat
-er ingeleverd moet worden per onderdeel.
+er ingeleverd moet worden per onderdeel. Bij de assignments staat vaak extra uitleg over de vorm van het in te leveren product.
 ```
 
-```{note}  Wat als ik een deadline mis?
+```{admonition}  Wat als ik een deadline mis?
 :class: dropdown
 
 Bij te laat inleveren: In dit geval wordt er een penalty toegekend wat
@@ -58,7 +64,7 @@ bijzondere gevallen en minstens twee dagen voor de deadline. Lees verder op:
 https://contemporary-physicslab.github.io/NP-new-style/main/Deel1/Regels.html
 ```
 
-```{note}  Waar zie ik de deadlines?
+```{admonition}  Waar zie ik de deadlines?
 :class: dropdown
 Deadlines staan in de studiewijzer. Precieze deadlines van inlevermomenten
 1
@@ -66,14 +72,14 @@ staan vermeld op Brightspace. Navigeer naar https://brightspace.tudelft.nl ⇒
 TN1405-P Inleidend Practicum ⇒ Assignments.
 ```
 
-```{note}  Wat moet er in het verslag?
+```{admonition}  Wat moet er in het verslag?
 :class: dropdown
 
 Wat er in een goed verslag moet staat op: https://contemporary-physicslab.github.io/NPnew-
 style/main/Deel2/Schrijven.html, Onder het kopje structuur.
 ```
 
-```{note}  Moet ik de docent vragen?
+```{admonition}  Moet ik de docent vragen?
 :class: dropdown
  
 Onder https://contemporary-physicslab.github.io/NP-new-style/main/Deel1/Wieiswie.html#
@@ -84,7 +90,7 @@ heel blij om je te helpen met het leren van de stof. Je mag de docent ook altijd
 aanspreken tijdens het werkcollege.
 ```
 
-```{note}  Ik denk dat ik een hoger cijfer verdien. Wat kan ik doen?
+```{admonition}  Ik denk dat ik een hoger cijfer verdien. Wat kan ik doen?
 :class: dropdown
 
 Het mogelijk bezwaar te maken tegen een cijfer. Ben je het oneens over een
@@ -94,7 +100,7 @@ gebleken dat uit een second opinion vaak hetzelfde cijfer rolt. Is het verzoek
 gedaan na het verstrijken van de twee weken, dan wordt het verzoek afgewezen.
 ```
 
-```{note}  Ik heb een onvoldoende gehaald wat nu?
+```{admonition}  Ik heb een onvoldoende gehaald wat nu?
 :class: dropdown
 
 Wanneer je een onvoldoende haalt voor een verslag, dan moet je je verslag
@@ -102,7 +108,7 @@ verbeteren. Dit houd in dat je alle feedback die je bij de eerste versie hebt
 gekregen moet verwerken.
 ```
 
-```{note}  Ik heb een voldoende gehaald moet ik de feedback verwerken?
+```{admonition}  Ik heb een voldoende gehaald moet ik de feedback verwerken?
 :class: dropdown
 
 Nee. Gebruik de feedback om van te leren, implementeer het in het volgende
