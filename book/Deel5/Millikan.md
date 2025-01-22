@@ -84,7 +84,7 @@ Daarnaast zijn de volgende gegevens van het Millikan-apparaat nodig:
 
 - **Afstand tussen de platen van de Millikan-cel:** $(6,36 \pm 0,02) \cdot 10^{-3}$ m.  
 - **Afstand tussen de streepjes op het ijkschaaltje:** $(\approx 1/20) \cdot 10^{-3}$ m.  
-- **Dichtheid van de olie (silicone):** $865 \pm 5$ kg/m³.  
+- **Dichtheid van de olie:** zie metingen
 - **Viscositeit van lucht bij kamertemperatuur:** $1,8 \cdot 10^{-5}$ kg/m·s.  
 - **Spanningsverschil tussen de platen:** instelbaar van 0 tot 600 V.
 
@@ -102,4 +102,18 @@ Bedenk hierbij dat $q = ne$ met $n$ geheeltallig, zodat $q$ uitgezet tegen $n$ e
 
 ```{exercise}
 Is dit altijd juist? Leg uit.
+```
+
+## Metingen aan dichtheid
+
+```{code} Python
+### Siliconenolie
+
+V_so = np.array([0, 1.9, 1.7, 1.55, 1.40, 1.10, 1.0, .75, .55, .4, .25]) #mL
+m_so = np.array([3.48, 5.56, 5.36, 5.20, 5.00, 4.73, 4.54, 4.36, 4.12, 3.94, 3.80 ]) - 3.48 #g
+
+# Petroleumolie
+
+V_po = np.array([4.4, 4.5, 5.3, 6.8, 7.2, 9.3, 9.4, 11.6, 13.9, 14.6, 16.9, 18.9]) #mL
+m_po = np.array([3.40, 3.56, 3.95, 5.30, 5.57, 7.15, 7.36, 9.06, 10.89, 11.57, 13.38, 14.9 ]) #g
 ```
