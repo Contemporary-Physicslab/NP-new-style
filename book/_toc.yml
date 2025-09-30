@@ -2,48 +2,48 @@ format: jb-book
 root: toc
 
 parts:
-  - caption: Algemeen
-    numbered: true
-    chapters:
-    - file: Deel1/Introductie
-    - file: Deel1/Onderwijsfilosofie    
-    - file: Deel1/Algemeen
-      sections:
-      - file: Deel1/Structuur
-      - file: Deel1/Wieiswie
-      - file: Deel1/Regels
-      - file: Deel1/Rooster
-    - file: Deel1/FAQ     
+  # - caption: Algemeen
+  #   numbered: true
+  #   chapters:
+  #   - file: Deel1/Introductie
+  #   - file: Deel1/Onderwijsfilosofie    
+  #   - file: Deel1/Algemeen
+  #     sections:
+  #     - file: Deel1/Structuur
+  #     - file: Deel1/Wieiswie
+  #     - file: Deel1/Regels
+  #     - file: Deel1/Rooster
+  #   - file: Deel1/FAQ     
     #- file: Deel1/Licenses
     
   - caption: Essentiele basiskennis
     numbered: true
     chapters:
-    - file: Deel2/Veiligheid/Veiligheidalgemeen
-      sections:
-      - file: Deel2/Veiligheid/Veiligheid
-      - file: Deel2/Veiligheid/Generalsafety
-      - file: Deel2/Veiligheid/Lasersafety
-      - file: Deel2/Veiligheid/Biohazards
-      - file: Deel2/Veiligheid/Cryogenes
+    # - file: Deel2/Veiligheid/Veiligheidalgemeen
+    #   sections:
+    #   - file: Deel2/Veiligheid/Veiligheid
+    #   - file: Deel2/Veiligheid/Generalsafety
+    #   - file: Deel2/Veiligheid/Lasersafety
+    #   - file: Deel2/Veiligheid/Biohazards
+    #   - file: Deel2/Veiligheid/Cryogenes
 
     - file: Deel2/Labjournaal
     - file: Deel2/MO2
 
-    - file: Deel2/Python/Python intro #git submodule update --remote
-      sections:
-      - file: External/FYPLC/book/README.md
-      - file: Deel2/Python/Python summary
-      - file: External/FYPLC/book/Software
-      - file: External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics
-      - file: External/FYPLC/book/Course files/Notebook 2/Notebook 2 Functions
-      - file: External/FYPLC/book/Course files/Notebook 3/Notebook 3 Program Flow Control
-      - file: External/FYPLC/book/Course files/Notebook 4/Notebook 4 Scientific Computing
-      - file: External/FYPLC/book/Course files/Notebook 5/Notebook 5 Data in Python
-      - file: External/FYPLC/book/Course files/Notebook 6/Notebook 6 Measurement uncertainty
-      - file: External/FYPLC/book/Course files/Notebook 7/Notebook 7 Additional materials
-      - file: External/FYPLC/book/Course files/Notebook 8/Notebook 8 Practice
-      - file: External/FYPLC/book/Course files/Example exam/Example Exam
+    # - file: Deel2/Python/Python intro #git submodule update --remote
+    #   sections:
+    #   - file: External/FYPLC/book/README.md
+    #   - file: Deel2/Python/Python summary
+    #   - file: External/FYPLC/book/Software
+    #   - file: External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics
+    #   - file: External/FYPLC/book/Course files/Notebook 2/Notebook 2 Functions
+    #   - file: External/FYPLC/book/Course files/Notebook 3/Notebook 3 Program Flow Control
+    #   - file: External/FYPLC/book/Course files/Notebook 4/Notebook 4 Scientific Computing
+    #   - file: External/FYPLC/book/Course files/Notebook 5/Notebook 5 Data in Python
+    #   - file: External/FYPLC/book/Course files/Notebook 6/Notebook 6 Measurement uncertainty
+    #   - file: External/FYPLC/book/Course files/Notebook 7/Notebook 7 Additional materials
+    #   - file: External/FYPLC/book/Course files/Notebook 8/Notebook 8 Practice
+    #   - file: External/FYPLC/book/Course files/Example exam/Example Exam
 
     - file: Deel2/LaTeX
     - file: Deel2/Schrijven
@@ -55,32 +55,32 @@ parts:
     - file: Deel3/IE1 labjournaal.ipynb
     - file: Deel3/IE1verslag
   
-  - caption: Ontwikkelings experimenten
-    numbered: true
-    chapters:
-    - file: Deel4/RC
-      sections:
-      - file: Deel4/RC_labjournaal.ipynb
-        title: Labjournaal
-    - file: Deel4/G
-      sections:
-      - file: Deel4/G_val.ipynb
-      - file: Deel4/G_slinger.ipynb
-    - file: Deel4/BM
+  # - caption: Ontwikkelings experimenten
+  #   numbered: true
+  #   chapters:
+  #   - file: Deel4/RC
+  #     sections:
+  #     - file: Deel4/RC_labjournaal.ipynb
+  #       title: Labjournaal
+  #   - file: Deel4/G
+  #     sections:
+  #     - file: Deel4/G_val.ipynb
+  #     - file: Deel4/G_slinger.ipynb
+  #   - file: Deel4/BM
 
-  - caption: Toepassingsexperiment
-    numbered: true
-    chapters:
-    - file: Deel5/Inleiding
-    - file: Deel5/Spectroscopie
-    - file: Deel5/Airtrack
-    - file: Deel5/Valmetwrijving
-    - file: Deel5/K40
-    - file: Deel5/Slingers
-    - file: Deel5/Millikan
-    - file: Deel5/BoltzmannT
-    - file: Deel5/Stromingsleer
-    - file: Deel5/Warmtetransport
+  # - caption: Toepassingsexperiment
+  #   numbered: true
+  #   chapters:
+  #   - file: Deel5/Inleiding
+  #   - file: Deel5/Spectroscopie
+  #   - file: Deel5/Airtrack
+  #   - file: Deel5/Valmetwrijving
+  #   - file: Deel5/K40
+  #   - file: Deel5/Slingers
+  #   - file: Deel5/Millikan
+  #   - file: Deel5/BoltzmannT
+  #   - file: Deel5/Stromingsleer
+  #   - file: Deel5/Warmtetransport
     
   #   - file: Deel5/TEverslag
 
