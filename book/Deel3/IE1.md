@@ -169,6 +169,13 @@ Hier is $m_{\infty}$ de massa op ‘oneindige’ afstand van de vaste magneet en
 Aangezien de meetonzekerheid in $g$ velen malen kleiner is dan de meetonzekerheid in $m$, geldt 
 $u(F)$ = 1$\cdot10^{-2}$ N, zie de appendix voor de afleiding.
 
+```{note} Voorkomen dat weegschaal uit gaat
+Soms gaat de weegschaal uit na een meting. Gebeurt dit, dan zijn dit de handelingen:  
+1 Zet de weegschaal uit.  
+2 Zet de weegschaal aan en druk snel 3x op zero. Dit brengt naar het menu.  
+3 Via het lampje kun je deze op `H on` zetten. 
+```
+
 ### Procedure
 In de eerste meetserie wordt gebruik gemaakt van twee aantrekkende magneten. De bovenste magneet wordt langzaam naar de onderste magneet bewogen. Het punt waarbij de eerste uitwijking van de unster ($\Delta m \ne 0$) en de grootst mogelijke kracht tussen de magneten wordt bepaald. Vervolgens worden de daadwerkelijke metingen uitgevoerd met een krachtsinterval van grofweg $\frac{F_{max}-F_{min}}{10}$. Deze keuze voor interval zorgt er voor dat met name op korte afstanden, overeenkomstig met de afstand tussen de magneten van treinen, veel metingen gedaan worden. Bovenstaande procedure wordt herhaald voor een verzwaarde afstotende magneet. 
 %
