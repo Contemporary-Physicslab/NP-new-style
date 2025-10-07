@@ -67,7 +67,7 @@ Krachten tussen schijfmagneetjes in geval van aantrekking. $F_{21}$  is de krach
 ### Magnetische dipolen
 Eigenschappen van het magnetisch veld van een schijfmagneet kunnen grotendeels afgeleid worden uit de benadering dat een schijfmagneet opgevat mag worden als een klassieke magnetische dipool. Een klassieke magnetische dipool is een kleine draadlus waardoorheen een elektrische stroom loopt. {numref}`Figuur {number} <fig:magneetvelden>` geeft een voorstelling van zo'n dipool met het bijbehorend patroon van magnetische veldlijnen. De dipool wordt gekarakteriseerd door het magnetisch dipoolmoment $(\vec{m}=I\vec{A})$, een vector (met grootte en richting). Hierin is:
 
-*  $I$ de grootte van de stroom door de lus in A
+*  $I$ de grootte van de stroom door de lus in A (ampère)
 *  $A$ het oppervlak van de lus in m$^2$
 *  $m$ het magnetische dipoolmoment in Am$^2$
 
