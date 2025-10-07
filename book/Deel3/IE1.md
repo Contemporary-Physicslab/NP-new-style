@@ -173,7 +173,7 @@ $u(F)$ = 1$\cdot10^{-2}$ N, zie de appendix voor de afleiding.
 Soms gaat de weegschaal uit na een meting. Gebeurt dit, dan zijn dit de handelingen:  
 1 Zet de weegschaal uit.  
 2 Zet de weegschaal aan en druk snel 3x op zero. Dit brengt naar het menu.  
-3 Via het lampje kun je deze op `H on` zetten. 
+3 Via het lampje kun je deze op `H off` zetten. 
 ```
 
 ### Procedure
