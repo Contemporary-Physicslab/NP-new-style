@@ -55,18 +55,18 @@ parts:
     - file: Deel3/IE1 labjournaal.ipynb
     - file: Deel3/IE1verslag
   
-  # - caption: Ontwikkelings experimenten
-  #   numbered: true
-  #   chapters:
-  #   - file: Deel4/RC
-  #     sections:
-  #     - file: Deel4/RC_labjournaal.ipynb
-  #       title: Labjournaal
-  #   - file: Deel4/G
-  #     sections:
-  #     - file: Deel4/G_val.ipynb
-  #     - file: Deel4/G_slinger.ipynb
-  #   - file: Deel4/BM
+  - caption: Ontwikkelings experimenten
+    numbered: true
+    chapters:
+    - file: Deel4/RC
+      sections:
+      - file: Deel4/RC_labjournaal.ipynb
+        title: Labjournaal
+    - file: Deel4/G
+      sections:
+      - file: Deel4/G_val.ipynb
+      - file: Deel4/G_slinger.ipynb
+    - file: Deel4/BM
 
   # - caption: Toepassingsexperiment
   #   numbered: true
