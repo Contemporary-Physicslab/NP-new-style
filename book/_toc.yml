@@ -67,6 +67,9 @@ parts:
       - file: Deel4/G_val.ipynb
       - file: Deel4/G_slinger.ipynb
     - file: Deel4/BM
+      sections:
+      - file: Deel4/BM_labjournaal.ipynb
+        title: Labjournaal
 
   # - caption: Toepassingsexperiment
   #   numbered: true
