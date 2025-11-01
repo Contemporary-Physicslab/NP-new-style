@@ -95,7 +95,7 @@ $$ (eq:potfieldB)
 Hierin is $\mu$ is de permeabiliteit van het medium en $(\vec{r})$ de vector die dipool 1 verbindt met dipool 2. Voor lucht als medium mag $\mu_0$ genomen worden, de permeabiliteit van het vacuüm. De producten in formule {eq}`eq:potfieldB` met een punt ($\cdot$) zijn zogenoemde inwendige producten (pro memorie: $\vec{a}\cdot\vec{b}=|\vec{a}| |\vec{b}|\cos(\theta)$ met $\theta$ de hoek tussen de vectoren $(\vec{a})$ en $(\vec{b})$ ). Als geldt  $(\vec{m_1}=\vec{m_2}=m)$ en als de dipoolmomenten antiparallel of parallel langs de verbindingsvector $(\vec{r})$ liggen, reduceert formule {eq}`eq:potfieldB` voor lucht als medium tot:
 %
 $$
-     U=\pm \frac{\mu_o}{2\pi}\frac{m^2}{z^3}
+     U=\pm \frac{\mu_0}{2\pi}\frac{m^2}{z^3}
 $$(eq:potentialfield)
 %
 De energie is positief als de dipolen antiparallel zijn (afstoting) en negatief als deze parallel zijn (aantrekking). In formule {eq}`eq:potentialfield` is de afstand $r$ vervangen door de verticaal veronderstelde afstand $z$ (als in het experiment). Aangezien de kracht de plaats afgeleide is van de potentiële energie, geldt er voor de magnetische kracht tussen de dipolen (we negeren hier de richting van de kracht en definiëren impliciet de constante $\alpha$):
@@ -143,7 +143,7 @@ $$
 z=\frac{1}{2} d_{m}+h_{1}+h_{1,2}+h_{2}+\frac{1}{2} d_{m}
 $$ (eq:afstanden)
 %
-Voor bepaling van $h_1$ en $h_2$ wordt een [schuifmaat](https://youtu.be/eBG2Y0nXGAs) gebruikt met een meetonzekerheid van ... mm, $h_{1,2}$ wordt bepaald m.b.v. een liniaal met een meetonzekerheid van ... mm. Volgens de [specificatie van de magneet](data_sheet_magneten.pdf) is de meetonzekerheid in de dikte van de magneet ... mm {cite}`supermagnete_data_sheet_s-10-05-npdf_2011`. Dit levert een totaal meetonzekerheid van $\mu_r$= ... mm. Zie de Appendix voor de bijbehorende afleiding.
+Voor bepaling van $h_1$ en $h_2$ wordt een [schuifmaat](https://youtu.be/eBG2Y0nXGAs) gebruikt met een meetonzekerheid van ... mm, $h_{1,2}$ wordt bepaald m.b.v. een liniaal met een meetonzekerheid van ... mm. Volgens de [specificatie van de magneet](data_sheet_magneten.pdf) is de meetonzekerheid in de dikte van de magneet ... mm {cite}`supermagnete_data_sheet_s-10-05-npdf_2011`. Dit levert een totaal meetonzekerheid van $u(r)$= ... mm. Zie de Appendix voor de bijbehorende afleiding.
 
 ```{figure} Figures/opstelling.jpg
 ---
