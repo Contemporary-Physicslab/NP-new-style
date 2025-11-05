@@ -413,6 +413,11 @@ De opstelling voor het meten van de stroomsterkte.
 (subsec:diodemeting)=
 ### Diodemeting
 
+```{warning} Meten en plotten
+Zorg ervoor dat je tijdens de metingen je Python script open hebt staan en dat je na elke meting de nieuwe data invoert en de plot bijwerkt.
+Vaak gebeurt het dat studenten pas na de metingen er achter komen dat de metingen niet goed zijn uitgevoerd...
+```
+
 * Bouw de opstelling zoals weergegeven in figuur {numref}`{number} <fig:BMopst>`.
 Gebruik de 3.5 DMM voor de spanning van de spanningsbron te meten, en de 5.5 voor de meting aan de weerstand die in serie staat met de diode.
 * Maak een foto van de opstelling en voeg deze toe aan je labjournaal.
@@ -427,7 +432,6 @@ Gebruik de 3.5 DMM voor de spanning van de spanningsbron te meten, en de 5.5 voo
 ### Elektrische schakelingen
 
 Veelal kunnen we een schakeling vereenvoudigen door een serie (of parallel) schakeling van twee weerstanden te vervangen door één weerstand. Als geheugensteuntje geven we hier een samenvatting van de formules die daarbij horen.
-Voor wie het niet meer precies weet: zie hfdst. 25-2 van Wolfson.
 
 ```{figure} Figures/BM/serieparallel.png
 ---
@@ -469,17 +473,8 @@ $$
 (subsec:halfgeleiderdiode2)=
 ### Halfgeleiderdiode
 
-<div style="display: flex; justify-content: center;">
-    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
-        <iframe
-            src="https://www.youtube.com/embed/AF8d72mA41M?si=hejU74ZWfVCubk2I"
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        ></iframe>
-    </div>
-</div>
+```{video} https://www.youtube.com/embed/AF8d72mA41M?si=hejU74ZWfVCubk2I
+```
 
 Bovenstaande Veritasium clip legt op een zeer gedegen manier de werking van een diode (hier dan een LED) uit.
 Alhoewel het gehele filmpje de moeite waard is, begint de uitleg over de werking rond 4:00.
@@ -488,8 +483,7 @@ Om de werking van een halfgeleiderdiode goed te begrijpen is een behoorlijke ken
 Dit onderwerp komt pas in het tweede of derde studiejaar aan de orde en dan is het nog niet zo eenvoudig.
 Voor de uitvoering van de proef is het niet noodzakelijk de werking van een diode te kennen.
 Omdat het voor velen onbevredigend is met iets te werken waarvan je niet weet hoe het werkt, laten wij hier eerst zien, hoe we met niet zo heel veel voorkennis, kunnen inzien waarom een halfgeleiderdiode in de ene stroomrichting wel en in de andere stroomrichting niet geleidt.
-We volgen hierbij de aanpak beschreven in hfdst. 24.2 p.403/404, 28.6 p.501 en 37.3 p.673-677 van Wolfson.
-Wie niet in de werking is geïnteresseerd, kan direct doorgaan naar sectie 5-4-2 waar de I-V-karakteristiek van de halfgeleiderdiode aan de orde komt, het onderwerp van dit deel van de proef.
+
 
 (subsubsec:werking)=
 **Werking**
