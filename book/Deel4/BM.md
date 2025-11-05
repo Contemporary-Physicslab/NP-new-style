@@ -36,7 +36,7 @@ Het verband tussen de stroom ($I_D$) door, en de spanning ($V_D$) over de diode 
 
 $$ I_{D}\left(V_{D}\right)=I_{0}\left(e^{\frac{-q V_{D}}{n k_{B} T}}-1\right) $$(eq:stroom_diode)
 
-$q$ is hier de lading van een elektron, $-1.602*10^{-19}$ C, $k_B$ is de Boltzmann constante, $n$ is de idealiteitsfactor (hangt af van waar precies de recombinatie plaatsvindt; $n = 2.0 \pm 0.1$ voor Si) en $I_0$ is de sperstroom, de stroom die loopt als $V_D$ sterk negatief wordt.
+$q$ is hier de lading van een elektron, $-1.602 \times 10^{-19}$ C, $k_B$ is de Boltzmann constante, $n$ is de idealiteitsfactor (hangt af van waar precies de recombinatie plaatsvindt; $n = 2.0 \pm 0.1$ voor Si) en $I_0$ is de sperstroom, de stroom die loopt als $V_D$ sterk negatief wordt.
 Schematisch ziet de $(I,V)$ karakteristiek er op lineaire schaal uit als weergegeven in figuur {numref}`{number} <fig:ii1_fig_schematisch>`.
 
 ```{figure} Figures/BM/diodekarakteristiek.jpg

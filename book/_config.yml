@@ -29,6 +29,7 @@ sphinx:
   extra_extensions:
     - sphinx.ext.imgconverter
     - sphinx_exercise
+    - sphinx_iframes
 
     #- jupyterbook_patches
 
