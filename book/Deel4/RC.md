@@ -20,6 +20,12 @@ Hieronder vallen AC/DC-koppeling, gevoeligheid, tijdbasis, triggering (niveau en
 Je leert de diverse mogelijkheden van het instrument kennen aan de hand van metingen aan een RC-circuit en aan een LED.
 
 De uitwerkingen van de opdrachten, zoals gemeten en berekende getalwaarden, grafieken, argumenten, etc. moeten tijdens het experimenteren overzichtelijk in je laboratoriumjournaal worden genoteerd, zodat over deze proef, wanneer gewenst, een verslag kan worden geschreven.
+
+```{tip} Labjournaal
+De voorbereidingsvragen die hieronder staan, vind je ook in je labjournaal gebundeld. 
+Maak gebruik van het labjournaal voor het beantwoorden van deze vragen.
+```
+
 De metingen aan het RC-circuit kunnen gebruikt worden bij de tweedejaarsvakken Elektronische Instrumentatie en bij Systemen en Signalen.
 Aan het eind van het practicum, op de dag zelf, lever je het (digitale) labjournaal in op BS en laat je deze aftekenen bij de TA voor beoordeling.
 
@@ -67,7 +73,7 @@ Weergaven van een signaal op een oscilloscoop
 ```
 
 ### Oscilloscoop
-De te gebruiken Siglent SDS814X HD heeft een $100 \; \mathrm{MHz}$-bandbreedte, wat wil zeggen dat signalen met een periode van 10 ns gemeten kunnen worden.
+De te gebruiken Siglent SDS814X HD heeft een $100 \; \mathrm{MHz}$-bandbreedte, wat wil zeggen dat signalen met een periode van $10 \; \mathrm{ns}$ gemeten kunnen worden.
 Bij het gebruik van een enkel kanaal wordt het tijdsafhankelijke signaal getoond.
 Dit houdt in dat de gemeten spanning op de verticale as staat en de tijd op de horizontale as.
 Met een 2-kanaals oscilloscoop kunnen twee signalen op verticale assen Y1 en Y2 tegelijk tegen dezelfde tijd as (X) worden weergegeven, zie onderstaand X-Y diagram.
@@ -222,8 +228,8 @@ In de proef ter bepaling van de constante van Boltzmann wordt de werking van dio
 
 ```{exercise}
 :class: dropdown
-We bieden een 5.0 Hz, 5.0 Vpp wisselspanning aan voor een LED in serie met een 220Ω weerstand.
-De drempelspanning van de LED is 1.7 V.
+We bieden een $5.0 \; \mathrm{Hz}, 5.0 \; \mathrm{Vpp}$ wisselspanning aan voor een LED in serie met een $220 \; \Omega$ weerstand.
+De drempelspanning van de LED is $1.7 \; \mathrm{V}$.
 * Stel de vergelijking op voor de aangeboden (bron)spanning.
 * Programmeer de aangeboven spanning voor twee perioden en laat de grafiek tonen.
 * Programmeer de spanning over de weerstand als functie van de tijd en toon beide signalen in dezelfde grafiek.
@@ -333,7 +339,7 @@ In de experimenten in het lab komen gemakkelijk (de-)monteerbare connectoren uit
 We bekijken de belangrijkste.
 
 1. De eenvoudigste verbinding is de enkele koperdraad, uit veiligheidsoverwegingen meestal opgeborgen in een isolerende omhulling.
-In het lab kom je die tegen als de rode, zwarte, gele, groene, etc. meetkabels of meetsnoeren van verschillende lengte, typisch tussen $50 \; \mathr{cm}$ en $2 \; \mathr{m}$.
+In het lab kom je die tegen als de rode, zwarte, gele, groene, etc. meetkabels of meetsnoeren van verschillende lengte, typisch tussen $50 \; \mathrm{cm}$ en $2 \; \mathrm{m}$.
 Om onderlinge aansluitingen te maken gebruiken we de banaanklem en banaanstekker (figuur 14.8, links).
 Deze stekker heeft afmetingen afgeleid van de stekkerpennen van de gewone (niet-randaarde) stekker die je aan alle gangbare elektrische apparatuur in Nederland aantreft.
 De bijbehorende banaanklem is de tegenpool van de banaanstekker, net zoals het stopcontact dat is van de stekker.
