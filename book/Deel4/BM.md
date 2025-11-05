@@ -86,7 +86,7 @@ Echter, met de rekenkracht van de huidige computers is er geen goede reden te be
 ```{tip}
 :class: dropdown
 De afsnijding met de y-as geeft $d$ en dus $I_0$.
-Deze waarde kan handmatig bepaald worden en als initiële schatting (p0) in Python meegegeven worden.
+Deze waarde kan handmatig bepaald worden en als initiële schatting (`p0`) in Python meegegeven worden.
 ```
 
 Willen we de Boltzmann verdeling nader bestuderen, of een eigenschap (bijvoorbeeld de idealiteitsfactor) van de diode bepalen, dan is het dus de bedoeling dat we de sterkte van de stroom als functie van de spanning over de diode bepalen.
@@ -99,7 +99,7 @@ Bij geavanceerdere modellen kun je de DMM met een computer besturen en uitlezen 
 In deze proef beperken we ons tot gelijkspannings-, gelijkstroom- en weerstandsmetingen.
 Het is van belang je te realiseren dat het hart van een DMM wordt gevormd door een Analog Digital Convertor (ADC).
 Deze eenheid zet een getal op zijn display dat evenredig is met de spanning die op de ingang wordt aangeboden.
-Het bereik waarbinnen de ADC werkt, is meestal gelijk aan het gevoeligste bereik van de DMM voor gelijkspanningsmetingen (b.v. $-100$mV tot $+100$mV).
+Het bereik waarbinnen de ADC werkt, is meestal gelijk aan het gevoeligste bereik van de DMM voor gelijkspanningsmetingen (b.v. $-100 \; \mathrm{mV}$ tot $+100 \; \mathrm{mV}$).
  Als we de meter op een minder gevoelig meetbereik zetten, schakelen we verzwakkers in die de ingangspanning reduceren tot in het bereik van de ADC.
  Dit is schematisch in Figuur ({numref}`{number} <fig:DMM>`) links weergeven.
  Om spanning met een DMM te meten gebruiken we de ingangen **V** en **com** of **hi** en **lo**.
@@ -108,7 +108,7 @@ Als wij een gelijkstroommeting uitvoeren, gebruiken wij de ingangen **I** of **m
 We meten bij een gelijkstroommeting in feite de gelijkspanning over een weerstand $R_s$ (zie figuur {numref}`{number} <fig:DMM>` links onder).
 $R_s$ wordt de shunt weerstand genoemd omdat daar de stroom doorheen loopt en niet door de rest van de meter.
 Deze weerstand kunnen we beschouwen als de inwendige weerstand van de stroommeter.
-In de *laagste* stroombereiken is $R_s$ van de orde 100 $\Omega$ tot 1000 $\Omega$.
+In de *laagste* stroombereiken is $R_s$ van de orde $100 \; \Omega$ tot $1000 \; \Omega$.
 
 ```{figure} Figures/BM/weerstandsmeting.jpg
 ---
@@ -120,7 +120,7 @@ Principe van gelijkspanning, gelijkstroom en weerstandsmeting met een DMM.
 
 Als we met de DMM weerstandswaarden meten, wordt er met behulp van een interne stroombron een stroom door de weerstand gestuurd en wordt de spanning over de weerstand gemeten (figuur {numref}`{number} <fig:DMM>` rechts).
 De grootte van de meetstroom wordt opgegeven in de handleiding van de DMM.
-Voor de laagste weerstands-bereiken is bijvoorbeeld 1 mA een typische waarde.
+Voor de laagste weerstands-bereiken is bijvoorbeeld $1 \; \mathrm{mA}$ een typische waarde.
 
 ```{note}
 :class: dropdown
@@ -165,13 +165,13 @@ De nauwkeurigheid van een DMM wordt opgegeven door de nauwkeurigheid van de hell
 
 ```{admonition} Voorbeeld
 :class: dropdown
-Stel we lezen af: 1.234 V op de 3$\frac{1}{2}$ cijfer DMM.
-Hieruit mag je dus niet zomaar afleiden dat de nauwkeurigheid van de meting beter dan 1 mV is.
+Stel we lezen af: $1.234 \; \mathrm{V}$ op de $3\frac{1}{2}$ cijfer DMM.
+Hieruit mag je dus niet zomaar afleiden dat de nauwkeurigheid van de meting beter dan $1 \; \mathrm{mV}$ is.
 Voor de Dynatek D9100 wordt voor het 2 V bereik opgegeven: $\pm(0.5\%$ van de aflezing +1 tel).
-Dus: 0.5\% van de aflezing is  6 mV.
-Plus 1 mV van het digit geeft dus een nauwkeurigheid van 7 mV.
-Het resultaat van de meting is 1.234$\pm$0.007 V.
-Nauwkeurigheid wordt ook vaak opgegeven in ppm (parts per million, 1\% = 10000 ppm).
+Dus: $0.5\%$ van de aflezing is $6 \; \mathrm{mV}$.
+Plus $1 \; \mathrm{mV}$ van het digit geeft dus een nauwkeurigheid van $7 \; \mathrm{mV}$.
+Het resultaat van de meting is $1.234 \pm 0.007 \; \mathrm{V}$.
+Nauwkeurigheid wordt ook vaak opgegeven in ppm (parts per million, $1\% = 10000 \; \mathrm{ppm}$).
 ```
 
 De resolutie van een digitaal instrument is de verhouding van het kleinste aantal tellen tot het grootste aantal tellen dat op het display kan worden weergegeven.
@@ -179,7 +179,7 @@ it wordt in feite bepaald door het aantal tellen (counts) dat kan worden weergeg
 Een simpele DMM heeft vaak $3\frac{1}{2}$ cijfers.
 Dit betekent 3 hele cijfers (elk met waarden van 0 tot en met 9) plus een half cijfer dat de waarden 0 of $\pm1$ kan aannemen.
 Dus een $3\frac{1}{2}$ cijfer display kan 0 tot 1999 weergeven, totaal 2000 tellen.
-De resolutie van die DMM is 1/2000 of wel 0.05\%.
+De resolutie van die DMM is $1/2000$ of wel $0.05\%$.
 
 ```{tip}
 :class: dropdown
@@ -189,7 +189,7 @@ De standaard instelling is $5\frac{1}{2}$.
 ```
 
 De gevoeligheid bij een meting is de kleinste verandering van het te meten signaal die kan worden waargenomen.
-Een gevoeligheid bij een meting van 1 $\mu$V impliceert dat veranderingen in het signaal kleiner dan 1 $\mu$V  niet kunnen worden waargenomen.
+Een gevoeligheid bij een meting van $1 \; \mathrm{\mu V}$ impliceert dat veranderingen in het signaal kleiner dan $1 \; \mathrm{\mu V}$  niet kunnen worden waargenomen.
 De gevoeligheid hangt mede af van de grootte van het signaal dat we willen meten.
 Immers, de grootte van het signaal bepaalt het gevoeligste meetbereik waarop gemeten kan worden.
 
@@ -197,11 +197,11 @@ Immers, de grootte van het signaal bepaalt het gevoeligste meetbereik waarop gem
 :class: dropdown
 Stel we willen een spanning van ongeveer 15 V meten met een 3$\frac{1}{2}$ cijfer DMM.
 Het gevoeligste bereik waarop we deze spanning kunnen meten, is het 20 V bereik.
- De kleinste verandering van het signaal die kan worden waargenomen is dan 10 mV (ga na).
- Voor een 5$\frac{1}{2}$ cijfer DMM is dit 0.1 mV.
- Met een 3$\frac{1}{2}$ cijfer DMM kun je ook een gevoeligheid van 0.1 mV  halen, maar dan alleen voor signalen kleiner dan 200 mV.
- De ultieme gevoeligheid van een meetinstrument hangt af van zijn resolutie en het laagste meetbereik.
- Bijvoorbeeld de gevoeligheid van een 6$\frac{1}{2}$ cijfer DMM met een laagste meetbereik van 200 mV is 0.1 $\mu$V.
+De kleinste verandering van het signaal die kan worden waargenomen is dan 10 mV (ga na).
+Voor een 5$\frac{1}{2}$ cijfer DMM is dit 0.1 mV.
+Met een 3$\frac{1}{2}$ cijfer DMM kun je ook een gevoeligheid van 0.1 mV  halen, maar dan alleen voor signalen kleiner dan 200 mV.
+De ultieme gevoeligheid van een meetinstrument hangt af van zijn resolutie en het laagste meetbereik.
+Bijvoorbeeld de gevoeligheid van een 6$\frac{1}{2}$ cijfer DMM met een laagste meetbereik van 200 mV is 0.1 $\mu$V.
 ```
 
 (subsec:gebruik_dmm)=
@@ -242,18 +242,18 @@ Zo zal een stroommeter verstorend werken als zijn weerstand ($R_{\text{i}}$) nie
 
 ```{admonition} Voorbeeld
 :class: dropdown
-De spanning over een weerstand van 100 k$\Omega$ wordt gemeten met een DMM met een weerstand van 1.0 M$\Omega$.
+De spanning over een weerstand van $100 \; \mathrm{k\Omega}$ wordt gemeten met een DMM met een weerstand van $1.0 \; \mathrm{M\Omega}$.
 Beinvloedt de meting de eigenschappen van het oorspronkelijk circuit significant?
 
 De DMM staat parallel aan de Ohmse weerstand.
 De vervangingsweerstand is gelijk aan: $R_v = \frac{R_{DMM} \cdot R_O}{R_{DMM} + R_O}$ (ga zelf na!).
-De vervangingsweerstand is dus 91 k$\Omega$! Dat is inderdaad een significant verschil.
+De vervangingsweerstand is dus $91 \; \mathrm{k\Omega}$! Dat is inderdaad een significant verschil.
 ```
 
 De verstoring door het aanbrengen van de DMM in een ingewikkelde, onoverzichtelijke  situatie kan systematisch in beeld worden gebracht door de niet-ideale representatie van een spannings - of stroommeter in de schakeling te tekenen en de waarden van $R_{\text{i}}$ in de handleiding van de DMM op te zoeken.
 
-Moderne digitale multimeters hebben op het spanningsmeetbereik een zeer hoge interne weerstand (b.v. $R_\text{i}$=10 M$\Omega$ of hoger).
-Bij stroommeting zijn deze meters in de lage bereiken iets minder ideaal (b.v. $R_{\text{i}}$ = 1 k$\Omega$).
+Moderne digitale multimeters hebben op het spanningsmeetbereik een zeer hoge interne weerstand (b.v. $R_\text{i}=10 M\Omega$ of hoger).
+Bij stroommeting zijn deze meters in de lage bereiken iets minder ideaal (b.v. $R_{\text{i}} = 1 k\Omega$).
 Voor stroommeting wordt in de specificaties van een DMM $R_{\text{i}}$ vaak niet direct opgegeven.
 Men specificeert de Voltage Burden: de maximale spanning die over de meter valt bij stroommeting.
 De weerstand van de stroommeter wordt dan vaak gegeven door (Voltage Burden) / (meetbereik).
@@ -267,9 +267,9 @@ Voorwaarde is natuurlijk dat die weerstand zelf de eigenschappen niet te veel ve
 ```{exercise} 
 :class: dropdown
 * Voor de nauwkeurigheid van een DMM wordt voor het 10 V bereik opgegeven: 0.0015\% van de aflezing en 0.0004\% van het bereik. 
-De spanning die wordt afgelezen is 5.00000 V.
+De spanning die wordt afgelezen is $5.00000 \; \mathrm{V}$.
 Wat is de nauwkeurigheid van de meting?
-* Wat is de gevoeligheid bij het meten van een gelijkspanning van ongeveer 9 mV met een 4$\frac{1}{2}$ digit DMM op het 200 mV bereik?
+* Wat is de gevoeligheid bij het meten van een gelijkspanning van ongeveer $9 \; \mathrm{mV}$ met een 4$\frac{1}{2}$ digit DMM op het $200 \; \mathrm{mV}$ bereik?
 ```
 
 ```{exercise}
@@ -290,11 +290,11 @@ Omdat de kennis van de spanningsdeler stof is wat in 4 VWO behandeld wordt, besc
 
 ```{exercise} 
 :class: dropdown
-Stel we hebben een spanningsdeler bestaande uit een 330 $\Omega$ en een 1000 $\Omega$ weerstand.
-De maximale dissipatie in de weerstanden is 1 Watt.
-* Hoeveel stroom mag er door de 330 $\Omega$ en door de 1000 $\Omega$ weerstanden maximaal lopen?
+Stel we hebben een spanningsdeler bestaande uit een $330 \; \Omega$ en een $1000 \; \Omega$ weerstand.
+De maximale dissipatie in de weerstanden is $1 \; \mathrm{Watt}$.
+* Hoeveel stroom mag er door de $330 \; \Omega$ en door de $1000 \; \Omega$ weerstanden maximaal lopen?
 * Wij schakelen de weerstanden in serie. Hoeveel spanning mag erover de serieschakeling gezet worden zodat de maximaal toelaatbare dissipatie niet wordt overschreden?
-* Stel wij zetten 20 V over de serieschakeling. Bereken de spanning over de 330 $\Omega$ weerstand en over de 1000 $\Omega$ weerstand.
+* Stel wij zetten 20 V over de serieschakeling. Bereken de spanning over de $330 \; \Omega$ weerstand en over de $1000 \; \Omega$ weerstand.
 ```
 
 ```{exercise} 
@@ -316,9 +316,9 @@ De basismeetopstelling bestaat uit de diode en Ohmse weerstand in serie geschake
 
 ### Methode
 In figuur {numref}`{number} <fig:II_1:voltdiv>` is de basisschakeling schematisch getekend. 
-De range voor spanning over de diode waarbij de stroomsterkte gemeten moet worden is van 0.1 tot 0.6 V.
+De range voor spanning over de diode waarbij de stroomsterkte gemeten moet worden is van $0.1 \; \mathrm{V}$ tot $0.6 \; \mathrm{V}$.
  In dit gebied verandert de stroomsterkte zeer sterk doordat de weerstand van de diode ongeveer 5 decades ($10^5$) groter wordt.
- Bij lage spanningen is de diodeweerstand zeer groot (M$\Omega$) en bij spanningen  rond de 0.6 V over de diode is de diodeweerstand klein (h$\Omega$).
+ Bij lage spanningen is de diodeweerstand zeer groot (M$\Omega$) en bij spanningen  rond de $0.6 \; \mathrm{V}$ over de diode is de diodeweerstand klein (h$\Omega$).
  De keuze voor de grootte van de Ohmse weerstand hangt sterk af van de weerstandswaarde van de diode.
 Hoe moeten we de waarde van de Ohmse weerstand R$_1$ dan kiezen zodat de spanning over de diode goed te bepalen valt?
 
@@ -329,10 +329,10 @@ De Ohmse weerstand moet dus een grote weerstandswaarde hebben, maar toch veel kl
 De keuze voor de juiste weerstand is aan jou.
 Wel kun je met bovenstaande informatie na gaan wat een goede waarde is als je je bedenkt dat geldt: $U_D=\frac{R_D}{R_D+R_1}U_{\text{bron}}$.
 
-Omdat de weerstandswaarde van de diode zo sterk verschilt, is het lastig om een meetplan op te stellen op basis van een vast interval voor de spanningsbron (bijvoorbeeld van $U_{\text{bron}}$ = 6.00 V tot 0.00 V in stappen van 0.25V).
+Omdat de weerstandswaarde van de diode zo sterk verschilt, is het lastig om een meetplan op te stellen op basis van een vast interval voor de spanningsbron (bijvoorbeeld van $U_{\text{bron}} = 6.00 \; \mathrm{V}$ tot $0.00 \; \mathrm{V}$ in stappen van $0.25 \; \mathrm{V}$).
 Om een gelijke verdeling van metingen over het interessegebied te krijgen, is het verstandig om iteratief te werken.
 Dat wil zeggen, voer een meting uit, zet de meting in een script, laat uitrekenen wat de spanning over de diode is, zet de meting in een plot, bepaal op basis daarvan wat de volgende meting moet zijn.
-Zo'n aanpak voorkomt een sterke clustering van punten rond $U_D$ = 0.6 V wat de kwaliteit van een fit negatief beïnvloedt.
+Zo'n aanpak voorkomt een sterke clustering van punten rond $U_D = 0.6 \; \mathrm{V}$ wat de kwaliteit van een fit negatief beïnvloedt.
 
 Een tweede probleem is de stabiliteit van de voeding bij lagere spanningen.
 De spanning is dan niet stabiel, en de onzekerheid in de spanning groot. 
