@@ -1,6 +1,6 @@
 # Inleiding gebruik oscilloscoop
 
-```{iframe} https://www.youtube.com/embed/pxLfzTvwp90?si=W-vU-2HqadJrUS3J
+```{video} https://www.youtube.com/embed/pxLfzTvwp90?si=W-vU-2HqadJrUS3J
 width: 100%
 ```
 

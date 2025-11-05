@@ -1,6 +1,6 @@
 # Bepaling van de constante van Boltzmann
 
-```{iframe} https://www.youtube.com/embed/oL4-ipL62pQ?si=KD-1YDAk-Nvbc5Sm
+```{video} https://www.youtube.com/embed/oL4-ipL62pQ?si=KD-1YDAk-Nvbc5Sm
 ```
 
 ## Doel 
@@ -9,9 +9,9 @@ In dit practicum ga je het $(I,V)$-karakteristiek van een silicium diode bepalen
 Je mag zelf bepalen of je de Boltzmann constante bepaalt, of de idealiteitsfactor van de diode.
 
 ### Leerdoel
-Hoewel moderne DMM's behoorlijk ideale meetinstrumenten zijn, moeten we bij metingen in een schakeling rekening houden met de mogelijkheid dat de meter de spanningen en stromen in de schakeling verstoort. 
-Het doel van deze proef is leren omgaan met de Digitale Multimeters (DMM's). 
-Daarnaast leer je werken met spanningsdeler en bouw je een eenvoudig elektrische schakeling. 
+Hoewel moderne DMM's behoorlijk ideale meetinstrumenten zijn, moeten we bij metingen in een schakeling rekening houden met de mogelijkheid dat de meter de spanningen en stromen in de schakeling verstoort.
+Het doel van deze proef is leren omgaan met de Digitale Multimeters (DMM's).
+Daarnaast leer je werken met spanningsdeler en bouw je een eenvoudig elektrische schakeling.
 
 ## Voorbereiding ($t$=2h)
 
@@ -20,23 +20,23 @@ De constante van Boltzmann is de evenredigheidsconstante die temperatuur en (the
 
 $$ E = k_{B} T $$
 
-De constante van Boltzmann komt ook voor in de zogenaamde Boltzmann verdeling. 
-De Boltzmann verdeling geeft de waarschijnlijkheid van de energie van een elektron aan als functie van de temperatuur ($p_i \propto e^{-\frac{E_i}{kT}}$). 
-In een halfgeleider, zoals een diode, is de energie van de elektronen ook verdeeld volgens de Boltzmann verdeling, waarbij de gemiddelde energie van een elektron gelijk is aan $k_BT$ ($T$ is de absolute temperatuur en $k_B$ is de Boltzmann constante). 
+De constante van Boltzmann komt ook voor in de zogenaamde Boltzmann verdeling.
+De Boltzmann verdeling geeft de waarschijnlijkheid van de energie van een elektron aan als functie van de temperatuur ($p_i \propto e^{-\frac{E_i}{kT}}$).
+In een halfgeleider, zoals een diode, is de energie van de elektronen ook verdeeld volgens de Boltzmann verdeling, waarbij de gemiddelde energie van een elektron gelijk is aan $k_BT$ ($T$ is de absolute temperatuur en $k_B$ is de Boltzmann constante).
 
-Bij een diode is er sprake van een (energie)barrière waardoor elektronen niet vrij kunnen bewegen. 
-De grootte van de elektrische stroom bij kleine spanningen over de diode hangt dan af van de hoogte van de barrière ten opzichte van de energie van de elektronen. 
-De hoogte van de barrière wordt mede bepaald door de grootte van de voorwaartse spanning. 
-Hoe hoger de voorwaartse spanning des te lager de barrière. 
-Om dit principe beter te snappen, kun je de achtergrond informatie over halfgeleiderdiodes lezen. 
+Bij een diode is er sprake van een (energie)barrière waardoor elektronen niet vrij kunnen bewegen.
+De grootte van de elektrische stroom bij kleine spanningen over de diode hangt dan af van de hoogte van de barrière ten opzichte van de energie van de elektronen.
+De hoogte van de barrière wordt mede bepaald door de grootte van de voorwaartse spanning.
+Hoe hoger de voorwaartse spanning des te lager de barrière.
+Om dit principe beter te snappen, kun je de achtergrond informatie over halfgeleiderdiodes lezen.
 Deze stof is niet noodzakelijk voor de uitvoering van deze proef.
 
-De Boltzmann verdeling van de energie van de elektronen en de aanwezigheid van een barrière wordt mooi tot uiting gebracht in een theoretische formule die het verband tussen de (voorwaartse) stroom door en spanning over een diode beschrijft. 
+De Boltzmann verdeling van de energie van de elektronen en de aanwezigheid van een barrière wordt mooi tot uiting gebracht in een theoretische formule die het verband tussen de (voorwaartse) stroom door en spanning over een diode beschrijft.
 Het verband tussen de stroom ($I_D$) door, en de spanning ($V_D$) over de diode wordt gegeven door de exponentiële functie:
 
 $$ I_{D}\left(V_{D}\right)=I_{0}\left(e^{\frac{-q V_{D}}{n k_{B} T}}-1\right) $$(eq:stroom_diode)
 
-$q$ is hier de lading van een elektron, $-1.602*10^{-19}$ C, $k_B$ is de Boltzmann constante, $n$ is de idealiteitsfactor (hangt af van waar precies de recombinatie plaatsvindt; $n = 2.0 \pm 0.1$ voor Si) en $I_0$ is de sperstroom, de stroom die loopt als $V_D$ sterk negatief wordt. 
+$q$ is hier de lading van een elektron, $-1.602*10^{-19}$ C, $k_B$ is de Boltzmann constante, $n$ is de idealiteitsfactor (hangt af van waar precies de recombinatie plaatsvindt; $n = 2.0 \pm 0.1$ voor Si) en $I_0$ is de sperstroom, de stroom die loopt als $V_D$ sterk negatief wordt.
 Schematisch ziet de $(I,V)$ karakteristiek er op lineaire schaal uit als weergegeven in figuur {numref}`{number} <fig:ii1_fig_schematisch>`.
 
 ```{figure} Figures/BM/diodekarakteristiek.jpg
@@ -44,15 +44,15 @@ Schematisch ziet de $(I,V)$ karakteristiek er op lineaire schaal uit als weergeg
 width: 80%
 name: fig:ii1_fig_schematisch
 ---
-Links: Diode karakteristiek (doorgetrokken lijn), vereenvoudigde diode karakteristiek (gestreepte lijn). 
-Rechts: het standaard symbool voor een diode met voorwaartse stroom. 
+Links: Diode karakteristiek (doorgetrokken lijn), vereenvoudigde diode karakteristiek (gestreepte lijn).
+Rechts: het standaard symbool voor een diode met voorwaartse stroom.
 Geheel rechts: Een donker randje op een diode geeft de aansluiting met het n-type gebied aan.
 ```
 
-In figuur {numref}`{number} <fig:ii1_fig_schematisch>` zien we ook dat bij zekere negatieve spanning $V_b$ de stroom plotseling sterk toeneemt. 
-Dit noemen wij de breakdown spanning van de diode. 
-De diode gedraagt zich dan bijna als een kortsluiting. 
-Dit gedrag wordt niet beschreven door vergelijking {eq}`eq:stroom_diode`. 
+In figuur {numref}`{number} <fig:ii1_fig_schematisch>` zien we ook dat bij zekere negatieve spanning $V_b$ de stroom plotseling sterk toeneemt.
+Dit noemen wij de breakdown spanning van de diode.
+De diode gedraagt zich dan bijna als een kortsluiting.
+Dit gedrag wordt niet beschreven door vergelijking {eq}`eq:stroom_diode`.
 Wat er gebeurt, is dat de spanning over het gebied zonder vrije ladingsdragers zo groot wordt dat de elektronen van de atomen worden 'losgetrokken' en als er één gaat, gaan er meerdere (lawine effect).
 
 Maken we een plot van vergelijking {eq}`eq:stroom_diode` waarbij we de $^{10}$log van $I_D$ uitzetten tegen $V_D$ dan vinden we de doorgetrokken kromme in figuur {numref}`{number} <fig:karakteristiek_halfgeleider>`.
@@ -62,14 +62,15 @@ Maken we een plot van vergelijking {eq}`eq:stroom_diode` waarbij we de $^{10}$lo
 width: 80%
 name: fig:karakteristiek_halfgeleider
 ---
-($I,V$)-karakteristiek van een halfgeleiderdiode op semi-log schaal. 
-De meetpunten volgen vgl. {eq}`eq:stroom_diode`. De gestreepte lijn wordt verkregen door de "-1" in vgl. {eq}`eq:stroom_diode` weg te laten. 
+($I,V$)-karakteristiek van een halfgeleiderdiode op semi-log schaal.
+De meetpunten volgen vgl. {eq}`eq:stroom_diode`.
+De gestreepte lijn wordt verkregen door de "-1" in vgl. {eq}`eq:stroom_diode` weg te laten.
 Grafiek mogelijk gemaakt d.m.v. dataset van eerstejaars studenten uit 2019.
 ```
 
-We zien voor $V_D>0.1 $V een rechte lijn. 
-Dit wordt veroorzaakt door het volgende. 
-Voor het genoemde spanningsgebied is $e^{\frac{-q V_{D}}{n k_{B} T}}>>1$. 
+We zien voor $V_D>0.1 $V een rechte lijn.
+Dit wordt veroorzaakt door het volgende.
+Voor het genoemde spanningsgebied is $e^{\frac{-q V_{D}}{n k_{B} T}}>>1$.
 De stroom door de diode wordt in dat gebied dan ook goed beschreven met 
 
 $$ I_{D}=I_{0} e^{\frac{-q V_{D}}{n k_{B} T}} $$ (eq:fitfunc)
@@ -78,35 +79,36 @@ Nemen we nu links en rechts de logaritme van deze vergelijking dan wordt dit
 
 $$ \log_{10}(I_D)=\log_{10}(I_0)+\log_{10}(e)\frac{-q}{nk_BT}V_d $$
 
-Dit is gelijk aan een vergelijking van een rechte lijn $y=cx+d$. 
-Deze vergelijking kun je gebruiken om de constante van Boltzmann te bepalen op basis van een handgemaakte grafiek. 
+Dit is gelijk aan een vergelijking van een rechte lijn $y=cx+d$.
+Deze vergelijking kun je gebruiken om de constante van Boltzmann te bepalen op basis van een handgemaakte grafiek.
 Echter, met de rekenkracht van de huidige computers is er geen goede reden te bedenken waarom te functie fitten op basis van het gehele domein, en dus op basis van vergelijking {eq}`eq:stroom_diode`.
 
 ```{tip}
 :class: dropdown
-De afsnijding met de y-as geeft $d$ en dus $I_0$. 
+De afsnijding met de y-as geeft $d$ en dus $I_0$.
 Deze waarde kan handmatig bepaald worden en als initiële schatting (p0) in Python meegegeven worden.
 ```
 
-Willen we de Boltzmann verdeling nader bestuderen, of een eigenschap (bijvoorbeeld de idealiteitsfactor) van de diode bepalen, dan is het dus de bedoeling dat we de sterkte van de stroom als functie van de spanning over de diode bepalen. 
+Willen we de Boltzmann verdeling nader bestuderen, of een eigenschap (bijvoorbeeld de idealiteitsfactor) van de diode bepalen, dan is het dus de bedoeling dat we de sterkte van de stroom als functie van de spanning over de diode bepalen.
 Zowel het meten van een stroom als het meten van een spanning kan met een digitale multimeter (DMM).
 
 ### Metingen met DMM's
-Digitale multimeters zijn veelzijdige meetinstrumenten die onder meer gebruikt worden voor het meten van spanning, stroom en weerstand. 
+Digitale multimeters zijn veelzijdige meetinstrumenten die onder meer gebruikt worden voor het meten van spanning, stroom en weerstand.
 Bij geavanceerdere modellen kun je de DMM met een computer besturen en uitlezen en frequenties, tijdsintervallen, capaciteiten, inducties, continuïteit, temperatuur, diode info etc. meten.
 
-In deze proef beperken we ons tot gelijkspannings-, gelijkstroom- en weerstandsmetingen. Het is van belang je te realiseren dat het hart van een DMM wordt gevormd door een Analog Digital Convertor (ADC). 
-Deze eenheid zet een getal op zijn display dat evenredig is met de spanning die op de ingang wordt aangeboden. 
+In deze proef beperken we ons tot gelijkspannings-, gelijkstroom- en weerstandsmetingen.
+Het is van belang je te realiseren dat het hart van een DMM wordt gevormd door een Analog Digital Convertor (ADC).
+Deze eenheid zet een getal op zijn display dat evenredig is met de spanning die op de ingang wordt aangeboden.
 Het bereik waarbinnen de ADC werkt, is meestal gelijk aan het gevoeligste bereik van de DMM voor gelijkspanningsmetingen (b.v. $-100$mV tot $+100$mV).
- Als we de meter op een minder gevoelig meetbereik zetten, schakelen we verzwakkers in die de ingangspanning reduceren tot in het bereik van de ADC. 
- Dit is schematisch in Figuur ({numref}`{number} <fig:DMM>`) links weergeven. 
- Om spanning met een DMM te meten gebruiken we de ingangen **V** en **com** of **hi** en **lo**. 
+ Als we de meter op een minder gevoelig meetbereik zetten, schakelen we verzwakkers in die de ingangspanning reduceren tot in het bereik van de ADC.
+ Dit is schematisch in Figuur ({numref}`{number} <fig:DMM>`) links weergeven.
+ Om spanning met een DMM te meten gebruiken we de ingangen **V** en **com** of **hi** en **lo**.
 
-Als wij een gelijkstroommeting uitvoeren, gebruiken wij de ingangen **I** of **mA** of **A** en **com** of **lo**. 
-We meten bij een gelijkstroommeting in feite de gelijkspanning over een weerstand $R_s$ (zie figuur {numref}`{number} <fig:DMM>` links onder). 
-$R_s$ wordt de shunt weerstand genoemd omdat daar de stroom doorheen loopt en niet door de rest van de meter. 
-Deze weerstand kunnen we beschouwen als de inwendige weerstand van de stroommeter. 
-In de *laagste* stroombereiken is $R_s$ van de orde 100 $\Omega$ tot 1000 $\Omega$. 
+Als wij een gelijkstroommeting uitvoeren, gebruiken wij de ingangen **I** of **mA** of **A** en **com** of **lo**.
+We meten bij een gelijkstroommeting in feite de gelijkspanning over een weerstand $R_s$ (zie figuur {numref}`{number} <fig:DMM>` links onder).
+$R_s$ wordt de shunt weerstand genoemd omdat daar de stroom doorheen loopt en niet door de rest van de meter.
+Deze weerstand kunnen we beschouwen als de inwendige weerstand van de stroommeter.
+In de *laagste* stroombereiken is $R_s$ van de orde 100 $\Omega$ tot 1000 $\Omega$.
 
 ```{figure} Figures/BM/weerstandsmeting.jpg
 ---
@@ -116,16 +118,18 @@ name: fig:DMM
 Principe van gelijkspanning, gelijkstroom en weerstandsmeting met een DMM.
 ```
 
-Als we met de DMM weerstandswaarden meten, wordt er met behulp van een interne stroombron een stroom door de weerstand gestuurd en wordt de spanning over de weerstand gemeten (figuur {numref}`{number} <fig:DMM>` rechts). 
-De grootte van de meetstroom wordt opgegeven in de handleiding van de DMM. Voor de laagste weerstands-bereiken is bijvoorbeeld 1 mA een typische waarde. 
+Als we met de DMM weerstandswaarden meten, wordt er met behulp van een interne stroombron een stroom door de weerstand gestuurd en wordt de spanning over de weerstand gemeten (figuur {numref}`{number} <fig:DMM>` rechts).
+De grootte van de meetstroom wordt opgegeven in de handleiding van de DMM.
+Voor de laagste weerstands-bereiken is bijvoorbeeld 1 mA een typische waarde.
 
 ```{note}
 :class: dropdown
-De schema's in figuur {numref}`{number} <fig:DMM>` zijn min of meer equivalente schema's. Met name voor weerstandsmetingen bestaan veel variaties.
+De schema's in figuur {numref}`{number} <fig:DMM>` zijn min of meer equivalente schema's.
+Met name voor weerstandsmetingen bestaan veel variaties.
 ```
 
-Bij het aansluiten van DMM's moeten we ons ervan bewust zijn dat, zoals in figuur {numref}`{number} <fig:DMM>` links al is aangegeven, voor stroommeting heel vaak een andere ingang wordt gebruikt dan voor spannings- en weerstandsmetingen. 
-In figuur {numref}`{number} <fig:aansluitingen>` zijn de ingangen van een aantal DMM's zoals wij die op het practicum gebruiken weergeven. 
+Bij het aansluiten van DMM's moeten we ons ervan bewust zijn dat, zoals in figuur {numref}`{number} <fig:DMM>` links al is aangegeven, voor stroommeting heel vaak een andere ingang wordt gebruikt dan voor spannings- en weerstandsmetingen.
+In figuur {numref}`{number} <fig:aansluitingen>` zijn de ingangen van een aantal DMM's zoals wij die op het practicum gebruiken weergeven.
 Links de Dynatek D9100, $3\frac{1}{2}$ digit DMM, in het midden de $5\frac{1}{2}$ digit Thurlby 1905a en rechts de $6\frac{1}{2}$ digit Agilent 34401A.
 
 ```{figure} Figures/BM/DMMpoorten.jpg
@@ -137,18 +141,18 @@ Aansluitingen voor (van links naar rechts) de Dynatek, Thurlby en Agilent DMM.
 ```
 
 ```{warning} 
-De kans is zeer groot dat, als wij van stroommeting overgaan op spanningsmeting (van b.v. een voedingsbron) en vergeten de draad uit de I-ingang naar de V-ingang te verplaatsen, op z'n minst de zekering voor de weerstand $R_s$ (zie figuur {numref}`{number} <fig:DMM>` links) wordt opgeblazen. 
+De kans is zeer groot dat, als wij van stroommeting overgaan op spanningsmeting (van b.v. een voedingsbron) en vergeten de draad uit de I-ingang naar de V-ingang te verplaatsen, op z'n minst de zekering voor de weerstand $R_s$ (zie figuur {numref}`{number} <fig:DMM>` links) wordt opgeblazen.
 Let hier op!
 ```
 
 (subsubsec:nauwkeurigheidsspecificaties)= 
 ### Nauwkeurigheidspecificaties van een digitale meter
 
-We zouden kunnen veronderstellen dat de nauwkeurigheid van een meter bepaald wordt door een tel van de laatste decimaal van de uitlezing. 
-Zo simpel is het meestal niet. 
-Een fabrikant geeft de nauwkeurigheid van een DMM meestal op in $\pm$(..\% aflezing + ..\% bereik) of zelfs $\pm$(..\% aflezing + ..\% bereik + ..tellen (counts, digits)). 
-Deze manier om de nauwkeurigheid op te geven is redelijk als we bedenken dat het verband tussen de ingangsspanning en wat er op de uitlezing staat in hoge mate lineair is ($V_{\text{uit}} = aV_{\text{in}} + b$). 
-Fouten in $V_{\text{uit}}$ kunnen dan goed gespecificeerd worden door fouten in $a$ en $b$ op te geven. 
+We zouden kunnen veronderstellen dat de nauwkeurigheid van een meter bepaald wordt door een tel van de laatste decimaal van de uitlezing.
+Zo simpel is het meestal niet.
+Een fabrikant geeft de nauwkeurigheid van een DMM meestal op in $\pm$(..\% aflezing + ..\% bereik) of zelfs $\pm$(..\% aflezing + ..\% bereik + ..tellen (counts, digits)).
+Deze manier om de nauwkeurigheid op te geven is redelijk als we bedenken dat het verband tussen de ingangsspanning en wat er op de uitlezing staat in hoge mate lineair is ($V_{\text{uit}} = aV_{\text{in}} + b$).
+Fouten in $V_{\text{uit}}$ kunnen dan goed gespecificeerd worden door fouten in $a$ en $b$ op te geven.
 De specificatie +\% aflezing correspondeert met de nauwkeurigheid van de "gain" (= versterking) $a$ en de aanduiding +\% bereik + .. tellen correspondeert met de "offset" (= afsnijding) $b$, die in het ideale geval precies nul is (zie figuur {numref}`{number} <fig:nauwkeurigheid_DMM>`).
 
 ```{figure} Figures/BM/DMMmeting.png
@@ -161,56 +165,59 @@ De nauwkeurigheid van een DMM wordt opgegeven door de nauwkeurigheid van de hell
 
 ```{admonition} Voorbeeld
 :class: dropdown
-Stel we lezen af: 1.234 V op de 3$\frac{1}{2}$ cijfer DMM. 
-Hieruit mag je dus niet zomaar afleiden dat de nauwkeurigheid van de meting beter dan 1 mV is. 
-Voor de Dynatek D9100 wordt voor het 2 V bereik opgegeven: $\pm(0.5\%$ van de aflezing +1 tel). 
-Dus: 0.5\% van de aflezing is  6 mV. 
-Plus 1 mV van het digit geeft dus een nauwkeurigheid van 7 mV . Het resultaat van de meting is 1.234$\pm$0.007 V.
+Stel we lezen af: 1.234 V op de 3$\frac{1}{2}$ cijfer DMM.
+Hieruit mag je dus niet zomaar afleiden dat de nauwkeurigheid van de meting beter dan 1 mV is.
+Voor de Dynatek D9100 wordt voor het 2 V bereik opgegeven: $\pm(0.5\%$ van de aflezing +1 tel).
+Dus: 0.5\% van de aflezing is  6 mV.
+Plus 1 mV van het digit geeft dus een nauwkeurigheid van 7 mV.
+Het resultaat van de meting is 1.234$\pm$0.007 V.
 Nauwkeurigheid wordt ook vaak opgegeven in ppm (parts per million, 1\% = 10000 ppm).
 ```
 
-De resolutie van een digitaal instrument is de verhouding van het kleinste aantal tellen tot het grootste aantal tellen dat op het display kan worden weergegeven. 
-it wordt in feite bepaald door het aantal tellen (counts) dat kan worden weergegeven en dat aantal hangt natuurlijk af van het aantal cijfers. 
-Een simpele DMM heeft vaak $3\frac{1}{2}$ cijfers. 
-Dit betekent 3 hele cijfers (elk met waarden van 0 tot en met 9) plus een half cijfer dat de waarden 0 of $\pm1$ kan aannemen. Dus een $3\frac{1}{2}$ cijfer display kan 0 tot 1999 weergeven, totaal 2000 tellen. 
+De resolutie van een digitaal instrument is de verhouding van het kleinste aantal tellen tot het grootste aantal tellen dat op het display kan worden weergegeven.
+it wordt in feite bepaald door het aantal tellen (counts) dat kan worden weergegeven en dat aantal hangt natuurlijk af van het aantal cijfers.
+Een simpele DMM heeft vaak $3\frac{1}{2}$ cijfers.
+Dit betekent 3 hele cijfers (elk met waarden van 0 tot en met 9) plus een half cijfer dat de waarden 0 of $\pm1$ kan aannemen.
+Dus een $3\frac{1}{2}$ cijfer display kan 0 tot 1999 weergeven, totaal 2000 tellen.
 De resolutie van die DMM is 1/2000 of wel 0.05\%.
 
 ```{tip}
 :class: dropdown
-Je werkt tijdens het practicum met een $6\frac{1}{2}$ DMM. 
-Deze zal je echter wel op deze resolutie moeten zetten. De standaard instelling is $5\frac{1}{2}$.
+Je werkt tijdens het practicum met een $6\frac{1}{2}$ DMM.
+Deze zal je echter wel op deze resolutie moeten zetten.
+De standaard instelling is $5\frac{1}{2}$.
 ```
 
-De gevoeligheid bij een meting is de kleinste verandering van het te meten signaal die kan worden waargenomen. 
-Een gevoeligheid bij een meting van 1 $\mu$V impliceert dat veranderingen in het signaal kleiner dan 1 $\mu$V  niet kunnen worden waargenomen. 
-De gevoeligheid hangt mede af van de grootte van het signaal dat we willen meten. 
-Immers, de grootte van het signaal bepaalt het gevoeligste meetbereik waarop gemeten kan worden. 
+De gevoeligheid bij een meting is de kleinste verandering van het te meten signaal die kan worden waargenomen.
+Een gevoeligheid bij een meting van 1 $\mu$V impliceert dat veranderingen in het signaal kleiner dan 1 $\mu$V  niet kunnen worden waargenomen.
+De gevoeligheid hangt mede af van de grootte van het signaal dat we willen meten.
+Immers, de grootte van het signaal bepaalt het gevoeligste meetbereik waarop gemeten kan worden.
 
 ```{admonition} Voorbeeld
 :class: dropdown
-Stel we willen een spanning van ongeveer 15 V meten met een 3$\frac{1}{2}$ cijfer DMM. 
+Stel we willen een spanning van ongeveer 15 V meten met een 3$\frac{1}{2}$ cijfer DMM.
 Het gevoeligste bereik waarop we deze spanning kunnen meten, is het 20 V bereik.
- De kleinste verandering van het signaal die kan worden waargenomen is dan 10 mV (ga na). 
- Voor een 5$\frac{1}{2}$ cijfer DMM is dit 0.1 mV. 
- Met een 3$\frac{1}{2}$ cijfer DMM kun je ook een gevoeligheid van 0.1 mV  halen, maar dan alleen voor signalen kleiner dan 200 mV. 
- De ultieme gevoeligheid van een meetinstrument hangt af van zijn resolutie en het laagste meetbereik. 
+ De kleinste verandering van het signaal die kan worden waargenomen is dan 10 mV (ga na).
+ Voor een 5$\frac{1}{2}$ cijfer DMM is dit 0.1 mV.
+ Met een 3$\frac{1}{2}$ cijfer DMM kun je ook een gevoeligheid van 0.1 mV  halen, maar dan alleen voor signalen kleiner dan 200 mV.
+ De ultieme gevoeligheid van een meetinstrument hangt af van zijn resolutie en het laagste meetbereik.
  Bijvoorbeeld de gevoeligheid van een 6$\frac{1}{2}$ cijfer DMM met een laagste meetbereik van 200 mV is 0.1 $\mu$V.
 ```
 
 (subsec:gebruik_dmm)=
 ### Gebruik van DMM's in een schakeling; ideale en niet-ideale spannings- en stroommeters
 
-Bij metingen in een schakeling is het van belang dat de DMM de stromen en de spanningen in de schakeling niet beïnvloedt. 
-Het zal van de meter en de schakeling afhangen of er wel of niet significante beïnvloeding plaatsvindt. 
-Om dit probleem op een systematische manier aan te pakken is het zinvol het concept van ideale spannings- en stroommeters te introduceren. 
+Bij metingen in een schakeling is het van belang dat de DMM de stromen en de spanningen in de schakeling niet beïnvloedt.
+Het zal van de meter en de schakeling afhangen of er wel of niet significante beïnvloeding plaatsvindt.
+Om dit probleem op een systematische manier aan te pakken is het zinvol het concept van ideale spannings- en stroommeters te introduceren.
 Het spreekt vanzelf dat we een meter ideaal noemen als het plaatsen van de meter in een schakeling geen enkele invloed heeft op de eigenschappen (spanningen en stroomsterktes) van het circuit.
 
-Bij het meten van de spanning tussen twee punten wordt de meter parallel gezet met een deel van de schakeling. 
-Loopt er door de meter geen stroom, dan worden de stromen (en daarmee de spanningen) in de schakeling niet beïnvloed door de meter. 
+Bij het meten van de spanning tussen twee punten wordt de meter parallel gezet met een deel van de schakeling.
+Loopt er door de meter geen stroom, dan worden de stromen (en daarmee de spanningen) in de schakeling niet beïnvloed door de meter.
 Een ideale spanningsmeter is dus een meter waardoor geen stroom loopt.
 Wij kunnen ook zeggen: een ideale spanningsmeter heeft een oneindig hoge weerstand (zie figuur {numref}`{number} <fig:ideaal_niet_ideaal>` meest links).
 
-Door een niet-ideale spanningsmeter loopt dus wel stroom, de weerstand tussen de twee aansluitpunten is niet oneindig. 
+Door een niet-ideale spanningsmeter loopt dus wel stroom, de weerstand tussen de twee aansluitpunten is niet oneindig.
 Een niet-ideale spanningsmeter kunnen we representeren door een parallelschakeling van een ideale spanningsmeter en een weerstand (zie figuur {numref}`{number} <fig:ideaal_niet_ideaal>` tweede figuur van links).
 
 ```{figure} Figures/BM/VAmeters.jpg
@@ -221,69 +228,69 @@ name: fig:ideaal_niet_ideaal
 Representatie van een ideale en niet-ideale spanningsmeter (links) en een ideale en niet-ideale stroommeter (rechts).
 ```
 
-Bij een stroommeting wordt de meter in een bestaande tak van de schakeling in serie met de al aanwezige elementen opgenomen. 
-Valt er over de meter geen spanning dan worden de spanningen (en daarmee de stromen) in de schakeling niet beïnvloed door de meter. 
-Een ideale stroommeter is dus een meter waarover geen spanning valt. 
+Bij een stroommeting wordt de meter in een bestaande tak van de schakeling in serie met de al aanwezige elementen opgenomen.
+Valt er over de meter geen spanning dan worden de spanningen (en daarmee de stromen) in de schakeling niet beïnvloed door de meter.
+Een ideale stroommeter is dus een meter waarover geen spanning valt.
 Wij kunnen ook zeggen: de weerstand van een ideale stroommeter is gelijk aan nul (zie figuur {numref}`{number} <fig:ideaal_niet_ideaal>` tweede figuur van rechts).
 
-Over een niet-ideale stroommeter valt dus wel spanning en zijn weerstand is niet gelijk aan nul. 
+Over een niet-ideale stroommeter valt dus wel spanning en zijn weerstand is niet gelijk aan nul.
 Een niet-ideale stroommeter kan gerepresenteerd worden door serieschakeling van een ideale stroommeter en een weerstand (zie figuur {numref}`{number} <fig:ideaal_niet_ideaal>` uiterst rechts).
 
-De schema's die het niet-ideale gedrag van de meters representeren zijn handig als we willen weten of de verstoring door de meters belangrijk is of niet. 
-We zien bijvoorbeeld direct dat het meten van de spanning over een weerstand die in grootte vergelijkbaar is met de weerstand van de meter ($R_{\text{i}}$), tot verstoringen van de oorspronkelijke stroom/spanningsverdeling leidt. 
+De schema's die het niet-ideale gedrag van de meters representeren zijn handig als we willen weten of de verstoring door de meters belangrijk is of niet.
+We zien bijvoorbeeld direct dat het meten van de spanning over een weerstand die in grootte vergelijkbaar is met de weerstand van de meter ($R_{\text{i}}$), tot verstoringen van de oorspronkelijke stroom/spanningsverdeling leidt.
 Zo zal een stroommeter verstorend werken als zijn weerstand ($R_{\text{i}}$) niet te verwaarlozen is ten opzichte van de andere weerstanden in de tak waarin de meter is opgenomen.
 
 ```{admonition} Voorbeeld
 :class: dropdown
-De spanning over een weerstand van 100 k$\Omega$ wordt gemeten met een DMM met een weerstand van 1.0 M$\Omega$. 
+De spanning over een weerstand van 100 k$\Omega$ wordt gemeten met een DMM met een weerstand van 1.0 M$\Omega$.
 Beinvloedt de meting de eigenschappen van het oorspronkelijk circuit significant?
 
-De DMM staat parallel aan de Ohmse weerstand. 
-De vervangingsweerstand is gelijk aan: $R_v = \frac{R_{DMM} \cdot R_O}{R_{DMM} + R_O}$ (ga zelf na!). 
+De DMM staat parallel aan de Ohmse weerstand.
+De vervangingsweerstand is gelijk aan: $R_v = \frac{R_{DMM} \cdot R_O}{R_{DMM} + R_O}$ (ga zelf na!).
 De vervangingsweerstand is dus 91 k$\Omega$! Dat is inderdaad een significant verschil.
 ```
 
 De verstoring door het aanbrengen van de DMM in een ingewikkelde, onoverzichtelijke  situatie kan systematisch in beeld worden gebracht door de niet-ideale representatie van een spannings - of stroommeter in de schakeling te tekenen en de waarden van $R_{\text{i}}$ in de handleiding van de DMM op te zoeken.
 
-Moderne digitale multimeters hebben op het spanningsmeetbereik een zeer hoge interne weerstand (b.v. $R_\text{i}$=10 M$\Omega$ of hoger). 
-Bij stroommeting zijn deze meters in de lage bereiken iets minder ideaal (b.v. $R_{\text{i}}$ = 1 k$\Omega$). 
-Voor stroommeting wordt in de specificaties van een DMM $R_{\text{i}}$ vaak niet direct opgegeven. 
-Men specificeert de Voltage Burden: de maximale spanning die over de meter valt bij stroommeting. 
+Moderne digitale multimeters hebben op het spanningsmeetbereik een zeer hoge interne weerstand (b.v. $R_\text{i}$=10 M$\Omega$ of hoger).
+Bij stroommeting zijn deze meters in de lage bereiken iets minder ideaal (b.v. $R_{\text{i}}$ = 1 k$\Omega$).
+Voor stroommeting wordt in de specificaties van een DMM $R_{\text{i}}$ vaak niet direct opgegeven.
+Men specificeert de Voltage Burden: de maximale spanning die over de meter valt bij stroommeting.
 De weerstand van de stroommeter wordt dan vaak gegeven door (Voltage Burden) / (meetbereik).
 
 ```{tip}
 :class: dropdown
-Met behulp van de wet van Ohm kunnen we natuurlijk ipv de stroom gewoon de spanning meten over een Ohmse weerstand met bekende weerstandswaarde. 
+Met behulp van de wet van Ohm kunnen we natuurlijk ipv de stroom gewoon de spanning meten over een Ohmse weerstand met bekende weerstandswaarde.
 Voorwaarde is natuurlijk dat die weerstand zelf de eigenschappen niet te veel verstoort.
 ```
 
 ```{exercise} 
 :class: dropdown
 * Voor de nauwkeurigheid van een DMM wordt voor het 10 V bereik opgegeven: 0.0015\% van de aflezing en 0.0004\% van het bereik. 
-De spanning die wordt afgelezen is 5.00000 V. 
+De spanning die wordt afgelezen is 5.00000 V.
 Wat is de nauwkeurigheid van de meting?
 * Wat is de gevoeligheid bij het meten van een gelijkspanning van ongeveer 9 mV met een 4$\frac{1}{2}$ digit DMM op het 200 mV bereik?
 ```
 
 ```{exercise}
 :class: dropdown
-* Bekijk figuur {numref}`{number} <fig:karakteristiek_halfgeleider>`. 
+* Bekijk figuur {numref}`{number} <fig:karakteristiek_halfgeleider>`.
 Leg uit waarom het direct meten van een stroomsterkte door de diode niet handig is.
-* Leg ook uit waarom het direct meten van de spanning over de diode niet nauwkeurig is. 
+* Leg ook uit waarom het direct meten van de spanning over de diode niet nauwkeurig is.
 Denk aan het niet ideaal zijn van de meters.
 ```
 
 (subsec:spanningsdeleropst)=
 ### Spanningsdeler
-Om rekening te houden met het niet ideaal zijn van de meters, maken we in dit experiment gebruik van een spanningsdeler. 
-In zijn eenvoudigste vorm is een spanningsdeler niets anders dan een serieschakeling van twee weerstanden. 
-De (bron)spanning wordt dan gedeeld door de verschillende componenten in de schakeling. 
-De vergelijkingen voor de stroomsterkte en de spanning staan als geheugensteuntje weergegeven in par. {numref}`{number} <subsec:geheugensteun>` van de achtergrondinformatie. 
+Om rekening te houden met het niet ideaal zijn van de meters, maken we in dit experiment gebruik van een spanningsdeler.
+In zijn eenvoudigste vorm is een spanningsdeler niets anders dan een serieschakeling van twee weerstanden.
+De (bron)spanning wordt dan gedeeld door de verschillende componenten in de schakeling.
+De vergelijkingen voor de stroomsterkte en de spanning staan als geheugensteuntje weergegeven in par. {numref}`{number} <subsec:geheugensteun>` van de achtergrondinformatie.
 Omdat de kennis van de spanningsdeler stof is wat in 4 VWO behandeld wordt, beschouwen we dit als voorkennis en wordt de benodigde kennis hieronder alleen getoetst.
 
 ```{exercise} 
 :class: dropdown
-Stel we hebben een spanningsdeler bestaande uit een 330 $\Omega$ en een 1000 $\Omega$ weerstand. 
+Stel we hebben een spanningsdeler bestaande uit een 330 $\Omega$ en een 1000 $\Omega$ weerstand.
 De maximale dissipatie in de weerstanden is 1 Watt.
 * Hoeveel stroom mag er door de 330 $\Omega$ en door de 1000 $\Omega$ weerstanden maximaal lopen?
 * Wij schakelen de weerstanden in serie. Hoeveel spanning mag erover de serieschakeling gezet worden zodat de maximaal toelaatbare dissipatie niet wordt overschreden?
@@ -292,7 +299,7 @@ De maximale dissipatie in de weerstanden is 1 Watt.
 
 ```{exercise} 
 :class: dropdown
-Bekijk figuur {numref}`{number} <fig:II_1:voltdiv>`. 
+Bekijk figuur {numref}`{number} <fig:II_1:voltdiv>`.
 Dit is de (basis)opstelling die gebruikt wordt in dit experiment.
 * Leg uit hoe de spanning over de diode bepaald wordt met behulp van deze schakeling.
 * Leg uit hoe de stroomsterkte door de diode bepaald wordt met behulp van deze schakeling.
@@ -310,24 +317,26 @@ De basismeetopstelling bestaat uit de diode en Ohmse weerstand in serie geschake
 ### Methode
 In figuur {numref}`{number} <fig:II_1:voltdiv>` is de basisschakeling schematisch getekend. 
 De range voor spanning over de diode waarbij de stroomsterkte gemeten moet worden is van 0.1 tot 0.6 V.
- In dit gebied verandert de stroomsterkte zeer sterk doordat de weerstand van de diode ongeveer 5 decades ($10^5$) groter wordt. 
- Bij lage spanningen is de diodeweerstand zeer groot (M$\Omega$) en bij spanningen  rond de 0.6 V over de diode is de diodeweerstand klein (h$\Omega$). De keuze voor de grootte van de Ohmse weerstand hangt sterk af van de weerstandswaarde van de diode. 
+ In dit gebied verandert de stroomsterkte zeer sterk doordat de weerstand van de diode ongeveer 5 decades ($10^5$) groter wordt.
+ Bij lage spanningen is de diodeweerstand zeer groot (M$\Omega$) en bij spanningen  rond de 0.6 V over de diode is de diodeweerstand klein (h$\Omega$).
+ De keuze voor de grootte van de Ohmse weerstand hangt sterk af van de weerstandswaarde van de diode.
 Hoe moeten we de waarde van de Ohmse weerstand R$_1$ dan kiezen zodat de spanning over de diode goed te bepalen valt?
 
-Kiezen we een hele grote weerstandswaarde, dan zal de spanningsmeter een merkbare invloed hebben op de gehele schakeling. 
-Kiezen we een hele kleine weerstandswaarde, dan zal bij zeer lage spanning over de diode, vrijwel alle spanning over de diode staan. 
-De precieze spanning over de weerstand is dan slecht te bepalen. 
-De Ohmse weerstand moet dus een grote weerstandswaarde hebben, maar toch veel kleiner dan de interne weerstand van de DMM. 
-De keuze voor de juiste weerstand is aan jou. 
+Kiezen we een hele grote weerstandswaarde, dan zal de spanningsmeter een merkbare invloed hebben op de gehele schakeling.
+Kiezen we een hele kleine weerstandswaarde, dan zal bij zeer lage spanning over de diode, vrijwel alle spanning over de diode staan.
+De precieze spanning over de weerstand is dan slecht te bepalen.
+De Ohmse weerstand moet dus een grote weerstandswaarde hebben, maar toch veel kleiner dan de interne weerstand van de DMM.
+De keuze voor de juiste weerstand is aan jou.
 Wel kun je met bovenstaande informatie na gaan wat een goede waarde is als je je bedenkt dat geldt: $U_D=\frac{R_D}{R_D+R_1}U_{\text{bron}}$.
 
-Omdat de weerstandswaarde van de diode zo sterk verschilt, is het lastig om een meetplan op te stellen op basis van een vast interval voor de spanningsbron (bijvoorbeeld van $U_{\text{bron}}$ = 6.00 V tot 0.00 V in stappen van 0.25V). 
-Om een gelijke verdeling van metingen over het interessegebied te krijgen, is het verstandig om iteratief te werken. 
-Dat wil zeggen, voer een meting uit, zet de meting in een script, laat uitrekenen wat de spanning over de diode is, zet de meting in een plot, bepaal op basis daarvan wat de volgende meting moet zijn. 
+Omdat de weerstandswaarde van de diode zo sterk verschilt, is het lastig om een meetplan op te stellen op basis van een vast interval voor de spanningsbron (bijvoorbeeld van $U_{\text{bron}}$ = 6.00 V tot 0.00 V in stappen van 0.25V).
+Om een gelijke verdeling van metingen over het interessegebied te krijgen, is het verstandig om iteratief te werken.
+Dat wil zeggen, voer een meting uit, zet de meting in een script, laat uitrekenen wat de spanning over de diode is, zet de meting in een plot, bepaal op basis daarvan wat de volgende meting moet zijn.
 Zo'n aanpak voorkomt een sterke clustering van punten rond $U_D$ = 0.6 V wat de kwaliteit van een fit negatief beïnvloedt.
 
-Een tweede probleem is de stabiliteit van de voeding bij lagere spanningen. 
-De spanning is dan niet stabiel, en de onzekerheid in de spanning groot. Je kunt dit oplossen door gebruik te maken van een tweede spanningsdeler, zie {numref}`{number} figuur <fig:BMopst>`. Doordat de spanning zich deelt over twee weerstanden is de spanning over de diodeschakeling ook kleiner.
+Een tweede probleem is de stabiliteit van de voeding bij lagere spanningen.
+De spanning is dan niet stabiel, en de onzekerheid in de spanning groot. 
+Je kunt dit oplossen door gebruik te maken van een tweede spanningsdeler, zie {numref}`{number} figuur <fig:BMopst>`. Doordat de spanning zich deelt over twee weerstanden is de spanning over de diodeschakeling ook kleiner.
 
 
 ```{figure} Figures/BM/BMopstelling.png
@@ -349,11 +358,18 @@ Bekijk {numref}` figuur  {number} <fig:BMopst>`.
 
 ```{exercise}
 :class: dropdown
-* Schrijf het python script dat je in staat stelt om bovenstaande iteratieve proces uit te voeren. Maak gebruik van verschillende cellen: Ruwe data/bewerkte data/plot/fit.
-* Zet in het script je berekening voor de onzekerheid in $U_{bron}$, $U_R$ en $R$ klaar. Deze kan je bij het uitvoeren van het experiment bepalen met behulp van de handleidingen.
-* Maak het script voor het vinden van de optimale fit, gebruik daarvoor vergelijking {eq}`eq:stroom_diode`. 
+* Schrijf het python script dat je in staat stelt om bovenstaande iteratieve proces uit te voeren. 
+Maak gebruik van verschillende cellen: Ruwe data/bewerkte data/plot/fit.
+* Zet in het script je berekening voor de onzekerheid in $U_{bron}$, $U_R$ en $R$ klaar.
+Deze kan je bij het uitvoeren van het experiment bepalen met behulp van de handleidingen.
+* Maak het script voor het vinden van de optimale fit, gebruik daarvoor vergelijking {eq}`eq:stroom_diode`.
 * Maak het script voor het berekenen van de constante van Boltzmann op basis van de optimale fit parameters.
-* Uit de I-V karakteristiek van een diode kan een grootheid $b$ bepaald worden. Volgens de theorie geldt: $b=-q/nk_BT$ of $k_B=-q/bnT$. $q$ is de lading van een elektron (negatief), $n$ de idealiteitsfactor en $T$ de absolute temperatuur. Als we $b$, $q$, $n$ en $T$ kennen, kunnen we $k_B$ bepalen. De onzekerheden in $b$, $n$ en $T$ zijn $u(b)$, $u(n)$ en $u(T)$. Leid een uitdrukking af voor de onzekerheid $u(k_{\text{B}})$ in de gevonden waarde van $k_B$.
+* Uit de I-V karakteristiek van een diode kan een grootheid $b$ bepaald worden.
+Volgens de theorie geldt: $b=-q/nk_BT$ of $k_B=-q/bnT$.
+$q$ is de lading van een elektron (negatief), $n$ de idealiteitsfactor en $T$ de absolute temperatuur.
+Als we $b$, $q$, $n$ en $T$ kennen, kunnen we $k_B$ bepalen.
+De onzekerheden in $b$, $n$ en $T$ zijn $u(b)$, $u(n)$ en $u(T)$.
+Leid een uitdrukking af voor de onzekerheid $u(k_{\text{B}})$ in de gevonden waarde van $k_B$.
 ```
 
 ## Uitvoering (3h)
