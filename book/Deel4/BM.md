@@ -167,7 +167,7 @@ De nauwkeurigheid van een DMM wordt opgegeven door de nauwkeurigheid van de hell
 :class: dropdown
 Stel we lezen af: $1.234 \; \mathrm{V}$ op de $3\frac{1}{2}$ cijfer DMM.
 Hieruit mag je dus niet zomaar afleiden dat de nauwkeurigheid van de meting beter dan $1 \; \mathrm{mV}$ is.
-Voor de Dynatek D9100 wordt voor het 2 V bereik opgegeven: $\pm(0.5\%$ van de aflezing +1 tel).
+Voor de Dynatek D9100 wordt voor het 2 V bereik opgegeven: $\pm(0.5\%$ van de aflezing + $1 \; \mathrm{tel})$.
 Dus: $0.5\%$ van de aflezing is $6 \; \mathrm{mV}$.
 Plus $1 \; \mathrm{mV}$ van het digit geeft dus een nauwkeurigheid van $7 \; \mathrm{mV}$.
 Het resultaat van de meting is $1.234 \pm 0.007 \; \mathrm{V}$.
@@ -181,13 +181,6 @@ Dit betekent 3 hele cijfers (elk met waarden van 0 tot en met 9) plus een half c
 Dus een $3\frac{1}{2}$ cijfer display kan 0 tot 1999 weergeven, totaal 2000 tellen.
 De resolutie van die DMM is $1/2000$ of wel $0.05\%$.
 
-```{tip}
-:class: dropdown
-Je werkt tijdens het practicum met een $6\frac{1}{2}$ DMM.
-Deze zal je echter wel op deze resolutie moeten zetten.
-De standaard instelling is $5\frac{1}{2}$.
-```
-
 De gevoeligheid bij een meting is de kleinste verandering van het te meten signaal die kan worden waargenomen.
 Een gevoeligheid bij een meting van $1 \; \mathrm{\mu V}$ impliceert dat veranderingen in het signaal kleiner dan $1 \; \mathrm{\mu V}$  niet kunnen worden waargenomen.
 De gevoeligheid hangt mede af van de grootte van het signaal dat we willen meten.
@@ -196,12 +189,12 @@ Immers, de grootte van het signaal bepaalt het gevoeligste meetbereik waarop gem
 ```{admonition} Voorbeeld
 :class: dropdown
 Stel we willen een spanning van ongeveer 15 V meten met een 3$\frac{1}{2}$ cijfer DMM.
-Het gevoeligste bereik waarop we deze spanning kunnen meten, is het 20 V bereik.
-De kleinste verandering van het signaal die kan worden waargenomen is dan 10 mV (ga na).
-Voor een 5$\frac{1}{2}$ cijfer DMM is dit 0.1 mV.
-Met een 3$\frac{1}{2}$ cijfer DMM kun je ook een gevoeligheid van 0.1 mV  halen, maar dan alleen voor signalen kleiner dan 200 mV.
+Het gevoeligste bereik waarop we deze spanning kunnen meten, is het $20 \; \mathrm{V}$ bereik.
+De kleinste verandering van het signaal die kan worden waargenomen is dan $10 \; \mathrm{mV}$ (ga na).
+Voor een 5$\frac{1}{2}$ cijfer DMM is dit $0.1 \; \mathrm{mV}$.
+Met een 3$\frac{1}{2}$ cijfer DMM kun je ook een gevoeligheid van $0.1 \; \mathrm{mV}$  halen, maar dan alleen voor signalen kleiner dan $200 \; \mathrm{mV}$.
 De ultieme gevoeligheid van een meetinstrument hangt af van zijn resolutie en het laagste meetbereik.
-Bijvoorbeeld de gevoeligheid van een 6$\frac{1}{2}$ cijfer DMM met een laagste meetbereik van 200 mV is 0.1 $\mu$V.
+Bijvoorbeeld de gevoeligheid van een 6$\frac{1}{2}$ cijfer DMM met een laagste meetbereik van $200 \; \mathrm{mV}$ is $0.1 \; \mathrm{\mu V}$.
 ```
 
 (subsec:gebruik_dmm)=
@@ -266,7 +259,7 @@ Voorwaarde is natuurlijk dat die weerstand zelf de eigenschappen niet te veel ve
 
 ```{exercise} 
 :class: dropdown
-* Voor de nauwkeurigheid van een DMM wordt voor het 10 V bereik opgegeven: 0.0015\% van de aflezing en 0.0004\% van het bereik. 
+* Voor de nauwkeurigheid van een DMM wordt voor het $10 \; \mathrm{V}$ bereik opgegeven: $0.0015\%$ van de aflezing en $0.0004\%$ van het bereik. 
 De spanning die wordt afgelezen is $5.00000 \; \mathrm{V}$.
 Wat is de nauwkeurigheid van de meting?
 * Wat is de gevoeligheid bij het meten van een gelijkspanning van ongeveer $9 \; \mathrm{mV}$ met een 4$\frac{1}{2}$ digit DMM op het $200 \; \mathrm{mV}$ bereik?
@@ -386,7 +379,7 @@ Leid een uitdrukking af voor de onzekerheid $u(k_{\text{B}})$ in de gevonden waa
 ### Spanningsdeler
 
 1. Bouw met de weerstanden op het perspexpaneel schakeling zoals aangegeven in figuur {numref}`{number} <fig:spanningsdeler_spanningsbron>`. Tip: doe dit systematisch aan de hand van het schema. Ben je het overzicht kwijt? Breek alles af en begin opnieuw.
-2. Stel de voedingsbron in op ongeveer 20 V. 
+2. Stel de voedingsbron in op ongeveer $20 \; \mathrm{V}$. 
 Meet nu de spanning met de $5\frac{1}{2}$ digit meter direct over de voedingsbron ($U_{\text{B}}$), over $R_{1}$ ($V_{\text{AB}}$) en over $R_{\text{2}}$ ($V_{\text{BC}}$). Is $U_B = V_{\text{AB}} + V_{\text{BC}}$ ?
 3. Bepaal de verhouding van de spanning over $R_{2}$ ($V_{\text{BC}}$) en de spanning over beide weerstanden $R_{1}$ en $R_{2}$ ($V_{\text{AC}}$). 
 Laat zien dat dit klopt met wat we op grond van de gemeten waarden van de weerstanden (al gedaan bij opdracht 4-1) zouden verwachten.
@@ -398,8 +391,8 @@ Meet de stroom.
 Klopt de gemeten waarde met de berekende waarde?
 6. Verlaag de voedingsspanning met een factor 10.
 Verander verder niets.
-Welke stroom lees je op het 40 mA bereik van de $3\frac{1}{2}$ digit DMM af? Schakel over het 4 mA bereik van deze DMM. 
-Waarom wijkt de nu gevonden waarde af van de waarde op het 40 mA bereik? Wat moet je weten om het verschil kwantitatief te verklaren?
+Welke stroom lees je op het $40 \; \mathrm{mA}$ bereik van de $3\frac{1}{2}$ digit DMM af? Schakel over het $4 \; \mathrm{mA}$ bereik van deze DMM. 
+Waarom wijkt de nu gevonden waarde af van de waarde op het $40 \; \mathrm{mA}$ bereik? Wat moet je weten om het verschil kwantitatief te verklaren?
 
 ```{figure} Figures/BM/spanningsdeler1.jpg
 ---
