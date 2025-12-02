@@ -14,6 +14,8 @@ Elke dag op de TU start je met een TA waarbij je bespreekt wat je die dag gaat d
 
 De TU practicumdagen zijn schaars. Je kunt / mag op maandagen ook naar de TU komen om metingen te verrichten, dit moet wel in overleg zodat we zeker weten dat de opstelling beschikbaar is.
 
+Kijk op het rooster op Brightspace voor de exacte data en planning.
+<!-- 
 Het onderstaande rooster geeft een beeld van wat wanneer gedaan kan (of moet worden). Hierin kan iets verschoven worden omdat het soms zinniger is (bijv. voor de maandaggroep) om meteen metingen uit te voeren. Houd het rooster als leidraad, waarbij je wel rekening houdt met de deadlines.
 
 | Week | Dag | Onderwerp                                                                                                | Deadline                               |
@@ -27,7 +29,7 @@ Het onderstaande rooster geeft een beeld van wat wanneer gedaan kan (of moet wor
 | 3.3  | 1   | Meten en analyse, en draft                                                                               |                                        |
 |      | 2   | Meten en analyse, en draft                                                                               | Inleveren draft voor peer feedback     |
 | 3.4  | 1   | Verslag legging                                                                                          |                                        |
-|      | 2   | Verslag legging                                                                                          | vr 22:00h                              |
+|      | 2   | Verslag legging                                                                                          | vr 22:00h                              | -->
 
 **1 Brainstormsessie onderwerp:** 
 In je team bedenk je wat je precies wilt onderzoeken, hoe je dat grofweg gaat doen. Uiteraard ga je alvast op zoek naar voorbeelden van soortgelijke onderzoek.
