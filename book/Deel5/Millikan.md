@@ -52,7 +52,7 @@ width: 40%
 De krachten die werken op een geladen oliedruppel die beweegt met een constante snelheid.
 ```
 
-Een handigheid die we kunnen toepassen is het elektrische veld omdraaien. Door de krachtenbalans voor een meewerkend elektrisch veld en een tegenwerkend elektrisch veld (tegen de zwaartekracht in) bij elkaar op te tellen, vervalt de zwaartekrachtsterm.
+Een handigheid die we kunnen toepassen is het elektrische veld omdraaien. Door de krachtenbalans voor een meewerkend elektrisch veld en een tegenwerkend elektrisch veld (tegen de zwaartekracht in) van elkaar af te trekken, vervalt de zwaartekrachtsterm.
 
 ``` {exercise}
 Voer bovenstaande exercitie uit en geef de vergelijking die je krijgt voor de elektrische lading.
