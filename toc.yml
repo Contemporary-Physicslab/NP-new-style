@@ -1,0 +1,68 @@
+
+version: 1
+project:
+  toc:
+
+# - caption: Essentiele basiskennis
+    - file: content/index.md
+    - title: Essentiele basiskennis
+      children:
+      - file: content/basiskennis/Labjournaal.md
+      - file: content/basiskennis/Datamanagement.md
+      - file: content/basiskennis/MO2.md
+      - file: content/basiskennis/LaTeX.md
+      - file: content/basiskennis/Schrijven.md
+  
+    - title: Introductie experiment
+      children:
+        - file: content/tn13010_exp/IE1.md
+        - file: content/tn13010_exp/IE1 labjournaal.ipynb
+        - file: content/tn13010_exp/IE1verslag.md
+    
+    - title: Ontwikkelings experimenten
+      children:
+        - file: content/tn13015_exp/G.md
+          children:
+            - file: content/tn13015_exp/G_val.ipynb
+            - file: content/tn13015_exp/G_slinger.ipynb
+        - file: content/tn13015_exp/BM.md
+          children:
+            - file: content/tn13015_exp/BM_labjournaal.ipynb
+               
+        - file: content/tn13015_exp/RC.md
+          children:
+            - file: content/tn13015_exp/RC_labjournaal.ipynb
+              title: Labjournaal RC
+
+
+
+    - title: Eindproject
+      children:
+        - file: content/eindproject/Inleiding
+        - file: content/eindproject/Spectroscopie
+        - file: content/eindproject/Airtrack
+        - file: content/eindproject/Valmetwrijving
+      #   - file: content/eindproject/K40
+      #   - file: content/eindproject/Slingers
+        - file: content/eindproject/Millikan
+      #   - file: content/eindproject/BoltzmannT
+      #   - file: content/eindproject/Stromingsleer
+        - file: content/eindproject/Warmtetransport
+      
+    # #   - file: content/eindproject/TEverslag
+
+    - title: Appendix
+      children:
+        - file: content/Appendix/demos/Panfluit.ipynb
+        - file: content/Appendix/demos/Valversnelling.ipynb
+        - file: content/Appendix/demos/Young.ipynb
+        - file: content/Appendix/demos/Vitruvian.ipynb
+        - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/voorbeeldverslag.pdf"
+          title: Voorbeeldverslag
+        - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/voorbeeldverslag2.pdf"
+          title: Voorbeeldverslag 2
+        - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/Unspokenrules.pdf"
+          title: Unspoken rules in writing a scientific report
+        - url: "https://www.sciencedirect.com/science/article/pii/S1878764915001606"
+          title: 'Writing a scientific article: A step-by-step guide for beginners'
+

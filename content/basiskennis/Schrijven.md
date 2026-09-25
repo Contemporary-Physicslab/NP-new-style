@@ -2,7 +2,7 @@
 
 Een belangrijk onderdeel van de opleidingen binnen TNW is het leren schrijven van een verslag of wetenschappelijk rapport. In het eerste jaar leggen we daar de basis van. Het schrijven van het eerste verslag kost veel studenten nogal wat moeite en tijd. Dit komt onder andere omdat we hogere eisen stellen aan het verslag dan op de middelbare school. Dat is noodzakelijk omdat, uiteindelijk, anderen in aanraking komen met jouw onderzoek door de artikelen en verslagen die je hebt geschreven. Zo'n verslag of artikel moet dan ook alles staan wat belangrijk is en netjes opgebouwd zijn om uiteindelijk te laten zien dat het niet anders kan dan dat de getrokken conclusie volgt uit het onderzoek dat gedaan is.
 
-```{Warning}
+```{warning}
 Details over de presentatie van de experimenten kunnen verschillen, afhankelijk van de aard van het onderzoek en de tradities van het vakgebied. Volg daarom ook altijd de **aanvullende vakspecifieke instructies** als die vermeld staan in de betreffende practicumhandleiding.
 ```
 
@@ -44,7 +44,7 @@ Een derde belangrijke reden is de *controle op de kennis* die is ontwikkeld, het
 De drie voor TNW meest relevante functies van verslaglegging kunnen als volgt worden samengevat: *De functie
 van een wetenschappelijk verslag is jezelf en anderen ervan overtuigen dat wat er is gedaan het best mogelijk antwoord geeft op de gestelde onderzoeksvraag.*
 
-```{Tip}
+```{tip}
 oefenen in verslag schrijven = oefenen in schriftelijk rapporteren. 
 ```
 
@@ -97,7 +97,7 @@ Zoals eerder gemeld is het dan ook niet erg om je verslag te laten lezen aan een
 ## Structuur
 De meeste gebruikte structuur in een wetenschappelijke artikel is de [IMRAD](https://en.wikipedia.org/wiki/IMRAD)-structuur. Voor het natuurkundig verslag maken we gelijk van een soortgelijke structuur. Dit komt nog uitgebreid aan bod bij het eerste experiment. Voor de volledigheid bieden we hier de structuur nogmaals aan.
 
-```{Important}
+```{important}
 Een wetenschappelijk verslag leest als een lopend verhaal met als hart de **inleiding -- resultaten -- discussie/conclusie**. In deze drie secties worden drie vragen behandeld:
 1. Waarom dit onderzoek (inleiding)?
 2. Wat kwam er uit het onderzoek (resultaten)?
@@ -165,7 +165,7 @@ en in welke vorm je deze wilt presenteren. Daarbij is het belangrijk dat je je k
 
 **Discussie:** In de discussie interpreteer je de data en relateer je deze tot eerder werk, interpreteer je de opbrengsten in een breder perspectief. Voor kleinere onderzoeken is een aparte discussiesectie niet nodig. Discussie en resultaten worden dan samengenomen.
 
-```{Warning}
+```{warning}
 Afhankelijk van het onderzoeksveld en of er veel te bespreken valt zijn *Resultaten* en *Discussie* twee **losse** secties of worden ze **gecombineerd** tot Resultaten & Discussie.
 ```
 

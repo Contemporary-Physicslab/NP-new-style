@@ -1,0 +1,20 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: d9310977-d969-4843-805d-1ee9f1358e35
+  title: Inleidend practicum 1&2
+  subtitle: "Practicumdeel"
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/Contemporary-Physicslab/NP-new-style
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+
+extend:
+  - toc.yml
+
+site:
+  template: book-theme
+  options:
+    favicon: figures/favicon.ico
+    logo: figures/TUDelft_logo_rgb.png

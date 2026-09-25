@@ -1,6 +1,6 @@
 # Bepaling van de constante van Boltzmann
 
-```{video} https://www.youtube.com/embed/oL4-ipL62pQ?si=KD-1YDAk-Nvbc5Sm
+```{iframe} https://www.youtube.com/embed/oL4-ipL62pQ?si=KD-1YDAk-Nvbc5Sm
 ```
 
 ## Doel 
@@ -473,7 +473,7 @@ $$
 (subsec:halfgeleiderdiode2)=
 ### Halfgeleiderdiode
 
-```{video} https://www.youtube.com/embed/AF8d72mA41M?si=hejU74ZWfVCubk2I
+```{iframe} https://www.youtube.com/embed/AF8d72mA41M?si=hejU74ZWfVCubk2I
 ```
 
 Bovenstaande Veritasium clip legt op een zeer gedegen manier de werking van een diode (hier dan een LED) uit.

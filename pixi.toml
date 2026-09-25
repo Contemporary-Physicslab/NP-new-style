@@ -1,0 +1,17 @@
+[workspace]
+authors = ["FreekPols <c.f.j.pols@tudelft.nl>"]
+channels = ["conda-forge"]
+name = "NP-new-style"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mystmd = ">=1.10.1,<2"
+jupytext = ">=1.19.5,<2"
+python = ">=3.14.7,<3.15"
+jupyterlab = ">=4.6.3,<5"
+
+[pypi-dependencies]
+jupyterlab-myst = ">=2.7.0, <3"
