@@ -1,7 +1,7 @@
 # De magneetzweeftrein
 
 ## Doelen & structuur
-```{Note}
+```{note}
 In elke practicumhandleiding vind je twee soorten doelen. De practicumdoelen vertellen wat je in het practicum gaat doen. De leerdoelen geven aan wat we willen dat je hebt geleerd na het doen van het practicum.
 ```
 
@@ -31,24 +31,14 @@ Het verslag maak je met de partner waarmee je samenwerkt.
 Magneetzweeftreinen blijven vlak boven de grond zweven doordat ze gebruik maken van magneten die elkaar afstoten en aantrekken. In het ontwerpen van de magneetzweeftrein is het modelleren van het gedrag van de trein bij hoge snelheden van groot belang. Zonder een goed computermodel zal het niet mogelijk zijn om een goed werkend prototype te maken. 
 
 Een van de factoren die van invloed is op het gedrag van de trein is de afstand tussen de grond en de trein, en de demping wanneer er over een niet volledig horizontaal traject wordt gereden. Om dat te kunnen modelleren is het van belang dat de precieze relatie tussen de afstand tussen de magneten en de grootte van de afstotende kracht bekend is. Alhoewel de theorie een goede indruk geeft van deze relatie, zal deze relatie voor niet geïdealiseerde situaties experimenteel bevestigd moeten worden. Het is belangrijk om inzicht te krijgen in hoeverre de geïdealiseerde theorie in staat is de praktijk te benaderen (of vice versa). De onderzoeksvraag wordt daarmee:
-<p align="center"><i> Hoe hangt de kracht tussen twee tegenover elkaar geplaatste schijfmagneten af van de afstand tussen de magneten? </i></p>
+> *Hoe hangt de kracht tussen twee tegenover elkaar geplaatste schijfmagneten af van de afstand tussen de magneten?*
 
 ```{warning}
 De hoofdonderzoeker die het onderzoek zou uitvoeren is in het buitenland en kan onmogelijk het onderzoek afronden. Jij en je partner zijn aangesteld als de vervanger van de hoofdonderzoeker en moeten een overtuigend antwoord op deze onderzoeksvraag geven. Gelukkig ligt er een theoretische afleiding voor een natuurkundig model en zijn er door de hoofdonderzoeker een introductie en methode geschreven. Deze staan hieronder uitgewerkt. De methode is goed genoeg beschreven om de daadwerkelijke metingen uit te voeren. Helaas zijn wel alle meetonzekerheden en de daarbij behorende berekeningen niet uitgevoerd. Ook die berekeningen en afleidingen moeten door jullie gemaakt worden.
 ```
 
-<div style="display: flex; justify-content: center;">
-  <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
-    <iframe
-      src="https://www.youtube.com/embed/ug9CEvIFo0Q"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </div>
-</div>
-
+```{iframe} https://www.youtube.com/embed/ug9CEvIFo0Q
+```
 
 <h2><p style="text-align: center;">Uit het rapport van de onderzoeker</h2></p>
 
@@ -132,8 +122,8 @@ $$ (eq:Br2)
 Het model is gevalideerd wanneer de experimentele waarden het verwachtte vierde machtsverband gedrag vertonen en het remanente veld volgend uit de empirische data overeenkomt met de specificaties van de magneten. Daartoe richten we ons op de volgende twee onderzoeksvragen:
 %
 
-*  *Hoe hangt de afstotende/aantrekkende kracht tussen twee magneten af van hun onderlinge afstand?*
-*  *Is het theoretische model van een superpositie van dipolen voldoende om die relatie te beschrijven?*
+>  *Hoe hangt de afstotende/aantrekkende kracht tussen twee magneten af van hun onderlinge afstand?*  
+>  *Is het theoretische model van een superpositie van dipolen voldoende om die relatie te beschrijven?*
 
 ## Experimentele methode
 ### Experiment en instrumentatie
@@ -208,14 +198,4 @@ Je hebt je data verzameld en een eerste plot gemaakt. Nu ga je de data analysere
 *  Het remanente veld berekenen en vergelijken met het remanente veld gemeld in de specificaties.
 
 Om je te helpen bij deze analyse, staan de stappen ook vermeld in het notebook.
-
-
-
-## Referenties
-
-```{bibliography}
-:style: unsrt
-:filter: docname in docnames
-```
-
 

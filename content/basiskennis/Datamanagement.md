@@ -12,7 +12,7 @@ Maak voor je studie een map aan, bijvoorbeeld op de structuur gegeven in {numref
 
 ```{figure} Figures/folderstructure.png
 :width: 90%
-:name: fig:datamanagement
+:name: fig-datamanagement
 
 Voorbeeld van een bestandenstructuur voor je hele bachelor. 
 ```
@@ -23,9 +23,7 @@ Voorbeeld van een bestandenstructuur voor je hele bachelor.
 - Je laptop zal regelmatig toch rommelig aandoen. Neem af en toe de tijd om je laptop op te ruimen.
 
 ## Version control
-
-## Onedrive
-
+In het volgende kwartaal gaan we bezig met version control. Ben je al geintresseerd? Kijk dan [hier](https://Contemporary-Physicslab.github.io/gitintro)
 
 
 ## Datamanagement in de wetenschap:

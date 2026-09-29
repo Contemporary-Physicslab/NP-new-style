@@ -6,17 +6,8 @@ Een belangrijk onderdeel van de opleidingen binnen TNW is het leren schrijven va
 Details over de presentatie van de experimenten kunnen verschillen, afhankelijk van de aard van het onderzoek en de tradities van het vakgebied. Volg daarom ook altijd de **aanvullende vakspecifieke instructies** als die vermeld staan in de betreffende practicumhandleiding.
 ```
 
-<div style="display: flex; justify-content: center;">
-    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
-        <iframe
-            src="https://www.youtube.com/embed/d1GY1Nr106s?si=wdr9gxXD4fpmV4nG"
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        ></iframe>
-    </div>
-</div>
+```{iframe} https://www.youtube.com/embed/d1GY1Nr106s?si=wdr9gxXD4fpmV4nG
+```
 
 
 In dit hoofdstuk proberen we je te helpen bij het opzetten van een verslag door uit te leggen waarom je schrijft, voor wie je schrijft, en wat er in een verslag moet staan. Hoewel de voorschriften van de tijdschriften voor verschillende vakgebieden in details verschillen, is de **algemene structuur** van de meeste wetenschappelijk artikel gelijk. Naast de indeling van een wetenschappelijk artikel zijn er ook algemene regels over taalgebruik, vormgeving, verwijzingen, enz. Het uiteindelijke doel van deze regels is de informatie in het artikel zo efficiënt en helder mogelijk over te brengen aan de lezer. Bedenk daarbij dat wetenschappers altijd druk zijn. Ze hebben weinig tijd om hele lappen tekst te lezen. Artikelen zijn daarom kort en hebben een hoge informatiedichtheid. De kunst van wetenschappelijk schrijven is het zo bondig mogelijk schrijven, maar wel op zo'n manier dat het eenduidig is. Dat wil zeggen, datgene wat er staat moet duidelijk zijn.
