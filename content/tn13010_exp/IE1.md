@@ -184,7 +184,7 @@ Voer de volgende opdrachten uit:
 
 *  Meet alle afstanden uit Vergelijking {eq}`eq:afstanden` behalve $h_{1,2}$.
 *  Doe de afleiding voor de onzekerheid in de afstand en de kracht. Deze zouden beschreven staan in de Appendix, maar de Appendix is niet terug te vinden in de documenten van de hoofdonderzoeker.
-*  Volg de beschreven meetprocedure. Voer de definitieve metingen uit voor de relatie tussen kracht en afstand. Noteer de uitkomsten in de excel (zie Brightspace). Noteer de meetonzekerheden in het Jupyter Notebook (labjournaal).
+*  Volg de beschreven meetprocedure. Voer de definitieve metingen uit voor de relatie tussen kracht en afstand. Noteer de uitkomsten met meetonzekerheden in het labjournaal. 
 *  Verwerk alle metingen in de Jupyter Notebook (te vinden op Brightspace).
 *  Maak de eerste plot.
 *  Laat je plot controleren door de TA.
