@@ -57,6 +57,7 @@ project:
         - file: content/Appendix/demos/Valversnelling.ipynb
         - file: content/Appendix/demos/Young.ipynb
         - file: content/Appendix/demos/Vitruvian.ipynb
+        - file: content/Appendix/demos/onzekerheid.ipynb
         - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/voorbeeldverslag.pdf"
           title: Voorbeeldverslag
         - url: "https://contemporary-physicslab.github.io/NP-new-style/main/Appendix/voorbeeldverslag2.pdf"
